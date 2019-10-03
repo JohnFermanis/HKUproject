@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 13310168}
   - component: {fileID: 13310170}
   m_Layer: 5
-  m_Name: Aim3
+  m_Name: Card3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -995,7 +995,7 @@ GameObject:
   - component: {fileID: 750535965}
   - component: {fileID: 750535964}
   m_Layer: 5
-  m_Name: Aim1
+  m_Name: Card1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1086,7 +1086,7 @@ GameObject:
   - component: {fileID: 820939296}
   - component: {fileID: 820939298}
   m_Layer: 5
-  m_Name: Aim2
+  m_Name: Card2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1176,7 +1176,7 @@ GameObject:
   - component: {fileID: 824465437}
   - component: {fileID: 824465439}
   m_Layer: 5
-  m_Name: Aim4
+  m_Name: Card4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2891,12 +2891,12 @@ GameObject:
   - component: {fileID: 2111962244}
   - component: {fileID: 2111962246}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Summary
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2111962243
 RectTransform:
   m_ObjectHideFlags: 0
