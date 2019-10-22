@@ -14,5 +14,10 @@ public class GameManager : MonoBehaviour
             SceneManager.LoadScene(0);
 
         }
+        else if (Input.GetKeyDown("m"))
+        {
+            SceneManager.LoadScene(1);
+
+        }
     }
 }
