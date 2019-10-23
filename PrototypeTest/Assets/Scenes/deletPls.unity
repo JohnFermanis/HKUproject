@@ -479,6 +479,16 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -3858407569339135036, guid: ebeb452ded9bead4d88bc18121e64c23,
+        type: 3}
+      propertyPath: m_Name
+      value: TV
+      objectReference: {fileID: 0}
+    - target: {fileID: 4818616534194339833, guid: ebeb452ded9bead4d88bc18121e64c23,
+        type: 3}
+      propertyPath: m_Name
+      value: TABLET
+      objectReference: {fileID: 0}
     - target: {fileID: -8277064854309609534, guid: ebeb452ded9bead4d88bc18121e64c23,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -594,11 +604,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -3858407569339135036, guid: ebeb452ded9bead4d88bc18121e64c23,
-        type: 3}
-      propertyPath: m_Name
-      value: TV
-      objectReference: {fileID: 0}
     - target: {fileID: -1533377503344120245, guid: ebeb452ded9bead4d88bc18121e64c23,
         type: 3}
       propertyPath: m_LocalRotation.x
@@ -654,11 +659,6 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: c4ba3ba413ea42e4da2801e97bef623e, type: 2}
-    - target: {fileID: 4818616534194339833, guid: ebeb452ded9bead4d88bc18121e64c23,
-        type: 3}
-      propertyPath: m_Name
-      value: TABLET
-      objectReference: {fileID: 0}
     - target: {fileID: 5448579309193325848, guid: ebeb452ded9bead4d88bc18121e64c23,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
