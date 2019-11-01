@@ -245,6 +245,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: obj_court_structure_test_v3
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d2b413f846a8a3e4e8bd122271073e3a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d2b413f846a8a3e4e8bd122271073e3a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -283,7 +288,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: d2b413f846a8a3e4e8bd122271073e3a,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d2b413f846a8a3e4e8bd122271073e3a,
         type: 3}
@@ -411,7 +416,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &669903886
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -597,7 +602,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1040225629
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1198,6 +1203,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: obj_court_structure_test_v4
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 9c00b1deb79275a438735dbfe4cbf878,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9c00b1deb79275a438735dbfe4cbf878,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1236,7 +1246,7 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 9c00b1deb79275a438735dbfe4cbf878,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9c00b1deb79275a438735dbfe4cbf878,
         type: 3}
