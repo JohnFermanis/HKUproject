@@ -29,14 +29,14 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(2);
     }
 
-    void ChangeSceneC()
+    public void ChangeSceneC()
     {
-
+        SceneManager.LoadScene(3);
     }
 
-    void ChangeSceneD()
+    public void ChangeSceneD()
     {
-
+        SceneManager.LoadScene(4);
     }
 
 }

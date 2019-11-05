@@ -5,13 +5,28 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SceneParameters.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SceneCourtroom.unity
     guid: 039c1f21c3f17554c9e523e698369406
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SceneDataRoom.unity
     guid: 532d8ddd74963bc46be2d1de5b3cb990
+  - enabled: 1
+    path: Assets/Scenes/SceneChooseYourAnimal.unity
+    guid: c597929ba9895104891a389f8da7670a
+  - enabled: 1
+    path: Assets/Scenes/SceneCAT.unity
+    guid: 1c53fd811e2a9504d97be6d3967560be
+  - enabled: 1
+    path: Assets/Scenes/SceneDOG.unity
+    guid: d59c11e28c404ea478d5b7d3109b71cc
+  - enabled: 1
+    path: Assets/Scenes/SceneBUNNY.unity
+    guid: 43f94fb142c092842b5061b7645cfcab
+  - enabled: 1
+    path: Assets/Scenes/SceneFISH.unity
+    guid: 5391cdc6f7cd0bd4ba4f60182f61fc23
   m_configObjects: {}
