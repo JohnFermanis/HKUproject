@@ -17,26 +17,26 @@ public class GameManager : MonoBehaviour
         
     }
 
-    void ChangeSceneA()
+    public void ChangeSceneA()
     {
 
         SceneManager.LoadScene(1);
 
     }
 
-    void ChangeSceneB()
+    public void ChangeSceneB()
     {
-
+        SceneManager.LoadScene(2);
     }
 
-    void ChangeSceneC()
+    public void ChangeSceneC()
     {
-
+        SceneManager.LoadScene(3);
     }
 
-    void ChangeSceneD()
+    public void ChangeSceneD()
     {
-
+        SceneManager.LoadScene(4);
     }
 
 }
