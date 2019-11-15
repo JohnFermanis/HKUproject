@@ -4,10 +4,12 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class OnClickImageScript : MonoBehaviour, IPointerClickHandler, IDragHandler , IEndDragHandler
+public class OnClickImageScript : MonoBehaviour, IPointerClickHandler, IDragHandler, IEndDragHandler
 {
     [SerializeField]
-    private string _evidenceText="";
+    private string _evidenceText = "";
+
+    private GameObject _contentObj;
 
     private GameObject _imageObj;
 
@@ -17,15 +19,24 @@ public class OnClickImageScript : MonoBehaviour, IPointerClickHandler, IDragHand
 
     private Text _text;
 
+    private Vector3 _pos;
+
     private bool dragging = false;
 
     private GameObject _bin;
 
     private BinScript _binScript;
 
+    private GameObject _canvasObj;
+
+    
+
     private void Start()
     {
-        _imageObj=GameObject.FindGameObjectWithTag("EXPLAIMAGE");
+        _pos = transform.localPosition;
+        _contentObj = GameObject.FindGameObjectWithTag("CONTENT");
+        _canvasObj = GameObject.FindGameObjectWithTag("SCROLL");
+        _imageObj = GameObject.FindGameObjectWithTag("EXPLAIMAGE");
         _bin = GameObject.FindGameObjectWithTag("BIN");
         if (_bin != null)
         {
@@ -53,12 +64,20 @@ public class OnClickImageScript : MonoBehaviour, IPointerClickHandler, IDragHand
     public void OnDrag(PointerEventData eventData)
     {
         transform.position = Input.mousePosition;
+        if (_canvasObj != null)
+            transform.SetParent(_canvasObj.transform);
+
         dragging = true;
     }
 
     public void OnEndDrag(PointerEventData eventData)
     {
         _binScript.Destroyer(this.gameObject);
+
+        if(_contentObj!=null)
+        transform.SetParent(_contentObj.transform);
+
+        transform.localPosition = _pos;
         dragging = false;
     }
 }
