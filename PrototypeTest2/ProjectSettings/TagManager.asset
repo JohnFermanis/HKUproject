@@ -7,6 +7,7 @@ TagManager:
   - Canvas
   - ItemToPick
   - EXPLAIMAGE
+  - BIN
   layers:
   - Default
   - TransparentFX

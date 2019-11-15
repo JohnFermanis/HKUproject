@@ -4,9 +4,8 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class OnClickImageScript : MonoBehaviour, IPointerClickHandler
+public class OnClickImageScript : MonoBehaviour, IPointerClickHandler, IDragHandler , IEndDragHandler
 {
-
     [SerializeField]
     private string _evidenceText="";
 
@@ -18,10 +17,20 @@ public class OnClickImageScript : MonoBehaviour, IPointerClickHandler
 
     private Text _text;
 
+    private bool dragging = false;
+
+    private GameObject _bin;
+
+    private BinScript _binScript;
+
     private void Start()
     {
         _imageObj=GameObject.FindGameObjectWithTag("EXPLAIMAGE");
-
+        _bin = GameObject.FindGameObjectWithTag("BIN");
+        if (_bin != null)
+        {
+            _binScript = _bin.GetComponent<BinScript>();
+        }
         if (_imageObj != null)
         {
             _image = _imageObj.GetComponent<Image>();
@@ -29,20 +38,27 @@ public class OnClickImageScript : MonoBehaviour, IPointerClickHandler
         }
         else
             Debug.Log("Error in OnClickImageScripts");
-        
     }
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        _image.gameObject.SetActive(true);
-        _image.sprite= this.GetComponent<Image>().sprite;
-        _text.text = _evidenceText;
+        if (!dragging)
+        {
+            _image.gameObject.SetActive(true);
+            _image.sprite = this.GetComponent<Image>().sprite;
+            _text.text = _evidenceText;
+        }
     }
 
-    public void TurnOff()
+    public void OnDrag(PointerEventData eventData)
     {
-        _image.gameObject.SetActive(false);
+        transform.position = Input.mousePosition;
+        dragging = true;
     }
 
-    
+    public void OnEndDrag(PointerEventData eventData)
+    {
+        _binScript.Destroyer(this.gameObject);
+        dragging = false;
+    }
 }

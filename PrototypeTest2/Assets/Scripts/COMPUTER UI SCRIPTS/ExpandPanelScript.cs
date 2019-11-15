@@ -19,7 +19,5 @@ public class ExpandPanelScript : MonoBehaviour
             _Rect.SetInsetAndSizeFromParentEdge(RectTransform.Edge.Left, 10.0f, 600.0f);
         else
             _Rect.SetInsetAndSizeFromParentEdge(RectTransform.Edge.Left, 10.0f, _width);
-    }
-
-  
+    } 
 }
