@@ -7,6 +7,8 @@ public class OnClickMeScript : MonoBehaviour
     [SerializeField]
     private GameObject _mouseSciptObject;
 
+    [SerializeField]
+    private GameManager _gm;
    
 
     private MouseCheckScript _mouseScript;
@@ -18,7 +20,7 @@ public class OnClickMeScript : MonoBehaviour
 
     private void OnMouseDown()
     {
-        if(_mouseScript.DONE)
-         Debug.Log("NYA");
+        if (_mouseScript.DONE)
+            _gm.ChangeSceneA();
     }
 }

@@ -8,6 +8,8 @@ TagManager:
   - ItemToPick
   - EXPLAIMAGE
   - BIN
+  - CONTENT
+  - SCROLL
   layers:
   - Default
   - TransparentFX

@@ -19,6 +19,9 @@ public class MouseCheckScript : MonoBehaviour
     [SerializeField]
     private TextUpdateScript _textUpdateScript;
 
+    [SerializeField]
+    private GameObject _img;
+
     void Start()
     {
         // Cursor.SetCursor(cursorTexture, hotSpot, cursorMode);
@@ -32,12 +35,12 @@ public class MouseCheckScript : MonoBehaviour
             if (PlayerCamera.transform.rotation.y > 0.3f)
             {
                 Rcheck = true;
-                Debug.Log("uwu");
+                
             }
             else if (PlayerCamera.transform.rotation.y < -0.3f)
             {
                 Lcheck = true;
-                // Debug.Log(PlayerCamera.transform.rotation.y);
+          
             }
 
         }
@@ -46,6 +49,7 @@ public class MouseCheckScript : MonoBehaviour
             Debug.Log("GG YOU CLEARED THE MOUSE TUTORIAL");
             DONE = true;
             _textUpdateScript.UpdateText1();
+            _img.gameObject.SetActive(false);
         }
             
         
