@@ -29,7 +29,9 @@ public class OnClickImageScript : MonoBehaviour, IPointerClickHandler, IDragHand
 
     private GameObject _canvasObj;
 
-    
+    private DropEvidenceScript _foo1;
+
+    private DropEvidenceScript _foo2;
 
     private void Start()
     {
@@ -48,7 +50,16 @@ public class OnClickImageScript : MonoBehaviour, IPointerClickHandler, IDragHand
             _text = _imageObj.GetComponentInChildren<Text>();
         }
         else
-            Debug.Log("Error in OnClickImageScripts");
+            Debug.Log("Error in Evidence Script");
+
+        DropEvidenceScript[] fooGroup = Resources.FindObjectsOfTypeAll<DropEvidenceScript>();
+        if (fooGroup.Length > 0)
+        {
+             _foo1 = fooGroup[0];
+             _foo2 = fooGroup[1];
+
+        }
+       
     }
 
     public void OnPointerClick(PointerEventData eventData)
@@ -72,6 +83,16 @@ public class OnClickImageScript : MonoBehaviour, IPointerClickHandler, IDragHand
 
     public void OnEndDrag(PointerEventData eventData)
     {
+        if (_foo1 != null)
+        {
+            _foo1.DropEvidence(this.gameObject);
+        }
+
+        if (_foo2 != null)
+        {
+            _foo2.DropEvidence(this.gameObject);
+        }
+
         _binScript.Destroyer(this.gameObject);
 
         if(_contentObj!=null)
