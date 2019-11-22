@@ -6,8 +6,8 @@ using UnityEngine.EventSystems;
 
 public class DropEvidenceScript : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
-    
 
+    public bool _Pass=false;
     bool _pointer = false;
 
 
@@ -17,7 +17,7 @@ public class DropEvidenceScript : MonoBehaviour, IPointerEnterHandler, IPointerE
     public void OnPointerEnter(PointerEventData eventData)
     {
         _pointer = true;
-        Debug.Log("WOOOO");
+  
     }
 
     public void OnPointerExit(PointerEventData eventData)
@@ -25,11 +25,11 @@ public class DropEvidenceScript : MonoBehaviour, IPointerEnterHandler, IPointerE
         _pointer = false;
     }
 
-    public void DropEvidence(GameObject go)
+    public void DropEvidence(GameObject go,bool CorrectEvidence)
     {
         if (_pointer)
         {
-            Debug.Log("EMILIAAA");
+            _Pass = CorrectEvidence;
             this.GetComponent<Image>().sprite = go.GetComponent<Image>().sprite;
         }
     }

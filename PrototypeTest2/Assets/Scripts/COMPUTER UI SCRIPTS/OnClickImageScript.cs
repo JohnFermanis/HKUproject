@@ -9,6 +9,9 @@ public class OnClickImageScript : MonoBehaviour, IPointerClickHandler, IDragHand
     [SerializeField]
     private string _evidenceText = "";
 
+    [SerializeField]
+    private bool _CorrectEvidence=false;
+
     private GameObject _contentObj;
 
     private GameObject _imageObj;
@@ -85,12 +88,12 @@ public class OnClickImageScript : MonoBehaviour, IPointerClickHandler, IDragHand
     {
         if (_foo1 != null)
         {
-            _foo1.DropEvidence(this.gameObject);
+            _foo1.DropEvidence(this.gameObject,_CorrectEvidence);
         }
 
         if (_foo2 != null)
         {
-            _foo2.DropEvidence(this.gameObject);
+            _foo2.DropEvidence(this.gameObject,_CorrectEvidence);
         }
 
         _binScript.Destroyer(this.gameObject);
