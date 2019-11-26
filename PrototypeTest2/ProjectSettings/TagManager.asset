@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Canvas
+  - ItemToPick
+  - EXPLAIMAGE
+  - BIN
+  - CONTENT
+  - SCROLL
   layers:
   - Default
   - TransparentFX
