@@ -14,6 +14,9 @@ public class VerdictScript : MonoBehaviour
     [SerializeField]
     private DropEvidenceScript _evid2;
 
+    [SerializeField]
+    private GameManager _manager;
+
 
     void Start()
     {
@@ -37,7 +40,7 @@ public class VerdictScript : MonoBehaviour
     public void FinalDecision()
     {
         if (_evid1._Pass && _evid2._Pass)
-            Debug.Log("SHOBOU AHRI");
+            _manager.ChangeScene(2);
     }
     
 }

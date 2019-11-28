@@ -16,8 +16,8 @@ public class ExpandPanelScript : MonoBehaviour
     public void ExpandPanelF()
     {
         if(_Rect.rect.width < 300)
-            _Rect.SetInsetAndSizeFromParentEdge(RectTransform.Edge.Left, 10.0f, 600.0f);
+            _Rect.SetInsetAndSizeFromParentEdge(RectTransform.Edge.Left, 35.0f, 600.0f);
         else
-            _Rect.SetInsetAndSizeFromParentEdge(RectTransform.Edge.Left, 10.0f, _width);
+            _Rect.SetInsetAndSizeFromParentEdge(RectTransform.Edge.Left, 35.0f, _width);
     } 
 }

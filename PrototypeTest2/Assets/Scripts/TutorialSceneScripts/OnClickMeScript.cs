@@ -21,6 +21,6 @@ public class OnClickMeScript : MonoBehaviour
     private void OnMouseDown()
     {
         if (_mouseScript.DONE)
-            _gm.ChangeSceneA();
+            _gm.ChangeScene(1);
     }
 }
