@@ -12,6 +12,9 @@ public class OnClickImageScript : MonoBehaviour, IPointerClickHandler, IDragHand
     [SerializeField]
     private bool _CorrectEvidence=false;
 
+    [SerializeField]
+    private Sprite _EvidenceImage;
+
     private GameObject _contentObj;
 
     private GameObject _imageObj;
@@ -70,7 +73,7 @@ public class OnClickImageScript : MonoBehaviour, IPointerClickHandler, IDragHand
         if (!dragging)
         {
             _image.gameObject.SetActive(true);
-            _image.sprite = this.GetComponent<Image>().sprite;
+            _image.sprite = _EvidenceImage;
             _text.text = _evidenceText;
         }
     }
