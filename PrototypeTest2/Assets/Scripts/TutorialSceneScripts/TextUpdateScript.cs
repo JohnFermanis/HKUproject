@@ -7,13 +7,11 @@ public class TextUpdateScript : MonoBehaviour
 {
     string Text ="Great Job, now open the PC";
 
+    [SerializeField]
     private Text _text;
 
     // Start is called before the first frame update
-    void Start()
-    {
-        _text = this.GetComponent<Text>(); 
-    }
+   
 
     public void UpdateText1()
     {

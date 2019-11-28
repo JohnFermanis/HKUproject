@@ -14,7 +14,7 @@ public class DialogueScript : MonoBehaviour
 
     private Text _thisText;
 
-    private bool _TextRunning;
+    private bool _TextRunning=false;
 
     private bool _TextFinished;
 
@@ -37,7 +37,7 @@ public class DialogueScript : MonoBehaviour
 
         if (_thisText == null)
             Debug.Log("ERROR");
-        _off.SetActive(false);
+        //_off.SetActive(false);
 
         _Dialogue[0] = _D0;
         _Dialogue[1] = _D1;
@@ -54,27 +54,37 @@ public class DialogueScript : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (!_TextRunning)
         {
-            StartCoroutine(TypeText(_D0));
-            //move the conversation forward
+           
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                _TextRunning = true;
+                StartCoroutine(TypeText());
+                //move the conversation forward
+            }
         }
     }
-   
-        IEnumerator TypeText(string _Dialogue)
+
+    IEnumerator TypeText()
+    {
+        for (int i = 0; i < 10; i++)
         {
-        _thisText.text = "";
-            foreach (char letter in _Dialogue.ToCharArray())
+            _thisText.text = "";
+            foreach (char letter in _Dialogue[i].ToCharArray())
             {
-               
+
                 _thisText.text += letter;
                 //if (sound)
                 //    GetComponent<AudioSource>().PlayOneShot(sound);
 
                 yield return new WaitForSeconds(_letterPause);
             }
-       
-          
+            yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.Space) == true);
+
         }
+    }
+
+
     
 }
