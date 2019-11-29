@@ -2,9 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+using UnityStandardAssets.Characters.FirstPerson;
 public class FirstCanvasScript : MonoBehaviour
 {
+
+    [SerializeField]
+    private FirstPersonController _Fp;
+    [SerializeField]
+    private GameObject _ControllerObj;
     [SerializeField]
     private GameObject _TutorialText;
     [SerializeField]
@@ -24,6 +29,9 @@ public class FirstCanvasScript : MonoBehaviour
 
     void Start()
     {
+        _Fp.mouseLookCustom.XSensitivity = 0.0f;
+        _Fp.mouseLookCustom.YSensitivity = 0.0f;
+        // _ControllerObj.GetComponent<Script>
         _TutorialText.SetActive(false);
         _DialogueCanvas.SetActive(false);
         _mouseStuff.SetActive(false);
@@ -47,6 +55,8 @@ public class FirstCanvasScript : MonoBehaviour
         }
         _TutorialText.SetActive(true);
         yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.Space) == true);
+        _Fp.mouseLookCustom.XSensitivity = 2.0f;
+        _Fp.mouseLookCustom.YSensitivity = 2.0f;
         ActivateMouseAndSecondCanvas();
         _FirstCanvas.SetActive(false);
     }
