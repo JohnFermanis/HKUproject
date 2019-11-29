@@ -27,6 +27,9 @@ public class DialogueScript : MonoBehaviour
     private FirstCanvasScript _FirstCanvas;
 
     [SerializeField]
+    private GameObject _TutorialText;
+
+    [SerializeField]
     private Text _NameText;
 
     [SerializeField]
@@ -123,11 +126,11 @@ public class DialogueScript : MonoBehaviour
                 _thisText.text += letter;
                 //if (sound)
                 //    GetComponent<AudioSource>().PlayOneShot(sound);
-
+               
                 yield return new WaitForSeconds(_letterPause);
             }
             yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.Space) == true);
-
+            _TutorialText.SetActive(false);
         }
         _FirstCanvas.ActivateMouseAndSecondCanvas();
         _DialogueCanvas.SetActive(false); 

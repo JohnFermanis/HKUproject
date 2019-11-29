@@ -6,8 +6,12 @@ using UnityEngine.UI;
 public class FirstCanvasScript : MonoBehaviour
 {
     [SerializeField]
+    private GameObject _TutorialText;
+    [SerializeField]
     private Text _TextBox;
     private string _message;
+    [SerializeField]
+    private GameObject _FirstCanvas;
     [SerializeField]
     private GameObject _secondCanvas;
     [SerializeField]
@@ -20,6 +24,7 @@ public class FirstCanvasScript : MonoBehaviour
 
     void Start()
     {
+        _TutorialText.SetActive(false);
         _DialogueCanvas.SetActive(false);
         _mouseStuff.SetActive(false);
         _secondCanvas.SetActive(false);
@@ -40,9 +45,10 @@ public class FirstCanvasScript : MonoBehaviour
 
             yield return new WaitForSeconds(_letterPause);
         }
+        _TutorialText.SetActive(true);
         yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.Space) == true);
         ActivateMouseAndSecondCanvas();
-        this.gameObject.SetActive(false);
+        _FirstCanvas.SetActive(false);
     }
 
     public void ActivateMouseAndSecondCanvas()
