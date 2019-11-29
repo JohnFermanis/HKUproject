@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class TextUpdateScript : MonoBehaviour
 {
-    string Text ="Great Job, now open the PC";
+    string Text ="Klik op het scherm om verder te gaan";
 
     [SerializeField]
     private Text _text;
