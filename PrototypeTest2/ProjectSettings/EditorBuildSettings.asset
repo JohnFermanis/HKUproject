@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SceneTUTORIAL_WithAssets.unity
-    guid: b430bd9d31f7feb46b7bf1c8be2b75f4
+    path: Assets/Scenes/Anna Lighting Test.unity
+    guid: a9494178954bb294cb7f0cbb711c604e
   - enabled: 1
     path: Assets/Scenes/SceneCOMPUTER_WithAssets.unity
     guid: 97e970c7ae5f8bf47b517ee4d3c61c51
