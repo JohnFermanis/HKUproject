@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SceneThankYou.unity
     guid: f7be76e74b42add4fb1dfe7fe2be797d
+  - enabled: 1
+    path: Assets/Scenes/SceneOpeningMovie.unity
+    guid: b98527af46006fd4cbad68566fcb9c6d
   m_configObjects: {}
