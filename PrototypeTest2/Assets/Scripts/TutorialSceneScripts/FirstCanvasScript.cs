@@ -41,8 +41,7 @@ public class FirstCanvasScript : MonoBehaviour
             yield return new WaitForSeconds(_letterPause);
         }
         yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.Space) == true);
-
-        _DialogueCanvas.SetActive(true);
+        ActivateMouseAndSecondCanvas();
         this.gameObject.SetActive(false);
     }
 

@@ -13,6 +13,11 @@ public class TextUpdateScript : MonoBehaviour
     // Start is called before the first frame update
    
 
+    public void ClearText()
+    {
+        _text.text = "";
+    }
+
     public void UpdateText1()
     {
         _text.text = Text;
