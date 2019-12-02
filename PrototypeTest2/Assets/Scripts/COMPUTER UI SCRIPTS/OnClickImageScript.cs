@@ -17,7 +17,9 @@ public class OnClickImageScript : MonoBehaviour, IPointerClickHandler, IDragHand
 
     private GameObject _contentObj;
 
-    private GameObject _imageObj;
+    private GameObject _canvasObj;
+
+    private XbuttonScript _XbuttonScript;
 
     private Image _image;
 
@@ -33,7 +35,7 @@ public class OnClickImageScript : MonoBehaviour, IPointerClickHandler, IDragHand
 
     private BinScript _binScript;
 
-    private GameObject _canvasObj;
+    private GameObject _scrollObj;
 
     private DropEvidenceScript _foo1;
 
@@ -41,23 +43,24 @@ public class OnClickImageScript : MonoBehaviour, IPointerClickHandler, IDragHand
 
     private void Start()
     {
+        _XbuttonScript=Resources.FindObjectsOfTypeAll<XbuttonScript>()[0];
         _pos = transform.localPosition;
+        //_canvasObj = GameObject.FindGameObjectWithTag("Canvas");       
         _contentObj = GameObject.FindGameObjectWithTag("CONTENT");
-        _canvasObj = GameObject.FindGameObjectWithTag("SCROLL");
-        _imageObj = GameObject.FindGameObjectWithTag("EXPLAIMAGE");
+        _scrollObj = GameObject.FindGameObjectWithTag("SCROLL");
         _bin = GameObject.FindGameObjectWithTag("BIN");
         if (_bin != null)
         {
             _binScript = _bin.GetComponent<BinScript>();
         }
-        if (_imageObj != null)
+       /* if (_canvasObj != null)
         {
-            _image = _imageObj.GetComponent<Image>();
-            _text = _imageObj.GetComponentInChildren<Text>();
+            _image = _imgObj.GetComponent<Image>();
+            _text = _imgObj.GetComponentInChildren<Text>();
         }
         else
             Debug.Log("Error in Evidence Script");
-
+            */
         DropEvidenceScript[] fooGroup = Resources.FindObjectsOfTypeAll<DropEvidenceScript>();
         if (fooGroup.Length > 0)
         {
@@ -72,17 +75,19 @@ public class OnClickImageScript : MonoBehaviour, IPointerClickHandler, IDragHand
     {
         if (!dragging)
         {
-            _image.gameObject.SetActive(true);
-            _image.sprite = _EvidenceImage;
-            _text.text = _evidenceText;
+            //_image.gameObject.SetActive(true);
+            //_image.sprite = _EvidenceImage;
+            //_text.text = _evidenceText;
+            _XbuttonScript.ChangeImage(_EvidenceImage);
+            _XbuttonScript.ChangeText(_evidenceText);
         }
     }
 
     public void OnDrag(PointerEventData eventData)
     {
         transform.position = Input.mousePosition;
-        if (_canvasObj != null)
-            transform.SetParent(_canvasObj.transform);
+        if (_scrollObj != null)
+            transform.SetParent(_scrollObj.transform);
 
         dragging = true;
     }

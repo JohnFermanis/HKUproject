@@ -11,7 +11,15 @@ public class MouseCheckScript : MonoBehaviour
 
     public bool DONE=false;
 
+    private bool _SelectComputer=false;
+
     private bool Rcheck=false, Lcheck=false;
+
+    [SerializeField]
+    private GameObject _DialogueCanvas;
+
+    [SerializeField]
+    private GameObject _SecondCanvas;
 
     [SerializeField]
     private GameObject PlayerCamera;
@@ -29,29 +37,35 @@ public class MouseCheckScript : MonoBehaviour
 
     void Update()
     {
-
-        if (Rcheck == false || Lcheck == false) 
+        
+        if (Rcheck == false || Lcheck == false)
         {
             if (PlayerCamera.transform.rotation.y > 0.3f)
             {
                 Rcheck = true;
-                
+
             }
             else if (PlayerCamera.transform.rotation.y < -0.3f)
             {
                 Lcheck = true;
-          
+
             }
 
         }
-        else if(!DONE)
+        else if (!DONE && !_SelectComputer)
         {
-            Debug.Log("GG YOU CLEARED THE MOUSE TUTORIAL");
+            //   Debug.Log("GG YOU CLEARED THE MOUSE TUTORIAL");
             DONE = true;
-            _textUpdateScript.UpdateText1();
+            _textUpdateScript.ClearText();
             _img.gameObject.SetActive(false);
+            _DialogueCanvas.SetActive(true);
+            _SelectComputer = true;
+            _textUpdateScript.UpdateText1();
+            _SecondCanvas.SetActive(false);
+
         }
             
         
     }
+
 }
