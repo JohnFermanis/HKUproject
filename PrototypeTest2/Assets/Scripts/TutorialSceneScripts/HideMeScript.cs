@@ -14,8 +14,10 @@ public class HideMeScript : MonoBehaviour
     {
         this.gameObject.SetActive(false);
 
+        if(_player!=null)
         _player.gameObject.SetActive(true);
 
+        if(_ui!=null)
         _ui.gameObject.SetActive(true);
             
     }

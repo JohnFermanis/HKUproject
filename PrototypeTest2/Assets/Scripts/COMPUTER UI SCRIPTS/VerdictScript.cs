@@ -18,6 +18,9 @@ public class VerdictScript : MonoBehaviour
     private DropEvidenceScript _evid3;
 
     [SerializeField]
+    private GameObject _Tutorial1;
+
+    [SerializeField]
     private GameManager _manager;
 
 
@@ -32,11 +35,14 @@ public class VerdictScript : MonoBehaviour
         {
             _acti = true;
             this.gameObject.SetActive(true);
+            if(_Tutorial1!=null)
+            _Tutorial1.SetActive(false);
         }
         else
         {
             this.gameObject.SetActive(false);
             _acti = false;
+            _Tutorial1.SetActive(true);
         }
     }
 
