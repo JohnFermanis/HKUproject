@@ -11,8 +11,7 @@ public class DropEvidenceScript : MonoBehaviour, IPointerEnterHandler, IPointerE
     bool _pointer = false;
 
 
-    // Start is called before the first frame update
-    
+   
 
     public void OnPointerEnter(PointerEventData eventData)
     {

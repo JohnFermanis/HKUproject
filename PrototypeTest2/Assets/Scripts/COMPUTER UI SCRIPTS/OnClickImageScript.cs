@@ -41,6 +41,8 @@ public class OnClickImageScript : MonoBehaviour, IPointerClickHandler, IDragHand
 
     private DropEvidenceScript _foo2;
 
+    private DropEvidenceScript _foo3;
+
     private void Start()
     {
         _XbuttonScript=Resources.FindObjectsOfTypeAll<XbuttonScript>()[0];
@@ -66,6 +68,7 @@ public class OnClickImageScript : MonoBehaviour, IPointerClickHandler, IDragHand
         {
              _foo1 = fooGroup[0];
              _foo2 = fooGroup[1];
+             _foo3 = fooGroup[2];
 
         }
        
@@ -102,6 +105,11 @@ public class OnClickImageScript : MonoBehaviour, IPointerClickHandler, IDragHand
         if (_foo2 != null)
         {
             _foo2.DropEvidence(this.gameObject,_CorrectEvidence);
+        }
+
+        if (_foo3 != null)
+        {
+            _foo3.DropEvidence(this.gameObject, _CorrectEvidence);
         }
 
         _binScript.Destroyer(this.gameObject);

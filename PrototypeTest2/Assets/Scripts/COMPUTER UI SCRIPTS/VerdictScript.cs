@@ -15,6 +15,9 @@ public class VerdictScript : MonoBehaviour
     private DropEvidenceScript _evid2;
 
     [SerializeField]
+    private DropEvidenceScript _evid3;
+
+    [SerializeField]
     private GameManager _manager;
 
 
@@ -39,7 +42,7 @@ public class VerdictScript : MonoBehaviour
 
     public void FinalDecision()
     {
-        if (_evid1._Pass && _evid2._Pass)
+        if (_evid1._Pass && _evid2._Pass && _evid3._Pass)
             _manager.ChangeScene(2);
     }
     
