@@ -12,6 +12,12 @@ public class XbuttonScript : MonoBehaviour
     [SerializeField]
     Text _TextToChange;
 
+    [SerializeField]
+    private bool _IsThisTutorial;
+
+    [SerializeField]
+    private GameObject _TutorialUI;
+
     private void Start()
     {
         gameObject.SetActive(false);
@@ -20,12 +26,15 @@ public class XbuttonScript : MonoBehaviour
     public void TurnOff()
     {
         this.gameObject.SetActive(false);
+        if(_IsThisTutorial)
+        _TutorialUI.SetActive(true);
     }
 
     public void ChangeImage(Sprite _image)
     {
         this.gameObject.SetActive(true);
         _ImgToChange.sprite = _image;
+        
     }
 
     public void ChangeText(string _text)
