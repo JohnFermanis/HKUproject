@@ -9,8 +9,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Anna Lighting Test.unity
     guid: a9494178954bb294cb7f0cbb711c604e
   - enabled: 1
-    path: Assets/Scenes/SceneCOMPUTER_WithAssets.unity
-    guid: 97e970c7ae5f8bf47b517ee4d3c61c51
+    path: Assets/Scenes/SceneCOMPUTER_WithAssets_testingroom.unity
+    guid: 6ee4bcfca7da2554e88d20991eb09d99
   - enabled: 1
     path: Assets/Scenes/SceneThankYou.unity
     guid: f7be76e74b42add4fb1dfe7fe2be797d
