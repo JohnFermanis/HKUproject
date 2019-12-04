@@ -49,7 +49,7 @@ public class VerdictScript : MonoBehaviour
     public void FinalDecision()
     {
         if (_evid1._Pass && _evid2._Pass && _evid3._Pass)
-            _manager.ChangeScene(2);
+            _manager.ChangeScene(3);
     }
     
 }

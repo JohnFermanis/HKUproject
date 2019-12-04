@@ -14,6 +14,6 @@ public class MovieScript : MonoBehaviour
     void Update()
     {
         if (!vp.isPlaying)
-            _gm.ChangeScene(0);
+            _gm.ChangeScene(1);
     }
 }

@@ -724,9 +724,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'c
-
-'
+  m_Text: "Corr-E:\r\n\nRechter, Welkom bij uw eerste rechtszaak.\r\nDeze zaak betreft
+    een privaatrecht zaak, over een ontslag een werknemer M. Jansen, tegen de werkgever,
+    marketing bedrijf Quick Sales.\r\n\r\nM. Jansen heeft op 29 januari 2039 een zaak
+    ingediend om de opzegging van het arbeidscontract te vernietigen.\r\nBeide partijen
+    zullen hun standpunten toelichten. \r\n"
 --- !u!222 &273884184
 CanvasRenderer:
   m_ObjectHideFlags: 0

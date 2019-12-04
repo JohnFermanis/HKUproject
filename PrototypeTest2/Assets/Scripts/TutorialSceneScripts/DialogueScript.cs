@@ -51,7 +51,7 @@ public class DialogueScript : MonoBehaviour
 
     //The dialogue
 
-    private string _D0 = "Rechter, op xxxxx ben ik ontslagen door Quick Sales. Dit is echter niet gegaan om een acceptabele reden. Quick Sales geeft aan dat ik personen aanbiedingen heb gedaan die niet besluitvaardig zijn.";
+    private string _D0 = "Rechter, op 20 april 2038 ben ik ontslagen door Quick Sales. Dit is echter niet gegaan om een acceptabele reden. Quick Sales geeft aan dat ik personen aanbiedingen heb gedaan die niet besluitvaardig zijn.";
     private string _D1 = "Ik heb echter de personen die de AI mij aanbeval te contacteren gecontacteerd. Ik heb echter de personen gecontacteerd die de AI mij heeft aanbevolen, deze AI is blijkbaar niet goed ingesteld.";
     private string _D2 = "Ik ben er vanuit gegaan dat de door Quick Sales aangeboden AI te vertrouwen is.";
     private string _D3 = "Bij nader onderzoeken blijkt echter dat de AI een algoritme gebruikt wat personen aandraagt gebaseerd op hun gedrag en of de kans van het accepteren van een aanbieding groot is.";
