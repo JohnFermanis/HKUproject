@@ -6,6 +6,14 @@ using UnityEngine.EventSystems;
 public class BinScript : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
     private bool _mouseHere=false;
+
+    private AudioSource _BinSound;
+
+    private void Start()
+    {
+        _BinSound = this.GetComponent<AudioSource>();
+    }
+
     public void OnPointerEnter(PointerEventData eventData)
     {
         _mouseHere = true;
@@ -20,7 +28,7 @@ public class BinScript : MonoBehaviour, IPointerEnterHandler, IPointerExitHandle
     {
         if(_mouseHere)
         Destroy(go);
-        
+        _BinSound.Play();
     }
 
    

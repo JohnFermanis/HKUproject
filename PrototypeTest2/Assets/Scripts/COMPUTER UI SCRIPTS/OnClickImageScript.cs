@@ -14,8 +14,7 @@ public class OnClickImageScript : MonoBehaviour, IPointerClickHandler, IDragHand
 
     [SerializeField]
     private Sprite _EvidenceImage;
-
-    [SerializeField]
+    
     private AudioSource _SoundOnClick;
 
     private GameObject _contentObj;
@@ -55,6 +54,7 @@ public class OnClickImageScript : MonoBehaviour, IPointerClickHandler, IDragHand
 
     private void Start()
     {
+        _SoundOnClick = this.GetComponent<AudioSource>();
         _XbuttonScript=Resources.FindObjectsOfTypeAll<XbuttonScript>()[0];
         _VerdictScript = Resources.FindObjectsOfTypeAll<VerdictScript>()[0];
         _pos = transform.localPosition;

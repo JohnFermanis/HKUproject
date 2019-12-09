@@ -18,13 +18,18 @@ public class XbuttonScript : MonoBehaviour
     [SerializeField]
     private GameObject _TutorialUI;
 
+    private AudioSource _TurnOffSound;
+
     private void Start()
     {
+        _TurnOffSound = this.GetComponent<AudioSource>();
         gameObject.SetActive(false);
     }
 
     public void TurnOff()
     {
+        if(_TurnOffSound!=null)
+        _TurnOffSound.Play();
         this.gameObject.SetActive(false);
         if(_IsThisTutorial)
         _TutorialUI.SetActive(true);
