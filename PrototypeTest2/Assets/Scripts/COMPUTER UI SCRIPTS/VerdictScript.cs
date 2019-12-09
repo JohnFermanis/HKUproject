@@ -8,6 +8,7 @@ public class VerdictScript : MonoBehaviour
 {
     private bool _acti = false;
 
+
     [SerializeField]
     private DropEvidenceScript _evid1;
 
@@ -16,6 +17,9 @@ public class VerdictScript : MonoBehaviour
 
     [SerializeField]
     private DropEvidenceScript _evid3;
+
+    [SerializeField]
+    private GameObject _ExplaImage;
 
     [SerializeField]
     private GameObject _Tutorial1;
@@ -34,14 +38,14 @@ public class VerdictScript : MonoBehaviour
         if (!_acti)
         {
             _acti = true;
+            _ExplaImage.SetActive(false);
             this.gameObject.SetActive(true);
             if(_Tutorial1!=null)
             _Tutorial1.SetActive(false);
         }
         else
         {
-            this.gameObject.SetActive(false);
-            _acti = false;
+            TurnOff();
             _Tutorial1.SetActive(true);
         }
     }
@@ -49,7 +53,12 @@ public class VerdictScript : MonoBehaviour
     public void FinalDecision()
     {
         if (_evid1._Pass && _evid2._Pass && _evid3._Pass)
-            _manager.ChangeScene(2);
+            _manager.ChangeScene(3);
     }
-    
+
+    public void TurnOff()
+    {
+        this.gameObject.SetActive(false);
+        _acti = false;
+    }
 }

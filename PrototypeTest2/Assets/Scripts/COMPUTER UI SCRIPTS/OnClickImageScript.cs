@@ -45,16 +45,19 @@ public class OnClickImageScript : MonoBehaviour, IPointerClickHandler, IDragHand
 
     private GameObject _TutorialUI;
 
+    private VerdictScript _VerdictScript;
+
     [SerializeField]
     private bool _IsThisTutorial;
 
     private void Start()
     {
         _XbuttonScript=Resources.FindObjectsOfTypeAll<XbuttonScript>()[0];
+        _VerdictScript = Resources.FindObjectsOfTypeAll<VerdictScript>()[0];
         _pos = transform.localPosition;
         //_canvasObj = GameObject.FindGameObjectWithTag("Canvas");
-        if(_IsThisTutorial)
-        _TutorialUI = GameObject.FindGameObjectWithTag("TUTORIAL");
+        if (_IsThisTutorial)
+            _TutorialUI = GameObject.FindGameObjectWithTag("TUTORIAL");
         _contentObj = GameObject.FindGameObjectWithTag("CONTENT");
         _scrollObj = GameObject.FindGameObjectWithTag("SCROLL");
         _bin = GameObject.FindGameObjectWithTag("BIN");
@@ -88,9 +91,10 @@ public class OnClickImageScript : MonoBehaviour, IPointerClickHandler, IDragHand
             //_image.gameObject.SetActive(true);
             //_image.sprite = _EvidenceImage;
             //_text.text = _evidenceText;
-            Debug.Log("kono giorno giovanna");
+            
             _XbuttonScript.ChangeImage(_EvidenceImage);
             _XbuttonScript.ChangeText(_evidenceText);
+            _VerdictScript.TurnOff();
             if (_IsThisTutorial)
                 _TutorialUI.SetActive(false);
         }
