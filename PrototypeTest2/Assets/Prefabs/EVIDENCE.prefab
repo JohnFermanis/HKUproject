@@ -87,3 +87,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _evidenceText: 
+  _CorrectEvidence: 0
+  _EvidenceImage: {fileID: 0}
+  _VerdictCanvas: {fileID: 0}
+  _IsThisTutorial: 0
