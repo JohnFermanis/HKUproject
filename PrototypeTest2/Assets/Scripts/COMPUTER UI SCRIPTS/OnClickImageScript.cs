@@ -15,6 +15,9 @@ public class OnClickImageScript : MonoBehaviour, IPointerClickHandler, IDragHand
     [SerializeField]
     private Sprite _EvidenceImage;
 
+    [SerializeField]
+    private AudioSource _SoundOnClick;
+
     private GameObject _contentObj;
 
     private GameObject _canvasObj;
@@ -91,7 +94,8 @@ public class OnClickImageScript : MonoBehaviour, IPointerClickHandler, IDragHand
             //_image.gameObject.SetActive(true);
             //_image.sprite = _EvidenceImage;
             //_text.text = _evidenceText;
-            
+            if(_SoundOnClick!=null)
+            _SoundOnClick.Play();
             _XbuttonScript.ChangeImage(_EvidenceImage);
             _XbuttonScript.ChangeText(_evidenceText);
             _VerdictScript.TurnOff();
