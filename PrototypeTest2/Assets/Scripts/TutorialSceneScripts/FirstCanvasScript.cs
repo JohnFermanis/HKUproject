@@ -5,6 +5,11 @@ using UnityEngine.UI;
 using UnityStandardAssets.Characters.FirstPerson;
 public class FirstCanvasScript : MonoBehaviour
 {
+    //  Here is the flow of this scene:
+    //                  1.Summary pops up and then closes
+    //                  2.Mouse tutorial pops up and waits for the player to move the camera around (currently disabled, meaning that it instantly proceeds from step 2 to step 3)
+    //                  3.Dialogue Starts
+    //                  4.Dialogue finishes and waits for the player to open the in-game computer 
 
     [SerializeField]
     private FirstPersonController _Fp;
@@ -27,10 +32,17 @@ public class FirstCanvasScript : MonoBehaviour
     [SerializeField]
     private float _letterPause = 0.01f;
 
+    [SerializeField]
+    private bool _EnableSummary=true;
+
     void Start()
     {
+       
+
         _Fp.mouseLookCustom.XSensitivity = 0.0f;
         _Fp.mouseLookCustom.YSensitivity = 0.0f;
+
+       
         // _ControllerObj.GetComponent<Script>
         _TutorialText.SetActive(false);
         _DialogueCanvas.SetActive(false);
@@ -39,6 +51,12 @@ public class FirstCanvasScript : MonoBehaviour
         _message = _TextBox.text;
         _TextBox.text = "";
         StartCoroutine(TypeText());
+
+        if (!_EnableSummary)
+        {
+            ActivateMouseAndSecondCanvas();
+            _FirstCanvas.SetActive(false);
+        }
     }
     
 
@@ -66,4 +84,6 @@ public class FirstCanvasScript : MonoBehaviour
         _secondCanvas.SetActive(true);
         _mouseStuff.SetActive(true);
     }
+
+
 }

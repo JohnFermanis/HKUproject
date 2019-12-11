@@ -647,7 +647,7 @@ GameObject:
   - component: {fileID: 273884183}
   - component: {fileID: 273884182}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Text (You can configure stuff here)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -692,7 +692,8 @@ MonoBehaviour:
   _secondCanvas: {fileID: 571713166}
   _mouseStuff: {fileID: 1252106132}
   _DialogueCanvas: {fileID: 2042590186}
-  _letterPause: 0.03
+  _letterPause: 0
+  _EnableSummary: 1
 --- !u!114 &273884183
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1252,7 +1253,7 @@ GameObject:
   - component: {fileID: 571713167}
   - component: {fileID: 571713171}
   m_Layer: 5
-  m_Name: SecondCanvas
+  m_Name: SecondCanvas (Pause Menu)
   m_TagString: Canvas
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1447,7 +1448,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &654495454
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2333,7 +2334,7 @@ GameObject:
   - component: {fileID: 954179150}
   - component: {fileID: 954179149}
   m_Layer: 5
-  m_Name: FirstCanvas
+  m_Name: FirstCanvas (Summary)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4912,7 +4913,7 @@ MonoBehaviour:
   _Name1: M_Jansen
   _Name2: Quick_Sales
   _DialogueCanvas: {fileID: 2042590186}
-  _letterPause: 0.03
+  _letterPause: 0
   _FirstCanvas: {fileID: 273884182}
   _TutorialText: {fileID: 356634448}
   _NameText: {fileID: 788021400}
