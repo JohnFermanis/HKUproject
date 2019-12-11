@@ -4912,7 +4912,7 @@ MonoBehaviour:
   _Name1: M_Jansen
   _Name2: Quick_Sales
   _DialogueCanvas: {fileID: 2042590186}
-  _letterPause: 0.05
+  _letterPause: 0.03
   _FirstCanvas: {fileID: 273884182}
   _TutorialText: {fileID: 356634448}
   _NameText: {fileID: 788021400}
