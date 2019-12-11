@@ -14,6 +14,9 @@ public class OnClickImageScript : MonoBehaviour, IPointerClickHandler, IDragHand
 
     [SerializeField]
     private Sprite _EvidenceImage;
+
+    [SerializeField]
+    public int BiasCounter;
     
     private AudioSource _SoundOnClick;
 
@@ -51,6 +54,7 @@ public class OnClickImageScript : MonoBehaviour, IPointerClickHandler, IDragHand
 
     [SerializeField]
     private bool _IsThisTutorial;
+
 
     private void Start()
     {

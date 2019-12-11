@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -3974,6 +3974,11 @@ PrefabInstance:
       propertyPath: _IsThisTutorial
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3291819803716738892, guid: 8a565af8f1d58304995db74133cd1e2a,
+        type: 3}
+      propertyPath: BiasCounter
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3291819803716738898, guid: 8a565af8f1d58304995db74133cd1e2a,
         type: 3}
       propertyPath: m_Sprite
@@ -4045,7 +4050,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 0.00013459366, y: 162.32498}
+  m_AnchoredPosition: {x: 0.00013459366, y: 162.32495}
   m_SizeDelta: {x: 200, y: 564.3}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &1254936240
@@ -5101,7 +5106,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 154640878}
   m_HandleRect: {fileID: 154640877}
   m_Direction: 2
-  m_Value: 1
+  m_Value: 1.0000002
   m_Size: 0.5753145
   m_NumberOfSteps: 0
   m_OnValueChanged:

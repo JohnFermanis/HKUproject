@@ -61,4 +61,9 @@ public class VerdictScript : MonoBehaviour
         this.gameObject.SetActive(false);
         _acti = false;
     }
+
+    /*void OnDisable()
+    {
+        PlayerPrefs.SetInt("BiasScore", 47);
+    }*/
 }
