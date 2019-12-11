@@ -38,14 +38,14 @@ public class MouseCheckScript : MonoBehaviour
     void Update()
     {
         
-        if (Rcheck == false || Lcheck == false)
+        if (Rcheck == false && Lcheck == false)
         {
-            if (PlayerCamera.transform.rotation.y > 0.3f)
+            if (PlayerCamera.transform.rotation.y > 0.05f)
             {
                 Rcheck = true;
 
             }
-            else if (PlayerCamera.transform.rotation.y < -0.3f)
+            else if (PlayerCamera.transform.rotation.y < -0.05f)
             {
                 Lcheck = true;
 
