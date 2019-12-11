@@ -37,8 +37,8 @@ public class MouseCheckScript : MonoBehaviour
 
     void Update()
     {
-        
-        if (Rcheck == false && Lcheck == false)
+
+        /*if (Rcheck == false && Lcheck == false)
         {
             if (PlayerCamera.transform.rotation.y > 0.05f)
             {
@@ -52,18 +52,22 @@ public class MouseCheckScript : MonoBehaviour
             }
 
         }
-        else if (!DONE && !_SelectComputer)
-        {
-            //   Debug.Log("GG YOU CLEARED THE MOUSE TUTORIAL");
-            DONE = true;
-            _textUpdateScript.ClearText();
-            _img.gameObject.SetActive(false);
-            _DialogueCanvas.SetActive(true);
-            _SelectComputer = true;
-            _textUpdateScript.UpdateText1();
-            _SecondCanvas.SetActive(false);
+        else */
+        //if (Input.GetKeyDown(KeyCode.Space))
+        //{
+            if (!DONE && !_SelectComputer)
+            {
+                //   Debug.Log("GG YOU CLEARED THE MOUSE TUTORIAL");
+                DONE = true;
+                _textUpdateScript.ClearText();
+                _img.gameObject.SetActive(false);
+                _DialogueCanvas.SetActive(true);
+                _SelectComputer = true;
+                _textUpdateScript.UpdateText1();
+                _SecondCanvas.SetActive(false);
 
-        }
+            }
+        //}
             
         
     }

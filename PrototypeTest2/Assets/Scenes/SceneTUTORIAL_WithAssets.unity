@@ -692,7 +692,7 @@ MonoBehaviour:
   _secondCanvas: {fileID: 571713166}
   _mouseStuff: {fileID: 1252106132}
   _DialogueCanvas: {fileID: 2042590186}
-  _letterPause: 0.05
+  _letterPause: 0.03
 --- !u!114 &273884183
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1945,7 +1945,7 @@ GameObject:
   - component: {fileID: 804900429}
   - component: {fileID: 804900428}
   m_Layer: 5
-  m_Name: ImageMoveMouseTutorial
+  m_Name: ImageMoveMouseTutorial (Currently Disabled)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1977,7 +1977,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 804900426}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -3499,7 +3499,7 @@ GameObject:
   - component: {fileID: 1473067072}
   - component: {fileID: 1473067073}
   m_Layer: 5
-  m_Name: TextMoveMouseTutorial
+  m_Name: TextMoveMouseTutorial (Currently Disabled)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3531,7 +3531,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1473067068}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 

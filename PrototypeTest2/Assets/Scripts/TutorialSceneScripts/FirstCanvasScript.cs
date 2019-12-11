@@ -55,8 +55,8 @@ public class FirstCanvasScript : MonoBehaviour
         }
         _TutorialText.SetActive(true);
         yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.Space) == true);
-        _Fp.mouseLookCustom.XSensitivity = 2.0f;
-        _Fp.mouseLookCustom.YSensitivity = 2.0f;
+        //_Fp.mouseLookCustom.XSensitivity = 2.0f;
+        //_Fp.mouseLookCustom.YSensitivity = 2.0f;
         ActivateMouseAndSecondCanvas();
         _FirstCanvas.SetActive(false);
     }
