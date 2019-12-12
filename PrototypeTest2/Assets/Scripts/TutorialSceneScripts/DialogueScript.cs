@@ -41,7 +41,10 @@ public class DialogueScript : MonoBehaviour
 
     private bool _TextFinished;
 
+    //================================================================
+    //CHANGE THIS IF YOU WANT TO CHANGE THE NUMBER OF DIALOGUES
     private static int _NumberOfDialogues = 10;
+    //================================================================
 
     private string[] _Dialogue = new string[_NumberOfDialogues];
 

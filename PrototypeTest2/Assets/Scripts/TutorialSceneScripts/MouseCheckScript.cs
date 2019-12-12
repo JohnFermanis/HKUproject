@@ -37,35 +37,46 @@ public class MouseCheckScript : MonoBehaviour
 
     void Update()
     {
-        
-        if (Rcheck == false || Lcheck == false)
+
+        /*if (Rcheck == false && Lcheck == false)
         {
-            if (PlayerCamera.transform.rotation.y > 0.3f)
+            if (PlayerCamera.transform.rotation.y > 0.05f)
             {
                 Rcheck = true;
 
             }
-            else if (PlayerCamera.transform.rotation.y < -0.3f)
+            else if (PlayerCamera.transform.rotation.y < -0.05f)
             {
                 Lcheck = true;
 
             }
 
         }
-        else if (!DONE && !_SelectComputer)
-        {
-            //   Debug.Log("GG YOU CLEARED THE MOUSE TUTORIAL");
-            DONE = true;
-            _textUpdateScript.ClearText();
-            _img.gameObject.SetActive(false);
-            _DialogueCanvas.SetActive(true);
-            _SelectComputer = true;
-            _textUpdateScript.UpdateText1();
-            _SecondCanvas.SetActive(false);
+        else */
+        //if (Input.GetKeyDown(KeyCode.Space))
+        //{
+            if (!DONE && !_SelectComputer)
+            {
+                //   Debug.Log("GG YOU CLEARED THE MOUSE TUTORIAL");
+                DONE = true;
+                _textUpdateScript.ClearText();
+                _img.gameObject.SetActive(false);
+                
+                _SelectComputer = true;
+                _textUpdateScript.UpdateText1();
+            StartCoroutine(LateDialogueStart());
 
-        }
+            }
+        //}
             
         
     }
 
+    IEnumerator LateDialogueStart() {
+
+
+        yield return new WaitForSeconds(1.0f);
+        _DialogueCanvas.SetActive(true);
+        _SecondCanvas.SetActive(false);
+    }
 }

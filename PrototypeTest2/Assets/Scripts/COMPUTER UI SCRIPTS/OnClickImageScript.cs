@@ -14,6 +14,9 @@ public class OnClickImageScript : MonoBehaviour, IPointerClickHandler, IDragHand
 
     [SerializeField]
     private Sprite _EvidenceImage;
+
+    [SerializeField]
+    private int BiasCounter;
     
     private AudioSource _SoundOnClick;
 
@@ -51,6 +54,7 @@ public class OnClickImageScript : MonoBehaviour, IPointerClickHandler, IDragHand
 
     [SerializeField]
     private bool _IsThisTutorial;
+
 
     private void Start()
     {
@@ -117,17 +121,17 @@ public class OnClickImageScript : MonoBehaviour, IPointerClickHandler, IDragHand
     {
         if (_foo1 != null)
         {
-            _foo1.DropEvidence(this.gameObject,_CorrectEvidence);
+            _foo1.DropEvidence(this.gameObject,_CorrectEvidence,BiasCounter);
         }
 
         if (_foo2 != null)
         {
-            _foo2.DropEvidence(this.gameObject,_CorrectEvidence);
+            _foo2.DropEvidence(this.gameObject,_CorrectEvidence,BiasCounter);
         }
 
         if (_foo3 != null)
         {
-            _foo3.DropEvidence(this.gameObject, _CorrectEvidence);
+            _foo3.DropEvidence(this.gameObject, _CorrectEvidence,BiasCounter);
         }
 
         _binScript.Destroyer(this.gameObject);

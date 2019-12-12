@@ -252,6 +252,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _Pass: 0
+  BiasToBeAdded: 0
 --- !u!1 &154640876
 GameObject:
   m_ObjectHideFlags: 0
@@ -944,7 +945,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1150125394}
   m_HandleRect: {fileID: 1150125393}
   m_Direction: 0
-  m_Value: -0.0000033637416
+  m_Value: -0.0000029432738
   m_Size: 0.8185498
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -1399,6 +1400,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2161284124966242572, guid: 3cc5ee77592892a4f91c9de72831a1a7,
         type: 3}
+    - target: {fileID: 3291819803716738892, guid: 8a565af8f1d58304995db74133cd1e2a,
+        type: 3}
+      propertyPath: BiasCounter
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3291819803716738898, guid: 8a565af8f1d58304995db74133cd1e2a,
         type: 3}
       propertyPath: m_Sprite
@@ -1458,9 +1464,6 @@ RectTransform:
   m_Children:
   - {fileID: 2058166830}
   - {fileID: 1041577767}
-  - {fileID: 1609337614}
-  - {fileID: 1211065713}
-  - {fileID: 679320251}
   - {fileID: 550769067}
   m_Father: {fileID: 1693714406}
   m_RootOrder: 4
@@ -1606,7 +1609,7 @@ GameObject:
   m_Component:
   - component: {fileID: 550769067}
   m_Layer: 5
-  m_Name: Box3
+  m_Name: Box for expl Bin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1625,8 +1628,9 @@ RectTransform:
   m_Children:
   - {fileID: 774088222}
   - {fileID: 1221097127}
+  - {fileID: 679320251}
   m_Father: {fileID: 441493615}
-  m_RootOrder: 5
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1847,8 +1851,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 441493615}
-  m_RootOrder: 4
+  m_Father: {fileID: 550769067}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -35.254}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2517,6 +2521,7 @@ GameObject:
   - component: {fileID: 781499467}
   - component: {fileID: 781499466}
   - component: {fileID: 781499469}
+  - component: {fileID: 781499470}
   m_Layer: 5
   m_Name: Verdict Button
   m_TagString: Untagged
@@ -2742,6 +2747,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &781499470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 781499464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a2cb53d17abbed4380f10aaf8a0d38e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _go: {fileID: 2058166829}
+  _IsThisTutorial: 0
 --- !u!1 &806214782
 GameObject:
   m_ObjectHideFlags: 0
@@ -3072,6 +3091,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _Pass: 0
+  BiasToBeAdded: 0
 --- !u!114 &827919881
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3357,7 +3377,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1041577767}
   m_Layer: 5
-  m_Name: Box2
+  m_Name: Box for expl Evidence
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3376,6 +3396,7 @@ RectTransform:
   m_Children:
   - {fileID: 1665541744}
   - {fileID: 442455473}
+  - {fileID: 1609337614}
   m_Father: {fileID: 441493615}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3715,8 +3736,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 441493615}
-  m_RootOrder: 3
+  m_Father: {fileID: 2058166830}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 52.820004}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3974,6 +3995,11 @@ PrefabInstance:
       propertyPath: _IsThisTutorial
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3291819803716738892, guid: 8a565af8f1d58304995db74133cd1e2a,
+        type: 3}
+      propertyPath: BiasCounter
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3291819803716738898, guid: 8a565af8f1d58304995db74133cd1e2a,
         type: 3}
       propertyPath: m_Sprite
@@ -4012,7 +4038,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1231679026}
   m_Layer: 5
-  m_Name: Content
+  m_Name: Content (Here is where the evidence is placed)
   m_TagString: CONTENT
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4045,7 +4071,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 0.00013459366, y: 162.32498}
+  m_AnchoredPosition: {x: 0.00013459366, y: 162.32501}
   m_SizeDelta: {x: 200, y: 564.3}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &1254936240
@@ -5102,7 +5128,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 154640877}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.5753145
+  m_Size: 0.5753117
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -5157,6 +5183,7 @@ GameObject:
   - component: {fileID: 1553169185}
   - component: {fileID: 1553169184}
   - component: {fileID: 1553169188}
+  - component: {fileID: 1553169189}
   m_Layer: 5
   m_Name: Scroll View
   m_TagString: SCROLL
@@ -5217,7 +5244,7 @@ MonoBehaviour:
   m_Elasticity: 0.1
   m_Inertia: 1
   m_DecelerationRate: 0.135
-  m_ScrollSensitivity: 1
+  m_ScrollSensitivity: 30
   m_Viewport: {fileID: 1425340051}
   m_HorizontalScrollbar: {fileID: 369355849}
   m_VerticalScrollbar: {fileID: 1551183353}
@@ -5241,7 +5268,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.3372549}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -5276,6 +5303,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f696652175caaf4aba71fbe6ccf1913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1553169189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1553169182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a2cb53d17abbed4380f10aaf8a0d38e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _go: {fileID: 1041577766}
+  _IsThisTutorial: 0
 --- !u!1 &1595468347
 GameObject:
   m_ObjectHideFlags: 0
@@ -5374,11 +5415,11 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1609337613}
-  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
+  m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 441493615}
+  m_Father: {fileID: 1041577767}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -5435,6 +5476,7 @@ GameObject:
   - component: {fileID: 1629374505}
   - component: {fileID: 1629374507}
   - component: {fileID: 1629374508}
+  - component: {fileID: 1629374509}
   m_Layer: 5
   m_Name: Garbage Bin
   m_TagString: BIN
@@ -5606,6 +5648,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1629374509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1629374503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a2cb53d17abbed4380f10aaf8a0d38e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _go: {fileID: 550769066}
+  _IsThisTutorial: 0
 --- !u!1001 &1637692838
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7086,6 +7142,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _Pass: 0
+  BiasToBeAdded: 0
 --- !u!114 &1902598553
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7800,6 +7857,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 6937817954938267909, guid: 80fb6eb04d1567243a2489c585de1676,
         type: 3}
+    - target: {fileID: 3291819803716738892, guid: 8a565af8f1d58304995db74133cd1e2a,
+        type: 3}
+      propertyPath: BiasCounter
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3291819803716738898, guid: 8a565af8f1d58304995db74133cd1e2a,
         type: 3}
       propertyPath: m_Sprite
@@ -7838,7 +7900,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2058166830}
   m_Layer: 5
-  m_Name: Box1
+  m_Name: Box for expl Verdict Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7857,6 +7919,7 @@ RectTransform:
   m_Children:
   - {fileID: 1865578573}
   - {fileID: 822883136}
+  - {fileID: 1211065713}
   m_Father: {fileID: 441493615}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
