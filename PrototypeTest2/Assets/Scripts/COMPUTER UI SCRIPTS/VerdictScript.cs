@@ -81,12 +81,15 @@ public class VerdictScript : MonoBehaviour
         {
             case 1:
                 PlayerPrefs.SetInt("BiasScore1", _FinalBias);
+                Debug.Log("Print1");
                 break;
             case 2:
                 PlayerPrefs.SetInt("BiasScore2", _FinalBias);
+                Debug.Log("Print2");
                 break;
             case 3:
                 PlayerPrefs.SetInt("BiasScore3", _FinalBias);
+                Debug.Log("Print3");
                 break;
         }
 

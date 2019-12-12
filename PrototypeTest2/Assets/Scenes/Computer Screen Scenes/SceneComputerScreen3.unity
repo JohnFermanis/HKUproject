@@ -4675,7 +4675,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 0.00013459366, y: 162.32498}
+  m_AnchoredPosition: {x: 0.00013459366, y: 162.32416}
   m_SizeDelta: {x: 200, y: 564.3}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &1254936240
@@ -5809,7 +5809,7 @@ MonoBehaviour:
   _Tutorial1: {fileID: 441493614}
   _manager: {fileID: 1527683228}
   ChangeSceneTo: 10
-  ComputerSceneNumber: 1
+  ComputerSceneNumber: 3
 --- !u!114 &1527683228
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5903,8 +5903,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 154640878}
   m_HandleRect: {fileID: 154640877}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 0.57530034
+  m_Value: 1.0000036
+  m_Size: 0.57531184
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
