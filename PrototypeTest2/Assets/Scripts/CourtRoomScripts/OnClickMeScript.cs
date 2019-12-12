@@ -9,6 +9,9 @@ public class OnClickMeScript : MonoBehaviour
 
     [SerializeField]
     private GameManager _gm;
+
+    [SerializeField]
+    private int ChangeSceneTo;
    
 
     private MouseCheckScript _mouseScript;
@@ -21,6 +24,6 @@ public class OnClickMeScript : MonoBehaviour
     private void OnMouseDown()
     {
         if (_mouseScript.DONE)
-            _gm.ChangeScene(2);
+            _gm.ChangeScene(ChangeSceneTo);
     }
 }

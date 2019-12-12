@@ -52,8 +52,8 @@ public class OnClickImageScript : MonoBehaviour, IPointerClickHandler, IDragHand
 
     private VerdictScript _VerdictScript;
 
-    [SerializeField]
-    private bool _IsThisTutorial;
+   // [SerializeField]
+   // private bool _IsThisTutorial;
 
 
     private void Start()
@@ -63,8 +63,8 @@ public class OnClickImageScript : MonoBehaviour, IPointerClickHandler, IDragHand
         _VerdictScript = Resources.FindObjectsOfTypeAll<VerdictScript>()[0];
         _pos = transform.localPosition;
         //_canvasObj = GameObject.FindGameObjectWithTag("Canvas");
-        if (_IsThisTutorial)
-            _TutorialUI = GameObject.FindGameObjectWithTag("TUTORIAL");
+       // if (_IsThisTutorial)
+       //     _TutorialUI = GameObject.FindGameObjectWithTag("TUTORIAL");
         _contentObj = GameObject.FindGameObjectWithTag("CONTENT");
         _scrollObj = GameObject.FindGameObjectWithTag("SCROLL");
         _bin = GameObject.FindGameObjectWithTag("BIN");
@@ -103,8 +103,8 @@ public class OnClickImageScript : MonoBehaviour, IPointerClickHandler, IDragHand
             _XbuttonScript.ChangeImage(_EvidenceImage);
             _XbuttonScript.ChangeText(_evidenceText);
             _VerdictScript.TurnOff();
-            if (_IsThisTutorial)
-                _TutorialUI.SetActive(false);
+           // if (_IsThisTutorial)
+           //     _TutorialUI.SetActive(false);
         }
     }
 

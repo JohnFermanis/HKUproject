@@ -27,6 +27,13 @@ public class VerdictScript : MonoBehaviour
     [SerializeField]
     private GameManager _manager;
 
+    [SerializeField]
+    private int ChangeSceneTo;
+
+    [SerializeField]
+    private int ComputerSceneNumber=1;
+    //has to be 1,2 or 3
+
     private int _FinalBias;
 
     void Start()
@@ -57,7 +64,7 @@ public class VerdictScript : MonoBehaviour
         {
             _FinalBias = _evid1.BiasToBeAdded + _evid2.BiasToBeAdded + _evid3.BiasToBeAdded;
             Debug.Log(_FinalBias);
-            _manager.ChangeScene(3);
+            _manager.ChangeScene(ChangeSceneTo);
 
         }
     }
@@ -70,6 +77,28 @@ public class VerdictScript : MonoBehaviour
 
     void OnDisable()
     {
-        PlayerPrefs.SetInt("BiasScore", _FinalBias);
+        switch (ComputerSceneNumber)
+        {
+            case 1:
+                PlayerPrefs.SetInt("BiasScore1", _FinalBias);
+                Debug.Log("Print1");
+                break;
+            case 2:
+                PlayerPrefs.SetInt("BiasScore2", _FinalBias);
+                Debug.Log("Print2");
+                break;
+            case 3:
+                PlayerPrefs.SetInt("BiasScore3", _FinalBias);
+                Debug.Log("Print3");
+                break;
+        }
+
+
+        /*if(WhichComputerSceneIsThis==1)
+            PlayerPrefs.SetInt("BiasScore1", _FinalBias);
+        else if(WhichComputerSceneIsThis==2)
+            PlayerPrefs.SetInt("BiasScore2", _FinalBias);
+        else if (WhichComputerSceneIsThis == 3)
+            PlayerPrefs.SetInt("BiasScore3", _FinalBias);*/
     }
 }

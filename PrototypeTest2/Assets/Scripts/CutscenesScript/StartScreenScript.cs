@@ -2,18 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MovieScript : MonoBehaviour
+public class StartScreenScript : MonoBehaviour
 {
     [SerializeField]
     private GameManager _gm;
 
-
     [SerializeField]
-    private UnityEngine.Video.VideoPlayer vp;
+    private int ChangeToScene=1;
 
-    void Update()
+    public void ButtonIsPressed()
     {
-        if (!vp.isPlaying)
-            _gm.ChangeScene(1);
+        _gm.ChangeScene(ChangeToScene);
     }
 }
