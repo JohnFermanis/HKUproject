@@ -69,6 +69,7 @@ public class DialogueScript : MonoBehaviour
     
     void Start()
     {
+        
         _thisText=this.GetComponent<Text>();
 
         if (_thisText == null)
@@ -141,6 +142,7 @@ public class DialogueScript : MonoBehaviour
                 yield return new WaitForSeconds(_letterPause);
             }
             yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.Space) == true);
+            if(_TutorialText!=null)
             _TutorialText.SetActive(false);
         }
         _FirstCanvas.ActivateMouseAndSecondCanvas();

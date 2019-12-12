@@ -12,6 +12,8 @@ public class CanvasScript : MonoBehaviour
 
     [SerializeField]
     private GameObject _ui;
+
+    private bool _menuIsOn;
    
     void Start()
     {
@@ -19,19 +21,6 @@ public class CanvasScript : MonoBehaviour
     }
 
 
-    //This activates the pause menu when pressing ESC. (Currently Disabled)
-
-    /*void Update()
-    {
-        
-
-            if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            _ui.gameObject.SetActive(false);
-
-            _menu.gameObject.SetActive(true);
-            //freeze controls
-            _player.gameObject.SetActive(false);
-        }
-    }*/
+    
+    
 }

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class HideMeScript : MonoBehaviour
 {
+    //This script is currently disabled
     [SerializeField]
     private CharacterController _player;
 
