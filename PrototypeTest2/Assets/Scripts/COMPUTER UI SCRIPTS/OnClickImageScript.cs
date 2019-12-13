@@ -15,6 +15,11 @@ public class OnClickImageScript : MonoBehaviour, IPointerClickHandler, IDragHand
     [SerializeField]
     private Sprite _EvidenceImage;
 
+    [SerializeField]
+    private int BiasCounter;
+    
+    private AudioSource _SoundOnClick;
+
     private GameObject _contentObj;
 
     private GameObject _canvasObj;
@@ -41,11 +46,25 @@ public class OnClickImageScript : MonoBehaviour, IPointerClickHandler, IDragHand
 
     private DropEvidenceScript _foo2;
 
+    private DropEvidenceScript _foo3;
+
+    private GameObject _TutorialUI;
+
+    private VerdictScript _VerdictScript;
+
+   // [SerializeField]
+   // private bool _IsThisTutorial;
+
+
     private void Start()
     {
+        _SoundOnClick = this.GetComponent<AudioSource>();
         _XbuttonScript=Resources.FindObjectsOfTypeAll<XbuttonScript>()[0];
+        _VerdictScript = Resources.FindObjectsOfTypeAll<VerdictScript>()[0];
         _pos = transform.localPosition;
-        //_canvasObj = GameObject.FindGameObjectWithTag("Canvas");       
+        //_canvasObj = GameObject.FindGameObjectWithTag("Canvas");
+       // if (_IsThisTutorial)
+       //     _TutorialUI = GameObject.FindGameObjectWithTag("TUTORIAL");
         _contentObj = GameObject.FindGameObjectWithTag("CONTENT");
         _scrollObj = GameObject.FindGameObjectWithTag("SCROLL");
         _bin = GameObject.FindGameObjectWithTag("BIN");
@@ -66,6 +85,7 @@ public class OnClickImageScript : MonoBehaviour, IPointerClickHandler, IDragHand
         {
              _foo1 = fooGroup[0];
              _foo2 = fooGroup[1];
+             _foo3 = fooGroup[2];
 
         }
        
@@ -78,8 +98,13 @@ public class OnClickImageScript : MonoBehaviour, IPointerClickHandler, IDragHand
             //_image.gameObject.SetActive(true);
             //_image.sprite = _EvidenceImage;
             //_text.text = _evidenceText;
+            if(_SoundOnClick!=null)
+            _SoundOnClick.Play();
             _XbuttonScript.ChangeImage(_EvidenceImage);
             _XbuttonScript.ChangeText(_evidenceText);
+            _VerdictScript.TurnOff();
+           // if (_IsThisTutorial)
+           //     _TutorialUI.SetActive(false);
         }
     }
 
@@ -96,12 +121,17 @@ public class OnClickImageScript : MonoBehaviour, IPointerClickHandler, IDragHand
     {
         if (_foo1 != null)
         {
-            _foo1.DropEvidence(this.gameObject,_CorrectEvidence);
+            _foo1.DropEvidence(this.gameObject,_CorrectEvidence,BiasCounter);
         }
 
         if (_foo2 != null)
         {
-            _foo2.DropEvidence(this.gameObject,_CorrectEvidence);
+            _foo2.DropEvidence(this.gameObject,_CorrectEvidence,BiasCounter);
+        }
+
+        if (_foo3 != null)
+        {
+            _foo3.DropEvidence(this.gameObject, _CorrectEvidence,BiasCounter);
         }
 
         _binScript.Destroyer(this.gameObject);

@@ -9,10 +9,10 @@ public class DropEvidenceScript : MonoBehaviour, IPointerEnterHandler, IPointerE
 
     public bool _Pass=false;
     bool _pointer = false;
+    public int BiasToBeAdded;
 
 
-    // Start is called before the first frame update
-    
+   
 
     public void OnPointerEnter(PointerEventData eventData)
     {
@@ -25,12 +25,13 @@ public class DropEvidenceScript : MonoBehaviour, IPointerEnterHandler, IPointerE
         _pointer = false;
     }
 
-    public void DropEvidence(GameObject go,bool CorrectEvidence)
+    public void DropEvidence(GameObject go,bool CorrectEvidence,int Bias)
     {
         if (_pointer)
         {
             _Pass = CorrectEvidence;
             this.GetComponent<Image>().sprite = go.GetComponent<Image>().sprite;
+            BiasToBeAdded = Bias;
         }
     }
 }
