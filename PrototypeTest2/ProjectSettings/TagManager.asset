@@ -3,14 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - Canvas
-  - ItemToPick
-  - EXPLAIMAGE
-  - BIN
-  - CONTENT
-  - SCROLL
-  - TUTORIAL
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -20,8 +13,8 @@ TagManager:
   - UI
   - 
   - 
-  - Light_wall_deco
-  - 
+  - Lights_backwall_deco
+  - Lady_justice_deco
   - 
   - 
   - 
@@ -47,10 +40,4 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: facts
-    uniqueID: 1741984527
-    locked: 0
-  - name: base
-    uniqueID: 3873857045
     locked: 0
