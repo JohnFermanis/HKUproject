@@ -12,6 +12,11 @@ public class FirstCanvasScript : MonoBehaviour
     //                  4.Dialogue finishes and waits for the player to open the in-game computer 
 
     [SerializeField]
+    private GameObject _PopUpPanel;
+
+    [SerializeField]
+    private bool _enablePopUp=false;
+    [SerializeField]
     private FirstPersonController _Fp;
     [SerializeField]
     private GameObject _ControllerObj;
@@ -53,6 +58,7 @@ public class FirstCanvasScript : MonoBehaviour
         _secondCanvas.SetActive(false);
         _message = _TextBox.text;
         _TextBox.text = "";
+        if(!_enablePopUp)
         StartCoroutine(TypeText());
 
         if (!_EnableSummary)
@@ -94,6 +100,17 @@ public class FirstCanvasScript : MonoBehaviour
     {
         _secondCanvas.SetActive(true);
         _mouseStuff.SetActive(true);
+    }
+
+    // To be called by the pop up buttons
+    public void ActivateCoRoutine()
+    {
+        if (_PopUpPanel != null)
+        {
+            _PopUpPanel.SetActive(false);
+
+        }
+        StartCoroutine(TypeText());
     }
 
 
