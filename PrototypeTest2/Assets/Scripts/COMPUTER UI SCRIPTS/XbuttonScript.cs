@@ -20,6 +20,8 @@ public class XbuttonScript : MonoBehaviour
 
     private AudioSource _TurnOffSound;
 
+    private OnClickImageScript _CurrentFetchedScript;
+
     private void Start()
     {
         _TurnOffSound = this.GetComponent<AudioSource>();
@@ -33,17 +35,26 @@ public class XbuttonScript : MonoBehaviour
         this.gameObject.SetActive(false);
         if(_IsThisTutorial)
         _TutorialUI.SetActive(true);
+        if(_CurrentFetchedScript!=null)
+        _CurrentFetchedScript.OpenCloseFolder(false);
     }
 
     public void ChangeImage(Sprite _image)
     {
         this.gameObject.SetActive(true);
         _ImgToChange.sprite = _image;
-        
+        if (_CurrentFetchedScript != null)
+            _CurrentFetchedScript.OpenCloseFolder(false);// false if you want to close the folder
     }
 
     public void ChangeText(string _text)
     {
         _TextToChange.text = _text;
+    }
+
+    public void CurrentPrefab(OnClickImageScript _Script)
+    {
+        if(_Script!=null)
+        _CurrentFetchedScript = _Script;   
     }
 }
