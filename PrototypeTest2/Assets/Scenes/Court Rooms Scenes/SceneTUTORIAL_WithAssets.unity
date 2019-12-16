@@ -772,7 +772,7 @@ MonoBehaviour:
   _mouseStuff: {fileID: 1252106132}
   _DialogueCanvas: {fileID: 2042590186}
   _letterPause: 0
-  _InstantText: 0
+  _InstantText: 1
   _EnableSummary: 1
 --- !u!114 &273884183
 MonoBehaviour:
