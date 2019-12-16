@@ -33,7 +33,10 @@ public class FirstCanvasScript : MonoBehaviour
     private float _letterPause = 0.01f;
 
     [SerializeField]
-    private bool _EnableSummary=true;
+    private bool _InstantText = true;
+
+    [SerializeField]
+    private bool _EnableSummary=true; //This exists for debugging purposes, should be true
 
     void Start()
     {
@@ -62,14 +65,22 @@ public class FirstCanvasScript : MonoBehaviour
 
     IEnumerator TypeText()
     {
-        foreach (char letter in _message.ToCharArray())
+        if (_InstantText == false)
         {
+            foreach (char letter in _message.ToCharArray())
+            {
 
-            _TextBox.text += letter;
-            //if (sound)
-            //    GetComponent<AudioSource>().PlayOneShot(sound);
+                _TextBox.text += letter;
+                //if (sound)
+                //    GetComponent<AudioSource>().PlayOneShot(sound);
 
-            yield return new WaitForSeconds(_letterPause);
+                yield return new WaitForSeconds(_letterPause);
+            }
+        }
+        else
+        {
+            _TextBox.text = _message;
+            yield return new WaitForSeconds(0.1f);
         }
         _TutorialText.SetActive(true);
         yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.Space) == true);
