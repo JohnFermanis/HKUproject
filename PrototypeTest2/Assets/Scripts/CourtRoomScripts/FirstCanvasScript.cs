@@ -12,6 +12,11 @@ public class FirstCanvasScript : MonoBehaviour
     //                  4.Dialogue finishes and waits for the player to open the in-game computer 
 
     [SerializeField]
+    private GameObject _PopUpPanel;
+
+    [SerializeField]
+    private bool _enablePopUp=false;
+    [SerializeField]
     private FirstPersonController _Fp;
     [SerializeField]
     private GameObject _ControllerObj;
@@ -33,7 +38,10 @@ public class FirstCanvasScript : MonoBehaviour
     private float _letterPause = 0.01f;
 
     [SerializeField]
-    private bool _EnableSummary=true;
+    private bool _InstantText = true;
+
+    [SerializeField]
+    private bool _EnableSummary=true; //This exists for debugging purposes, should be true
 
     void Start()
     {
@@ -50,6 +58,7 @@ public class FirstCanvasScript : MonoBehaviour
         _secondCanvas.SetActive(false);
         _message = _TextBox.text;
         _TextBox.text = "";
+        if(!_enablePopUp)
         StartCoroutine(TypeText());
 
         if (!_EnableSummary)
@@ -62,14 +71,22 @@ public class FirstCanvasScript : MonoBehaviour
 
     IEnumerator TypeText()
     {
-        foreach (char letter in _message.ToCharArray())
+        if (_InstantText == false)
         {
+            foreach (char letter in _message.ToCharArray())
+            {
 
-            _TextBox.text += letter;
-            //if (sound)
-            //    GetComponent<AudioSource>().PlayOneShot(sound);
+                _TextBox.text += letter;
+                //if (sound)
+                //    GetComponent<AudioSource>().PlayOneShot(sound);
 
-            yield return new WaitForSeconds(_letterPause);
+                yield return new WaitForSeconds(_letterPause);
+            }
+        }
+        else
+        {
+            _TextBox.text = _message;
+            yield return new WaitForSeconds(0.1f);
         }
         _TutorialText.SetActive(true);
         yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.Space) == true);
@@ -83,6 +100,17 @@ public class FirstCanvasScript : MonoBehaviour
     {
         _secondCanvas.SetActive(true);
         _mouseStuff.SetActive(true);
+    }
+
+    // To be called by the pop up buttons
+    public void ActivateCoRoutine()
+    {
+        if (_PopUpPanel != null)
+        {
+            _PopUpPanel.SetActive(false);
+
+        }
+        StartCoroutine(TypeText());
     }
 
 

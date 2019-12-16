@@ -24,6 +24,9 @@ public class DialogueScript3 : MonoBehaviour
     private float _letterPause = 0.5f;
 
     [SerializeField]
+    private bool _InstantText = false;
+
+    [SerializeField]
     private FirstCanvasScript _FirstCanvas;
 
     [SerializeField]
@@ -131,17 +134,27 @@ public class DialogueScript3 : MonoBehaviour
             _FaceImage.sprite = _Faces[i];
             _NameText.text = _Names[i];
             _thisText.text = "";
-            foreach (char letter in _Dialogue[i].ToCharArray())
+            if (_InstantText == false)
             {
+                foreach (char letter in _Dialogue[i].ToCharArray())
+                {
 
-                _thisText.text += letter;
-                //if (sound)
-                //    GetComponent<AudioSource>().PlayOneShot(sound);
+                    _thisText.text += letter;
+                    //if (sound)
+                    //    GetComponent<AudioSource>().PlayOneShot(sound);
 
-                yield return new WaitForSeconds(_letterPause);
+                    yield return new WaitForSeconds(_letterPause);
+                }
+
+            }
+            else
+            {
+                _thisText.text = _Dialogue[i];
+                yield return new WaitForSeconds(0.1f);
             }
             yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.Space) == true);
-            _TutorialText.SetActive(false);
+            if (_TutorialText != null)
+                _TutorialText.SetActive(false);
         }
         _FirstCanvas.ActivateMouseAndSecondCanvas();
         _DialogueCanvas.SetActive(false);
