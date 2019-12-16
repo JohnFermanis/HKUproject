@@ -6,18 +6,29 @@ using UnityEngine.UI;
 
 public class OnClickImageScript : MonoBehaviour, IPointerClickHandler, IDragHandler, IEndDragHandler
 {
+    //This is the script that the evidence prefab is using.
+
+    [SerializeField]
+    private Image _FolderImg;
+
     [SerializeField]
     private string _evidenceText = "";
 
     [SerializeField]
-    private bool _CorrectEvidence=false;
+    private bool _CorrectEvidence = false; // Is this supposed to be placed in the verdict or not? If yes then tick this
 
     [SerializeField]
     private Sprite _EvidenceImage;
 
     [SerializeField]
+    private Sprite _OpenFolderSprite;
+
+    [SerializeField]
+    private Sprite _ClosedFolderSprite;
+
+    [SerializeField]
     private int BiasCounter;
-    
+
     private AudioSource _SoundOnClick;
 
     private GameObject _contentObj;
@@ -52,19 +63,23 @@ public class OnClickImageScript : MonoBehaviour, IPointerClickHandler, IDragHand
 
     private VerdictScript _VerdictScript;
 
-   // [SerializeField]
-   // private bool _IsThisTutorial;
+    private bool _FoldernIsOpen;
+
+    // [SerializeField]
+    // private bool _IsThisTutorial;
 
 
     private void Start()
     {
+        if(_ClosedFolderSprite!=null)
+        _FolderImg.sprite = _ClosedFolderSprite;
         _SoundOnClick = this.GetComponent<AudioSource>();
-        _XbuttonScript=Resources.FindObjectsOfTypeAll<XbuttonScript>()[0];
+        _XbuttonScript = Resources.FindObjectsOfTypeAll<XbuttonScript>()[0];
         _VerdictScript = Resources.FindObjectsOfTypeAll<VerdictScript>()[0];
         _pos = transform.localPosition;
         //_canvasObj = GameObject.FindGameObjectWithTag("Canvas");
-       // if (_IsThisTutorial)
-       //     _TutorialUI = GameObject.FindGameObjectWithTag("TUTORIAL");
+        // if (_IsThisTutorial)
+        //     _TutorialUI = GameObject.FindGameObjectWithTag("TUTORIAL");
         _contentObj = GameObject.FindGameObjectWithTag("CONTENT");
         _scrollObj = GameObject.FindGameObjectWithTag("SCROLL");
         _bin = GameObject.FindGameObjectWithTag("BIN");
@@ -72,39 +87,43 @@ public class OnClickImageScript : MonoBehaviour, IPointerClickHandler, IDragHand
         {
             _binScript = _bin.GetComponent<BinScript>();
         }
-       /* if (_canvasObj != null)
-        {
-            _image = _imgObj.GetComponent<Image>();
-            _text = _imgObj.GetComponentInChildren<Text>();
-        }
-        else
-            Debug.Log("Error in Evidence Script");
-            */
+        /* if (_canvasObj != null)
+         {
+             _image = _imgObj.GetComponent<Image>();
+             _text = _imgObj.GetComponentInChildren<Text>();
+         }
+         else
+             Debug.Log("Error in Evidence Script");
+             */
         DropEvidenceScript[] fooGroup = Resources.FindObjectsOfTypeAll<DropEvidenceScript>();
         if (fooGroup.Length > 0)
         {
-             _foo1 = fooGroup[0];
-             _foo2 = fooGroup[1];
-             _foo3 = fooGroup[2];
+            _foo1 = fooGroup[0];
+            _foo2 = fooGroup[1];
+            _foo3 = fooGroup[2];
 
         }
-       
+
     }
 
     public void OnPointerClick(PointerEventData eventData)
     {
         if (!dragging)
         {
+          
             //_image.gameObject.SetActive(true);
             //_image.sprite = _EvidenceImage;
             //_text.text = _evidenceText;
-            if(_SoundOnClick!=null)
-            _SoundOnClick.Play();
+            if (_SoundOnClick != null)
+                _SoundOnClick.Play();
             _XbuttonScript.ChangeImage(_EvidenceImage);
             _XbuttonScript.ChangeText(_evidenceText);
+            _XbuttonScript.CurrentPrefab(this.GetComponent<OnClickImageScript>());
             _VerdictScript.TurnOff();
-           // if (_IsThisTutorial)
-           //     _TutorialUI.SetActive(false);
+
+            OpenCloseFolder(true); //true if you want to open, false if you want to close
+            // if (_IsThisTutorial)
+            //     _TutorialUI.SetActive(false);
         }
     }
 
@@ -121,25 +140,49 @@ public class OnClickImageScript : MonoBehaviour, IPointerClickHandler, IDragHand
     {
         if (_foo1 != null)
         {
-            _foo1.DropEvidence(this.gameObject,_CorrectEvidence,BiasCounter);
+            _foo1.DropEvidence(this.gameObject, _CorrectEvidence, BiasCounter);
         }
 
         if (_foo2 != null)
         {
-            _foo2.DropEvidence(this.gameObject,_CorrectEvidence,BiasCounter);
+            _foo2.DropEvidence(this.gameObject, _CorrectEvidence, BiasCounter);
         }
 
         if (_foo3 != null)
         {
-            _foo3.DropEvidence(this.gameObject, _CorrectEvidence,BiasCounter);
+            _foo3.DropEvidence(this.gameObject, _CorrectEvidence, BiasCounter);
         }
 
         _binScript.Destroyer(this.gameObject);
 
-        if(_contentObj!=null)
-        transform.SetParent(_contentObj.transform);
+        if (_contentObj != null)
+            transform.SetParent(_contentObj.transform);
 
         transform.localPosition = _pos;
         dragging = false;
     }
+
+    public void OpenCloseFolder(bool _Open)
+    {
+        if (!_Open)
+        {
+
+            // _FoldernIsOpen = false;
+            if (_ClosedFolderSprite != null)
+                _FolderImg.sprite = _ClosedFolderSprite;
+
+        }
+        else
+        {
+            // _FoldernIsOpen = true;
+            if (_OpenFolderSprite != null)
+            {
+                _FolderImg.sprite = _OpenFolderSprite;
+
+               // Debug.Log("NANI");
+            }
+        }
+
+    }
+    
 }

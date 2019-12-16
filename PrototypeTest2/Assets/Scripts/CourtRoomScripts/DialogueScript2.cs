@@ -44,10 +44,12 @@ public class DialogueScript2 : MonoBehaviour
 
     private bool _TextFinished;
 
-    //================================================================
+    //====================================================================
+
     //CHANGE THIS IF YOU WANT TO CHANGE THE NUMBER OF DIALOGUES
     private static int _NumberOfDialogues = 10;
-    //================================================================
+
+    //====================================================================
 
     private string[] _Dialogue = new string[_NumberOfDialogues];
 
@@ -110,14 +112,12 @@ public class DialogueScript2 : MonoBehaviour
         _Faces[7] = _Face2;
         _Faces[8] = _Face2;
         _Faces[9] = _Face2;
-
     }
 
     void Update()
     {
         if (!_TextRunning)
         {
-
             // if (Input.GetKeyDown(KeyCode.Space))
             // {
             _TextRunning = true;
@@ -138,14 +138,11 @@ public class DialogueScript2 : MonoBehaviour
             {
                 foreach (char letter in _Dialogue[i].ToCharArray())
                 {
-
                     _thisText.text += letter;
                     //if (sound)
                     //    GetComponent<AudioSource>().PlayOneShot(sound);
-
                     yield return new WaitForSeconds(_letterPause);
                 }
-
             }
             else
             {
@@ -160,7 +157,5 @@ public class DialogueScript2 : MonoBehaviour
         _DialogueCanvas.SetActive(false);
         //initiate the next cutscene here
     }
-
-
-
+    
 }

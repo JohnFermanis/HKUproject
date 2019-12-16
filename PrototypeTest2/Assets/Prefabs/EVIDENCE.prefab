@@ -177,11 +177,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75c37072005514c489ae367ec028368f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _FolderImg: {fileID: 3291819803716738898}
   _evidenceText: 
   _CorrectEvidence: 0
   _EvidenceImage: {fileID: 0}
+  _OpenFolderSprite: {fileID: 0}
+  _ClosedFolderSprite: {fileID: 0}
   BiasCounter: 0
-  _IsThisTutorial: 1
 --- !u!82 &7746100015650775372
 AudioSource:
   m_ObjectHideFlags: 0

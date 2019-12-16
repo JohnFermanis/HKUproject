@@ -6,10 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Cutscenes and other Scenes/SceneStartScreen.unity
+    path: Assets/Scenes/Cutscenes and Start Scenes/SceneStartScreen.unity
     guid: af2bc20c31fea7542b94e64ab5ec5a61
   - enabled: 1
-    path: Assets/Scenes/Cutscenes and other Scenes/SceneOpeningMovie.unity
+    path: Assets/Scenes/Cutscenes and Start Scenes/SceneOpeningMovie.unity
     guid: b98527af46006fd4cbad68566fcb9c6d
   - enabled: 1
     path: Assets/Scenes/Court Rooms Scenes/SceneTUTORIAL_WithAssets.unity
@@ -18,7 +18,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Computer Screen Scenes/SceneCOMPUTER_WithAssets_testingroom.unity
     guid: 6ee4bcfca7da2554e88d20991eb09d99
   - enabled: 1
-    path: Assets/Scenes/Cutscenes and other Scenes/SceneOpeningMovie2.unity
+    path: Assets/Scenes/Cutscenes and Start Scenes/SceneOpeningMovie2.unity
     guid: bdbdbdbeb4c7c3e4abfe111b63475f8c
   - enabled: 1
     path: Assets/Scenes/Court Rooms Scenes/SceneCourtRoom2.unity
@@ -27,7 +27,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Computer Screen Scenes/SceneComputerScreen2.unity
     guid: 51a6e0f0a90e29d40abf13c172677fc4
   - enabled: 1
-    path: Assets/Scenes/Cutscenes and other Scenes/SceneOpeningMovie3.unity
+    path: Assets/Scenes/Cutscenes and Start Scenes/SceneOpeningMovie3.unity
     guid: b824942fdc43f694890f9f78e8971964
   - enabled: 1
     path: Assets/Scenes/Court Rooms Scenes/SceneCourtRoom3.unity
@@ -36,6 +36,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Computer Screen Scenes/SceneComputerScreen3.unity
     guid: 9a293ca487384354a8ebb86d0af4709f
   - enabled: 1
-    path: Assets/Scenes/Cutscenes and other Scenes/SceneThankYou.unity
+    path: Assets/Scenes/Cutscenes and Start Scenes/SceneThankYou.unity
     guid: f7be76e74b42add4fb1dfe7fe2be797d
   m_configObjects: {}
