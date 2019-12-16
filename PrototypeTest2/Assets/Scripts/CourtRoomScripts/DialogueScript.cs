@@ -21,9 +21,6 @@ public class DialogueScript : MonoBehaviour
     private GameObject _DialogueCanvas;
 
     [SerializeField]
-    private float _letterPause=0.5f;
-
-    [SerializeField]
     private FirstCanvasScript _FirstCanvas;
 
     [SerializeField]
@@ -34,6 +31,13 @@ public class DialogueScript : MonoBehaviour
 
     [SerializeField]
     private Image _FaceImage;
+
+
+    [SerializeField]
+    private float _letterPause = 0.5f;
+
+    [SerializeField]
+    private bool _InstantText=true;
 
     private Text _thisText;
 
@@ -132,14 +136,23 @@ public class DialogueScript : MonoBehaviour
             _FaceImage.sprite = _Faces[i];
             _NameText.text = _Names[i];
             _thisText.text = "";
-            foreach (char letter in _Dialogue[i].ToCharArray())
+            if (_InstantText == false)
             {
+                foreach (char letter in _Dialogue[i].ToCharArray())
+                {
 
-                _thisText.text += letter;
-                //if (sound)
-                //    GetComponent<AudioSource>().PlayOneShot(sound);
-               
-                yield return new WaitForSeconds(_letterPause);
+                    _thisText.text += letter;
+                    //if (sound)
+                    //    GetComponent<AudioSource>().PlayOneShot(sound);
+
+                    yield return new WaitForSeconds(_letterPause);
+                }
+
+            }
+            else
+            {
+                _thisText.text = _Dialogue[i];
+                yield return new WaitForSeconds(0.1f);
             }
             yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.Space) == true);
             if(_TutorialText!=null)
@@ -147,7 +160,6 @@ public class DialogueScript : MonoBehaviour
         }
         _FirstCanvas.ActivateMouseAndSecondCanvas();
         _DialogueCanvas.SetActive(false); 
-        //initiate the next cutscene here
     }
 
 
