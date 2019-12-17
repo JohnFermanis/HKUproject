@@ -26,6 +26,8 @@ public class OnClickMeScript : MonoBehaviour
 
     private MouseCheckScript _mouseScript;
 
+    private bool _DialogueDone=false;
+
     void OnEnable()
     {
         _b1 = PlayerPrefs.GetInt("BiasScore1");
@@ -41,9 +43,9 @@ public class OnClickMeScript : MonoBehaviour
 
     private void OnMouseDown()
     {
-        if (_mouseScript.DONE && !_IsThisCourtRoom3)
+        if (_mouseScript.DONE && !_IsThisCourtRoom3 && _DialogueDone)
             _gm.ChangeScene(ChangeSceneTo);
-        else if (_mouseScript.DONE && _IsThisCourtRoom3)
+        else if (_mouseScript.DONE && _IsThisCourtRoom3 && _DialogueDone)
         {
             if (_b1 + _b2 >= _Threshold2)
                 _gm.ChangeScene(ChangeSceneTo+2);
@@ -52,5 +54,10 @@ public class OnClickMeScript : MonoBehaviour
             else
                 _gm.ChangeScene(ChangeSceneTo);
         }
+    }
+
+    public void DialogueIsOver()
+    {
+        _DialogueDone = true;
     }
 }
