@@ -684,6 +684,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 049bb0661962a524f8520cc1e832cd50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _PopUpPanel: {fileID: 0}
+  _enablePopUp: 0
   _Fp: {fileID: 948632339}
   _ControllerObj: {fileID: 948632336}
   _TutorialText: {fileID: 1756597538}
@@ -693,6 +695,7 @@ MonoBehaviour:
   _mouseStuff: {fileID: 1252106132}
   _DialogueCanvas: {fileID: 2042590186}
   _letterPause: 0
+  _InstantText: 1
   _EnableSummary: 1
 --- !u!114 &273884183
 MonoBehaviour:
@@ -1681,6 +1684,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1.6995
       objectReference: {fileID: 0}
+    - target: {fileID: 5218053877760515484, guid: 3e2f02eebe70ba14ba319950a990492b,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e93bdb235117dd74aaea297cb879f004, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3e2f02eebe70ba14ba319950a990492b, type: 3}
 --- !u!4 &697810707 stripped
@@ -3226,6 +3234,7 @@ MonoBehaviour:
   _mouseSciptObject: {fileID: 0}
   _gm: {fileID: 0}
   ChangeSceneTo: 0
+  _IsThisCourtRoom3: 0
 --- !u!65 &1281625578
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3373,6 +3382,11 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1.6519893
       objectReference: {fileID: 0}
+    - target: {fileID: 5218053877760515484, guid: de23fc6415cc9874ab1e8388307a8408,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9120e8084f683624f99b5a123b01fc26, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: de23fc6415cc9874ab1e8388307a8408, type: 3}
 --- !u!1 &1334638077
@@ -5122,6 +5136,7 @@ MonoBehaviour:
   _Name2: Joestar
   _DialogueCanvas: {fileID: 2042590186}
   _letterPause: 0
+  _InstantText: 1
   _FirstCanvas: {fileID: 273884182}
   _TutorialText: {fileID: 356634448}
   _NameText: {fileID: 788021400}

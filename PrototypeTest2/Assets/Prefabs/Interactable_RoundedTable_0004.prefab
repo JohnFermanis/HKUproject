@@ -59,7 +59,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7635332e4d59284449d66f917c216e4d, type: 2}
+  - {fileID: 2100000, guid: 0564166b4eaf09f4cba361d12f3bc147, type: 2}
   - {fileID: 2100000, guid: fd080bf023109e4468b1ffbb9697ce99, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -108,3 +108,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _mouseSciptObject: {fileID: 0}
   _gm: {fileID: 0}
+  ChangeSceneTo: 0
+  _IsThisCourtRoom3: 0
