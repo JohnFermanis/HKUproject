@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -3229,6 +3229,7 @@ MonoBehaviour:
   _mouseSciptObject: {fileID: 0}
   _gm: {fileID: 0}
   ChangeSceneTo: 0
+  _IsThisCourtRoom3: 0
 --- !u!65 &1281625578
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3507,8 +3508,15 @@ MonoBehaviour:
     -the Interactable_Roundtable script
 
 
+    To change which scene follows this once then change:
+
+    -Interactable_RoundedTable.script - Change scene to
+
+
     For every different Court Room Scene you need to attach a different dialogue script
-    on the "Dialogue" GameObject.'
+    on the "Dialogue" GameObject.
+
+'
 --- !u!222 &1356882356
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5320,6 +5328,11 @@ PrefabInstance:
         type: 3}
       propertyPath: ChangeSceneTo
       value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7969256878811330183, guid: 9cb2b678102d0834c842ba360d6882f3,
+        type: 3}
+      propertyPath: _IsThisCourtRoom3
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9cb2b678102d0834c842ba360d6882f3, type: 3}

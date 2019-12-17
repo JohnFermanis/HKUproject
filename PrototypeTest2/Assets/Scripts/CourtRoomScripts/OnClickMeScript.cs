@@ -12,9 +12,27 @@ public class OnClickMeScript : MonoBehaviour
 
     [SerializeField]
     private int ChangeSceneTo;
-   
+
+    [SerializeField]
+    private bool _IsThisCourtRoom3=false;
+
+    private int _b1 = 0;
+
+    private int _b2 = 0;
+
+    private int _Threshold1=5;
+
+    private int _Threshold2 =10;
 
     private MouseCheckScript _mouseScript;
+
+    void OnEnable()
+    {
+        _b1 = PlayerPrefs.GetInt("BiasScore1");
+     
+        _b2 = PlayerPrefs.GetInt("BiasScore2");
+        
+    }
 
     private void Start()
     {
@@ -23,7 +41,16 @@ public class OnClickMeScript : MonoBehaviour
 
     private void OnMouseDown()
     {
-        if (_mouseScript.DONE)
+        if (_mouseScript.DONE && !_IsThisCourtRoom3)
             _gm.ChangeScene(ChangeSceneTo);
+        else if (_mouseScript.DONE && _IsThisCourtRoom3)
+        {
+            if (_b1 + _b2 >= _Threshold2)
+                _gm.ChangeScene(ChangeSceneTo+2);
+            else if (_b1 + _b2 >= _Threshold1)
+                _gm.ChangeScene(ChangeSceneTo+1);
+            else
+                _gm.ChangeScene(ChangeSceneTo);
+        }
     }
 }
