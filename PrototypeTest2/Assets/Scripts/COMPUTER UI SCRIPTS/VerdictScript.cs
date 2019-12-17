@@ -38,6 +38,7 @@ public class VerdictScript : MonoBehaviour
 
     void Start()
     {
+        
         this.gameObject.SetActive(false);
     }
 
@@ -64,7 +65,10 @@ public class VerdictScript : MonoBehaviour
         {
             _FinalBias = _evid1.BiasToBeAdded + _evid2.BiasToBeAdded + _evid3.BiasToBeAdded;
             Debug.Log(_FinalBias);
-            _manager.ChangeScene(ChangeSceneTo);
+            if(PlayerPrefs.GetInt("Version")==1 || ChangeSceneTo!=7)
+                _manager.ChangeScene(ChangeSceneTo);
+            else
+                _manager.ChangeScene(ChangeSceneTo+5);
 
         }
     }
