@@ -174,7 +174,7 @@ public class DialogueScript2 : MonoBehaviour
                 _thisText.text = _Dialogue[i];
                 yield return new WaitForSeconds(0.1f);
             }
-            yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.Space) == true);
+            yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.Mouse0) == true);
             if (_TutorialText != null)
                 _TutorialText.SetActive(false);
         }
