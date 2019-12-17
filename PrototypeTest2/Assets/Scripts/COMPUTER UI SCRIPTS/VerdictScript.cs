@@ -114,7 +114,10 @@ public class VerdictScript : MonoBehaviour
         if (_VoiceActingAudio != null)
             _VoiceActingAudio.Play();
         
-        yield return new WaitForSeconds(_VoiceActingAudio.clip.length+_WaitTime);
+        //if(_VoiceActingAudio!=null)
+        //yield return new WaitForSeconds(_VoiceActingAudio.clip.length);
+
+        yield return new WaitForSeconds(_WaitTime); 
 
         if (PlayerPrefs.GetInt("Version") == 1 || ChangeSceneTo != 7)
             _manager.ChangeScene(ChangeSceneTo);
