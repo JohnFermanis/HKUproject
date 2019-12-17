@@ -31,6 +31,12 @@ public class VerdictScript : MonoBehaviour
     private int ChangeSceneTo;
 
     [SerializeField]
+    private float _WaitTime=5.0f;
+
+    [SerializeField]
+    private AudioSource _VoiceActingAudio;
+
+    [SerializeField]
     private int ComputerSceneNumber=1;
     //has to be 1,2 or 3
 
@@ -38,6 +44,7 @@ public class VerdictScript : MonoBehaviour
 
     void Start()
     {
+        
         this.gameObject.SetActive(false);
     }
 
@@ -64,8 +71,8 @@ public class VerdictScript : MonoBehaviour
         {
             _FinalBias = _evid1.BiasToBeAdded + _evid2.BiasToBeAdded + _evid3.BiasToBeAdded;
             Debug.Log(_FinalBias);
-            _manager.ChangeScene(ChangeSceneTo);
-
+            
+            StartCoroutine(FinalVoiceAndChangeScene());
         }
     }
 
@@ -100,5 +107,21 @@ public class VerdictScript : MonoBehaviour
             PlayerPrefs.SetInt("BiasScore2", _FinalBias);
         else if (WhichComputerSceneIsThis == 3)
             PlayerPrefs.SetInt("BiasScore3", _FinalBias);*/
+    }
+
+    IEnumerator FinalVoiceAndChangeScene()
+    {
+        if (_VoiceActingAudio != null)
+            _VoiceActingAudio.Play();
+        
+        //if(_VoiceActingAudio!=null)
+        //yield return new WaitForSeconds(_VoiceActingAudio.clip.length);
+
+        yield return new WaitForSeconds(_WaitTime); 
+
+        if (PlayerPrefs.GetInt("Version") == 1 || ChangeSceneTo != 7)
+            _manager.ChangeScene(ChangeSceneTo);
+        else
+            _manager.ChangeScene(ChangeSceneTo + 5);
     }
 }

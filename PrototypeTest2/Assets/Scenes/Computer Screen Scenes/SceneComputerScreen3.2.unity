@@ -432,8 +432,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97650ff522fdfe446b699cbe579f749e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _ClosedFolderSprite: {fileID: 21300000, guid: 5b1a64ea234fb2343b8d0686c51280de,
-    type: 3}
   _RedFolderSprite: {fileID: 21300000, guid: 9d7c6e4896067aa4fa512a00f692ac1c, type: 3}
   _ErrorTextSprite: {fileID: 21300000, guid: 9866a92691696b346901281f2b329034, type: 3}
   _Image: {fileID: 78315253}
@@ -635,8 +633,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97650ff522fdfe446b699cbe579f749e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _ClosedFolderSprite: {fileID: 21300000, guid: 5b1a64ea234fb2343b8d0686c51280de,
-    type: 3}
   _RedFolderSprite: {fileID: 21300000, guid: 9d7c6e4896067aa4fa512a00f692ac1c, type: 3}
   _ErrorTextSprite: {fileID: 21300000, guid: 9866a92691696b346901281f2b329034, type: 3}
   _Image: {fileID: 210763161}
@@ -764,8 +760,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97650ff522fdfe446b699cbe579f749e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _ClosedFolderSprite: {fileID: 21300000, guid: 5b1a64ea234fb2343b8d0686c51280de,
-    type: 3}
   _RedFolderSprite: {fileID: 21300000, guid: 9d7c6e4896067aa4fa512a00f692ac1c, type: 3}
   _ErrorTextSprite: {fileID: 21300000, guid: 9866a92691696b346901281f2b329034, type: 3}
   _Image: {fileID: 227631555}
@@ -1150,8 +1144,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97650ff522fdfe446b699cbe579f749e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _ClosedFolderSprite: {fileID: 21300000, guid: 5b1a64ea234fb2343b8d0686c51280de,
-    type: 3}
   _RedFolderSprite: {fileID: 21300000, guid: 9d7c6e4896067aa4fa512a00f692ac1c, type: 3}
   _ErrorTextSprite: {fileID: 21300000, guid: 9866a92691696b346901281f2b329034, type: 3}
   _Image: {fileID: 341282464}
@@ -1274,7 +1266,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1150125394}
   m_HandleRect: {fileID: 1150125393}
   m_Direction: 0
-  m_Value: -0.0000033637416
+  m_Value: -0.0000035739754
   m_Size: 0.8185498
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -1664,8 +1656,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97650ff522fdfe446b699cbe579f749e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _ClosedFolderSprite: {fileID: 21300000, guid: 5b1a64ea234fb2343b8d0686c51280de,
-    type: 3}
   _RedFolderSprite: {fileID: 21300000, guid: 9d7c6e4896067aa4fa512a00f692ac1c, type: 3}
   _ErrorTextSprite: {fileID: 21300000, guid: 9866a92691696b346901281f2b329034, type: 3}
   _Image: {fileID: 439219349}
@@ -2683,7 +2673,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -3511,8 +3501,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97650ff522fdfe446b699cbe579f749e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _ClosedFolderSprite: {fileID: 21300000, guid: 5b1a64ea234fb2343b8d0686c51280de,
-    type: 3}
   _RedFolderSprite: {fileID: 21300000, guid: 9d7c6e4896067aa4fa512a00f692ac1c, type: 3}
   _ErrorTextSprite: {fileID: 21300000, guid: 9866a92691696b346901281f2b329034, type: 3}
   _Image: {fileID: 818292421}
@@ -4119,8 +4107,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97650ff522fdfe446b699cbe579f749e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _ClosedFolderSprite: {fileID: 21300000, guid: 5b1a64ea234fb2343b8d0686c51280de,
-    type: 3}
   _RedFolderSprite: {fileID: 21300000, guid: 9d7c6e4896067aa4fa512a00f692ac1c, type: 3}
   _ErrorTextSprite: {fileID: 21300000, guid: 9866a92691696b346901281f2b329034, type: 3}
   _Image: {fileID: 1091212708}
@@ -4839,7 +4825,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 0.00013459366, y: 162.32408}
+  m_AnchoredPosition: {x: 0.00013459366, y: 162.32433}
   m_SizeDelta: {x: 200, y: 564.3}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &1254936240
@@ -5839,6 +5825,7 @@ GameObject:
   - component: {fileID: 1527683224}
   - component: {fileID: 1527683227}
   - component: {fileID: 1527683228}
+  - component: {fileID: 1527683229}
   m_Layer: 5
   m_Name: Verdict window(canvas)
   m_TagString: Untagged
@@ -5955,6 +5942,8 @@ MonoBehaviour:
   _Tutorial1: {fileID: 441493614}
   _manager: {fileID: 1527683228}
   ChangeSceneTo: 12
+  _WaitTime: 5
+  _VoiceActingAudio: {fileID: 1527683229}
   ComputerSceneNumber: 3
 --- !u!114 &1527683228
 MonoBehaviour:
@@ -5968,6 +5957,102 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03c4bad2574503c438bac66569bd9ccb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!82 &1527683229
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1527683222}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1551183351
 GameObject:
   m_ObjectHideFlags: 0
@@ -6049,8 +6134,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 154640878}
   m_HandleRect: {fileID: 154640877}
   m_Direction: 2
-  m_Value: 1.0000038
-  m_Size: 0.5753126
+  m_Value: 1.0000029
+  m_Size: 0.5753125
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -6687,6 +6772,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   counter: 0
+  TurnAllRedAfter: 3
 --- !u!4 &1661385957
 Transform:
   m_ObjectHideFlags: 0

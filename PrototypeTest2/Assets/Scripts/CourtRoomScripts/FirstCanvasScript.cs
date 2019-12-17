@@ -12,6 +12,8 @@ public class FirstCanvasScript : MonoBehaviour
     //                  4.Dialogue finishes and waits for the player to open the in-game computer 
 
     [SerializeField]
+    private AudioSource _AudioS;
+    [SerializeField]
     private GameObject _PopUpPanel;
 
     [SerializeField]
@@ -71,6 +73,8 @@ public class FirstCanvasScript : MonoBehaviour
 
     IEnumerator TypeText()
     {
+        if(_AudioS!=null)
+         _AudioS.Play();
         if (_InstantText == false)
         {
             foreach (char letter in _message.ToCharArray())
@@ -89,7 +93,8 @@ public class FirstCanvasScript : MonoBehaviour
             yield return new WaitForSeconds(0.1f);
         }
         _TutorialText.SetActive(true);
-        yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.Space) == true);
+        yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.Mouse0) == true);
+        _AudioS.Stop();
         //_Fp.mouseLookCustom.XSensitivity = 2.0f;
         //_Fp.mouseLookCustom.YSensitivity = 2.0f;
         ActivateMouseAndSecondCanvas();
