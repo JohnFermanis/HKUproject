@@ -18,6 +18,9 @@ public class XbuttonScript : MonoBehaviour
     [SerializeField]
     private GameObject _TutorialUI;
 
+    //[SerializeField]
+    //private GameObject _RedFolderGO;
+
     private AudioSource _TurnOffSound;
 
     private OnClickImageScript _CurrentFetchedScript;
@@ -37,6 +40,7 @@ public class XbuttonScript : MonoBehaviour
         _TutorialUI.SetActive(true);
         if(_CurrentFetchedScript!=null)
         _CurrentFetchedScript.OpenCloseFolder(false);
+        
     }
 
     public void ChangeImage(Sprite _image)
@@ -57,4 +61,5 @@ public class XbuttonScript : MonoBehaviour
         if(_Script!=null)
         _CurrentFetchedScript = _Script;   
     }
+
 }
