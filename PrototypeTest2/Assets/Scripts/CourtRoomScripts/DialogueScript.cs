@@ -19,6 +19,9 @@ public class DialogueScript : MonoBehaviour
 
     [SerializeField]
     private GameObject _DialogueCanvas;
+    
+    [SerializeField]
+    private OnClickMeScript _EndScript;
 
     [SerializeField]
     private FirstCanvasScript _FirstCanvas;
@@ -39,6 +42,8 @@ public class DialogueScript : MonoBehaviour
     [SerializeField]
     private bool _InstantText=true;
 
+    
+
     private Text _thisText;
 
     private bool _TextRunning=false;
@@ -50,11 +55,20 @@ public class DialogueScript : MonoBehaviour
     private static int _NumberOfDialogues = 10;
     //================================================================
 
+    [SerializeField]
+    private AudioSource _AudioS;
+
+    [SerializeField]
+    private AudioClip[] _AudioD = new AudioClip[_NumberOfDialogues];
+
+    
+
     private string[] _Dialogue = new string[_NumberOfDialogues];
 
     private Sprite[] _Faces = new Sprite[_NumberOfDialogues];
 
     private string[] _Names = new string[_NumberOfDialogues];
+    
 
     //The dialogue
 
@@ -133,6 +147,18 @@ public class DialogueScript : MonoBehaviour
     {
         for (int i = 0; i < _NumberOfDialogues; i++)
         {
+            if (_AudioS != null)
+            {
+                if (i != 0)
+                {
+                    _AudioS.Stop();
+                }
+                if (_AudioD[i] != null)
+                {
+                    _AudioS.clip = _AudioD[i];
+                    _AudioS.Play();
+                }
+            }
             _FaceImage.sprite = _Faces[i];
             _NameText.text = _Names[i];
             _thisText.text = "";
@@ -159,6 +185,7 @@ public class DialogueScript : MonoBehaviour
             _TutorialText.SetActive(false);
         }
         _FirstCanvas.ActivateMouseAndSecondCanvas();
+        _EndScript.DialogueIsOver();
         _DialogueCanvas.SetActive(false); 
     }
 
