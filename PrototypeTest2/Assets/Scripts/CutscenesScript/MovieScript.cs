@@ -10,13 +10,17 @@ public class MovieScript : MonoBehaviour
     [SerializeField]
     private int ChangeToScene;
 
+    [SerializeField]
+    private bool _SkipCutscene=true;
+
 
     [SerializeField]
     private UnityEngine.Video.VideoPlayer vp;
 
+    
     void Update()
     {
-        if (!vp.isPlaying)
+        if (!vp.isPlaying || _SkipCutscene)
             _gm.ChangeScene(ChangeToScene);
     }
 }
