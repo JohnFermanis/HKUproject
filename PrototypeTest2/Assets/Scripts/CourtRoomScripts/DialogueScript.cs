@@ -114,7 +114,7 @@ public class DialogueScript : MonoBehaviour
         _Names[2] = _Name1;
         _Names[3] = _Name1;
         _Names[4] = _Name1;
-        _Names[5] = _Name1;// end first party
+        _Names[5] = _Name1;
         _Names[6] = _Name2;
         _Names[7] = _Name2;
         _Names[8] = _Name2;
@@ -125,7 +125,7 @@ public class DialogueScript : MonoBehaviour
         _Faces[2] = _Face1;
         _Faces[3] = _Face1;
         _Faces[4] = _Face1;
-        _Faces[5] = _Face1;// end first party
+        _Faces[5] = _Face1;
         _Faces[6] = _Face2;
         _Faces[7] = _Face2;
         _Faces[8] = _Face2;
