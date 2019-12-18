@@ -197,6 +197,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 30718549}
   m_CullTransparentMesh: 0
+--- !u!114 &62699920 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 62699920, guid: 92e3ccc43021a654dbf8785b8ff9d56f,
+    type: 3}
+  m_PrefabInstance: {fileID: 399916299}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f875ac7fb5e572749a41b2fcb97a9106, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &77839719
 GameObject:
   m_ObjectHideFlags: 0
@@ -1135,16 +1147,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8719301926974144973, guid: 92e3ccc43021a654dbf8785b8ff9d56f,
-        type: 3}
-      propertyPath: m_Materials.Array.data[1]
+    - target: {fileID: 62699920, guid: 92e3ccc43021a654dbf8785b8ff9d56f, type: 3}
+      propertyPath: _mouseSciptObject
       value: 
-      objectReference: {fileID: 2100000, guid: bab6199ab267d644981eeaae52da70b8, type: 2}
-    - target: {fileID: 7423729486209173528, guid: 92e3ccc43021a654dbf8785b8ff9d56f,
-        type: 3}
-      propertyPath: m_Materials.Array.data[1]
+      objectReference: {fileID: 1252106132}
+    - target: {fileID: 62699920, guid: 92e3ccc43021a654dbf8785b8ff9d56f, type: 3}
+      propertyPath: _gm
       value: 
-      objectReference: {fileID: 2100000, guid: 0bdff59fbb12b5d4da9e0e805d744d83, type: 2}
+      objectReference: {fileID: 77839723}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 92e3ccc43021a654dbf8785b8ff9d56f, type: 3}
 --- !u!1 &427127875
@@ -4776,6 +4786,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: FPSController
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_MouseLook.clampVerticalRotation
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_UseFovKick
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_UseHeadBob
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 23.91
@@ -4878,7 +4900,7 @@ MonoBehaviour:
   _Name1: M_Jansen
   _Name2: Quick_Sales
   _DialogueCanvas: {fileID: 2042590186}
-  _EndScript: {fileID: 0}
+  _EndScript: {fileID: 62699920}
   _FirstCanvas: {fileID: 273884182}
   _TutorialText: {fileID: 356634448}
   _NameText: {fileID: 788021400}
