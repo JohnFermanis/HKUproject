@@ -1,7 +1,73 @@
 fileFormatVersion: 2
 guid: e732f052a4091964fa376f93a7c78be1
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -3043805387668862771
+    second: UI_mapjes_new_0
+  - first:
+      213: 4178436120919346830
+    second: UI_mapjes_new_1
+  - first:
+      213: -685615070086866516
+    second: UI_mapjes_new_2
+  - first:
+      213: -7519980463161569958
+    second: UI_mapjes_new_3
+  - first:
+      213: 1877920190981888505
+    second: UI_mapjes_new_4
+  - first:
+      213: 121028323728042608
+    second: UI_mapjes_new_5
+  - first:
+      213: -5132972790288570205
+    second: UI_mapjes_new_6
+  - first:
+      213: 2420194476074638528
+    second: UI_mapjes_new_7
+  - first:
+      213: -3312439044425610620
+    second: UI_mapjes_new_8
+  - first:
+      213: 7757828954787119076
+    second: UI_mapjes_new_9
+  - first:
+      213: -5860239100426182295
+    second: UI_mapjes_new_10
+  - first:
+      213: -5147973009368966741
+    second: UI_mapjes_new_11
+  - first:
+      213: -1231211806470206868
+    second: UI_mapjes_new_12
+  - first:
+      213: -2400898435325545242
+    second: UI_mapjes_new_13
+  - first:
+      213: -6176115263534655831
+    second: UI_mapjes_new_14
+  - first:
+      213: -4637593219447878775
+    second: UI_mapjes_new_15
+  - first:
+      213: 7967774997636578851
+    second: UI_mapjes_new_16
+  - first:
+      213: -5038129113744131757
+    second: UI_mapjes_new_17
+  - first:
+      213: -5754598421243455102
+    second: UI_mapjes_new_18
+  - first:
+      213: 5532025457987776550
+    second: UI_mapjes_new_19
+  - first:
+      213: -386379466646229487
+    second: UI_mapjes_new_20
+  - first:
+      213: -3318544733701330889
+    second: UI_mapjes_new_21
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -84,11 +150,473 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: UI_mapjes_new_0
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 3498
+        width: 1156
+        height: 809
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfa1bc7243656d54fbe428725a94b580
+      internalID: -3043805387668862771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_mapjes_new_1
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 3498
+        width: 1156
+        height: 809
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbc5c2a31d643a742af0299fca87c713
+      internalID: 4178436120919346830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_mapjes_new_2
+      rect:
+        serializedVersion: 2
+        x: 2834
+        y: 3498
+        width: 1152
+        height: 809
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0b05c59dba6ad344b56e208537e26f9
+      internalID: -685615070086866516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_mapjes_new_3
+      rect:
+        serializedVersion: 2
+        x: 4166
+        y: 3498
+        width: 1156
+        height: 809
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89defa241b83c93469fe0817e252d10e
+      internalID: -7519980463161569958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_mapjes_new_4
+      rect:
+        serializedVersion: 2
+        x: 5498
+        y: 3498
+        width: 1156
+        height: 809
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74bdb33652d282840a83ccb1d0b361ff
+      internalID: 1877920190981888505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_mapjes_new_5
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 2510
+        width: 1219
+        height: 886
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f94f57de137a784c94231b344359265
+      internalID: 121028323728042608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_mapjes_new_6
+      rect:
+        serializedVersion: 2
+        x: 1499
+        y: 2515
+        width: 1218
+        height: 886
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 624c5b2fb4c4ae149bcaa3e20eb06e9b
+      internalID: -5132972790288570205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_mapjes_new_7
+      rect:
+        serializedVersion: 2
+        x: 2811
+        y: 2510
+        width: 1218
+        height: 886
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b45ba48b60bc57548a9cbb8777cb66e6
+      internalID: 2420194476074638528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_mapjes_new_8
+      rect:
+        serializedVersion: 2
+        x: 4146
+        y: 2510
+        width: 1219
+        height: 886
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63e815a90e2397249a323612c4b1c587
+      internalID: -3312439044425610620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_mapjes_new_9
+      rect:
+        serializedVersion: 2
+        x: 5479
+        y: 2510
+        width: 1218
+        height: 886
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6082876546555564fab5f53d8e1f0298
+      internalID: 7757828954787119076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_mapjes_new_10
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1217
+        width: 1156
+        height: 808
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29c53d8a0cd61ce4eb191788624b90f1
+      internalID: -5860239100426182295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_mapjes_new_11
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 1217
+        width: 1152
+        height: 808
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5a8b1e9a89e65d43a93cf50e31e0134
+      internalID: -5147973009368966741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_mapjes_new_12
+      rect:
+        serializedVersion: 2
+        x: 2768
+        y: 1217
+        width: 1154
+        height: 808
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cd021ec866bc354fbab8ae0692e5602
+      internalID: -1231211806470206868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_mapjes_new_13
+      rect:
+        serializedVersion: 2
+        x: 4073
+        y: 1217
+        width: 1156
+        height: 808
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4f424f4a139cb7479d3fc674c48e4aa
+      internalID: -2400898435325545242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_mapjes_new_14
+      rect:
+        serializedVersion: 2
+        x: 5350
+        y: 1217
+        width: 1156
+        height: 808
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf34f5f0ba8ef724bb30fad86e4d2109
+      internalID: -6176115263534655831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_mapjes_new_15
+      rect:
+        serializedVersion: 2
+        x: 6658
+        y: 1217
+        width: 1156
+        height: 808
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 075093e48273fc54aa41a89c384f885d
+      internalID: -4637593219447878775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_mapjes_new_16
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 229
+        width: 1219
+        height: 886
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f4a5abfaf99d674099fb7fe41324a31
+      internalID: 7967774997636578851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_mapjes_new_17
+      rect:
+        serializedVersion: 2
+        x: 1436
+        y: 229
+        width: 1218
+        height: 886
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b908f39972aeb2541bcb57300a03ffce
+      internalID: -5038129113744131757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_mapjes_new_18
+      rect:
+        serializedVersion: 2
+        x: 2744
+        y: 229
+        width: 1219
+        height: 886
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d35893cc2f8f2747984a96a452cb012
+      internalID: -5754598421243455102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_mapjes_new_19
+      rect:
+        serializedVersion: 2
+        x: 4053
+        y: 229
+        width: 1218
+        height: 886
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8def161a63919c04b9c2079a6f1b0d3d
+      internalID: 5532025457987776550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_mapjes_new_20
+      rect:
+        serializedVersion: 2
+        x: 5327
+        y: 229
+        width: 1218
+        height: 886
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f86d998da0bf248be01a1a117094f9
+      internalID: -386379466646229487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_mapjes_new_21
+      rect:
+        serializedVersion: 2
+        x: 6635
+        y: 229
+        width: 1219
+        height: 886
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7624f7700e3df054d9f78193915475a4
+      internalID: -3318544733701330889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: c0bf8dd3c031f894faa453613bb69725
     internalID: 0
     vertices: []
     indices: 

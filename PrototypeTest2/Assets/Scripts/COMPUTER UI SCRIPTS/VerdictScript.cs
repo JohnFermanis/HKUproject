@@ -119,9 +119,9 @@ public class VerdictScript : MonoBehaviour
 
         yield return new WaitForSeconds(_WaitTime); 
 
-        if (PlayerPrefs.GetInt("Version") == 1 || ChangeSceneTo != 7)
+        if (PlayerPrefs.GetInt("Version") == 1 || ChangeSceneTo != 4)
             _manager.ChangeScene(ChangeSceneTo);
         else
-            _manager.ChangeScene(ChangeSceneTo + 5);
+            _manager.ChangeScene(13);
     }
 }
