@@ -93,7 +93,7 @@ public class FirstCanvasScript : MonoBehaviour
             yield return new WaitForSeconds(0.1f);
         }
         _TutorialText.SetActive(true);
-        yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.Mouse0) == true);
+        yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.Space) == true);
         _AudioS.Stop();
         //_Fp.mouseLookCustom.XSensitivity = 2.0f;
         //_Fp.mouseLookCustom.YSensitivity = 2.0f;
