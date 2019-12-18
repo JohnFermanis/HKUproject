@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -490,7 +490,7 @@ MonoBehaviour:
   _mouseStuff: {fileID: 1252106132}
   _DialogueCanvas: {fileID: 2042590186}
   _letterPause: 0
-  _InstantText: 1
+  _InstantText: 0
   _EnableSummary: 1
 --- !u!114 &273884183
 MonoBehaviour:
@@ -984,6 +984,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Courtroom_WithLigths
       objectReference: {fileID: 0}
+    - target: {fileID: 62699920, guid: 92e3ccc43021a654dbf8785b8ff9d56f, type: 3}
+      propertyPath: _mouseSciptObject
+      value: 
+      objectReference: {fileID: 1252106132}
+    - target: {fileID: 62699920, guid: 92e3ccc43021a654dbf8785b8ff9d56f, type: 3}
+      propertyPath: _gm
+      value: 
+      objectReference: {fileID: 77839723}
+    - target: {fileID: 62699920, guid: 92e3ccc43021a654dbf8785b8ff9d56f, type: 3}
+      propertyPath: ChangeSceneTo
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 62699920, guid: 92e3ccc43021a654dbf8785b8ff9d56f, type: 3}
+      propertyPath: _IsThisCourtRoom3
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2539747242149326220, guid: 92e3ccc43021a654dbf8785b8ff9d56f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1039,35 +1055,19 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6593518598123889113, guid: 92e3ccc43021a654dbf8785b8ff9d56f,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8719301926974144973, guid: 92e3ccc43021a654dbf8785b8ff9d56f,
-        type: 3}
-      propertyPath: m_Materials.Array.data[1]
-      value: 
-      objectReference: {fileID: 2100000, guid: 0bdff59fbb12b5d4da9e0e805d744d83, type: 2}
     - target: {fileID: 7423729486209173528, guid: 92e3ccc43021a654dbf8785b8ff9d56f,
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: 01a3ec0eb125c5149a9176e7402eb308, type: 2}
-    - target: {fileID: 62699920, guid: 92e3ccc43021a654dbf8785b8ff9d56f, type: 3}
-      propertyPath: _mouseSciptObject
+    - target: {fileID: 8719301926974144973, guid: 92e3ccc43021a654dbf8785b8ff9d56f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 1252106132}
-    - target: {fileID: 62699920, guid: 92e3ccc43021a654dbf8785b8ff9d56f, type: 3}
-      propertyPath: _gm
-      value: 
-      objectReference: {fileID: 77839723}
-    - target: {fileID: 62699920, guid: 92e3ccc43021a654dbf8785b8ff9d56f, type: 3}
-      propertyPath: ChangeSceneTo
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 62699920, guid: 92e3ccc43021a654dbf8785b8ff9d56f, type: 3}
-      propertyPath: _IsThisCourtRoom3
+      objectReference: {fileID: 2100000, guid: 0bdff59fbb12b5d4da9e0e805d744d83, type: 2}
+    - target: {fileID: 6593518598123889113, guid: 92e3ccc43021a654dbf8785b8ff9d56f,
+        type: 3}
+      propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
