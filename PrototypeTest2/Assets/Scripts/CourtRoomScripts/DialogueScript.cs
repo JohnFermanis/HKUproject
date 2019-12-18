@@ -50,6 +50,8 @@ public class DialogueScript : MonoBehaviour
 
     private bool _TextFinished;
 
+    private bool _ButtonPressed=false;
+
     //================================================================
     //CHANGE THIS IF YOU WANT TO CHANGE THE NUMBER OF DIALOGUES
     private static int _NumberOfDialogues = 10;
@@ -85,6 +87,8 @@ public class DialogueScript : MonoBehaviour
 
     //Corresponding Names for each dialogue
     
+
+
     void Start()
     {
         
@@ -143,6 +147,8 @@ public class DialogueScript : MonoBehaviour
         }
     }
 
+    
+
     IEnumerator TypeText()
     {
         for (int i = 0; i < _NumberOfDialogues; i++)
@@ -180,7 +186,8 @@ public class DialogueScript : MonoBehaviour
                 _thisText.text = _Dialogue[i];
                 yield return new WaitForSeconds(0.1f);
             }
-            yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.Space) == true);
+            yield return new WaitUntil(() => _ButtonPressed == true);
+            _ButtonPressed = false;
             if(_TutorialText!=null)
             _TutorialText.SetActive(false);
         }
@@ -190,5 +197,8 @@ public class DialogueScript : MonoBehaviour
     }
 
 
-    
+    public void ButtonWasPressed()
+    {
+        _ButtonPressed = true;
+    }
 }
