@@ -730,11 +730,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Corr-E:\r\n\nRechter, Welkom bij uw eerste rechtszaak.\r\nDeze zaak betreft
-    een privaatrecht zaak, over een ontslag een werknemer M. Jansen, tegen de werkgever,
-    marketing bedrijf Quick Sales.\r\n\r\nM. Jansen heeft op 29 januari 2039 een zaak
-    ingediend om de opzegging van het arbeidscontract te vernietigen.\r\nBeide partijen
-    zullen hun standpunten toelichten. \r\n"
+  m_Text: "BRIDGE SMART AI - CORR-E:\r\n\nRechter, welkom in de rechtszaal. Uw volgende
+    zitting betreft privaat rechtszaak.\n \nAan de orde is de zaak tussen webshop
+    Dipak.com en AI distributeur Semain Technologies. Dipak.com is de zaak gestart
+    om een schadevergoeding te verkrijgen en vervanging van haar aanschaf.    \n\nBeide
+    partijen zullen nu hun standpunten toelichten. \r\n"
 --- !u!222 &273884184
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1326,6 +1326,16 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8719301926974144973, guid: 92e3ccc43021a654dbf8785b8ff9d56f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0bdff59fbb12b5d4da9e0e805d744d83, type: 2}
+    - target: {fileID: 7423729486209173528, guid: 92e3ccc43021a654dbf8785b8ff9d56f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 01a3ec0eb125c5149a9176e7402eb308, type: 2}
     - target: {fileID: 62699920, guid: 92e3ccc43021a654dbf8785b8ff9d56f, type: 3}
       propertyPath: _mouseSciptObject
       value: 
@@ -1470,6 +1480,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &432773861 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 62699920, guid: 92e3ccc43021a654dbf8785b8ff9d56f,
+    type: 3}
+  m_PrefabInstance: {fileID: 399916299}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f875ac7fb5e572749a41b2fcb97a9106, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &435197404
 GameObject:
   m_ObjectHideFlags: 0
@@ -1737,7 +1759,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 3466b2fbf0470ac4fbe0460dcab60fe0, type: 2}
+      objectReference: {fileID: 2100000, guid: 13a4e3f58297f7c4e98e2b98c41bfafe, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: de23fc6415cc9874ab1e8388307a8408, type: 3}
 --- !u!1 &571713166
@@ -2215,8 +2237,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.2000122, y: 65}
-  m_SizeDelta: {x: 154.4, y: 30}
+  m_AnchoredPosition: {x: -3.1, y: 63.77}
+  m_SizeDelta: {x: 133.04, y: 27.54}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &788021400
 MonoBehaviour:
@@ -2238,10 +2260,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 6a2c30c086486984ab20e110f1f76273, type: 3}
-    m_FontSize: 20
+    m_FontSize: 12
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 2
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -5550,12 +5572,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 638e8e15e824f4e49a9d09a6eeb01fd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _Face1: {fileID: 21300000, guid: 9866a92691696b346901281f2b329034, type: 3}
-  _Face2: {fileID: 21300000, guid: f588d850485d0ae479d73cf3bd0b7b00, type: 3}
-  _Name1: Jotaro
-  _Name2: Joestar
+  _Face1: {fileID: -4494157021268901828, guid: 88097e766c4ac944a8eb9ca4463a3e21, type: 3}
+  _Face2: {fileID: 21300000, guid: 6ff23a53b1689c841bd7ffbc7de19519, type: 3}
+  _Name1: DIPAK.COM
+  _Name2: SEMAIN TECHNOLOGIES
   _DialogueCanvas: {fileID: 2042590186}
-  _EndScript: {fileID: 0}
+  _EndScript: {fileID: 432773861}
   _letterPause: 0
   _InstantText: 1
   _FirstCanvas: {fileID: 273884182}

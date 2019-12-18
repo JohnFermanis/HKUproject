@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -1147,6 +1147,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7423729486209173528, guid: 92e3ccc43021a654dbf8785b8ff9d56f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0e1571e913e0dac4da37a7278ac76006, type: 2}
     - target: {fileID: 62699920, guid: 92e3ccc43021a654dbf8785b8ff9d56f, type: 3}
       propertyPath: _mouseSciptObject
       value: 
@@ -4412,7 +4417,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 13a4e3f58297f7c4e98e2b98c41bfafe, type: 2}
+      objectReference: {fileID: 2100000, guid: 3466b2fbf0470ac4fbe0460dcab60fe0, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3e2f02eebe70ba14ba319950a990492b, type: 3}
 --- !u!1 &1987492668
@@ -4895,7 +4900,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ff3ae86c9d5e77418ac341d7ab43f3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _Face1: {fileID: 21300000, guid: 6ff23a53b1689c841bd7ffbc7de19519, type: 3}
+  _Face1: {fileID: 21300000, guid: 8be4146a6b575794e82596266bcbce70, type: 3}
   _Face2: {fileID: 21300000, guid: ee48c40ea59e3e24baef8caf3a43f3ae, type: 3}
   _Name1: M_Jansen
   _Name2: Quick_Sales
