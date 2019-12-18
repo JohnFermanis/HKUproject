@@ -1,7 +1,43 @@
 fileFormatVersion: 2
 guid: 04d9110768126984d8f5a3ce9cf40757
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -6873641583453392917
+    second: conAI_bias_0
+  - first:
+      213: 6810903891568442091
+    second: conAI_bias_1
+  - first:
+      213: 473265243749611815
+    second: conAI_bias_2
+  - first:
+      213: 7132561082932474205
+    second: conAI_bias_3
+  - first:
+      213: 4026108798161659469
+    second: conAI_bias_4
+  - first:
+      213: -4012511522299582738
+    second: conAI_bias_5
+  - first:
+      213: -8688843448952805010
+    second: conAI_bias_6
+  - first:
+      213: 5319710773005825572
+    second: conAI_bias_7
+  - first:
+      213: -1629254075213796455
+    second: conAI_bias_8
+  - first:
+      213: 42785379713232589
+    second: conAI_bias_9
+  - first:
+      213: -3564686487749613121
+    second: conAI_bias_10
+  - first:
+      213: 6177781216188598773
+    second: conAI_bias_11
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -84,11 +120,263 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: conAI_bias_0
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 3549
+        width: 1152
+        height: 805
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f90353ec1c4ad204fa5f28ae26cfe2b1
+      internalID: -6873641583453392917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conAI_bias_1
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 3549
+        width: 1156
+        height: 805
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cfcfda1cd8789c4cb17c3bc4d8a83c7
+      internalID: 6810903891568442091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conAI_bias_2
+      rect:
+        serializedVersion: 2
+        x: 2607
+        y: 3549
+        width: 1157
+        height: 805
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae793f8a94c053d40a3ac2a936958d7a
+      internalID: 473265243749611815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conAI_bias_3
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 2561
+        width: 1215
+        height: 886
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2990271a864aecc4298fa57e9e742ce3
+      internalID: 7132561082932474205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conAI_bias_4
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 2561
+        width: 1218
+        height: 886
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ed9448985d63fd4e923e81a7e23c94b
+      internalID: 4026108798161659469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conAI_bias_5
+      rect:
+        serializedVersion: 2
+        x: 2588
+        y: 2561
+        width: 1215
+        height: 886
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f07b2ee7b156e643acf607102909206
+      internalID: -4012511522299582738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conAI_bias_6
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 1447
+        width: 1157
+        height: 809
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c468d94e768edb4c96fadfe4d5452eb
+      internalID: -8688843448952805010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conAI_bias_7
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 1447
+        width: 1156
+        height: 809
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2e282df47a2d9f489a09c84e9cd4046
+      internalID: 5319710773005825572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conAI_bias_8
+      rect:
+        serializedVersion: 2
+        x: 2623
+        y: 1447
+        width: 1156
+        height: 809
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f676167d7df6c441bcaf4458ffd35b0
+      internalID: -1629254075213796455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conAI_bias_9
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 447
+        width: 1156
+        height: 809
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47cc5d2b89e792b4c9088ab1478fb6f0
+      internalID: 42785379713232589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conAI_bias_10
+      rect:
+        serializedVersion: 2
+        x: 1401
+        y: 447
+        width: 1156
+        height: 809
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4511eba222fede241867d586dc6aa512
+      internalID: -3564686487749613121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: conAI_bias_11
+      rect:
+        serializedVersion: 2
+        x: 2662
+        y: 447
+        width: 1152
+        height: 809
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efb3c9f63d123364695a1fbe5cef2afe
+      internalID: 6177781216188598773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 970a90dfcc39c3f46a2101350448fbc4
     internalID: 0
     vertices: []
     indices: 
