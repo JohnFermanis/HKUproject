@@ -74,16 +74,16 @@ public class DialogueScript : MonoBehaviour
 
     //The dialogue
 
-    private string _D0 = "Rechter, op 20 april 2038 ben ik ontslagen door Quick Sales. Dit is echter niet gegaan om een acceptabele reden. Quick Sales geeft aan dat ik personen aanbiedingen heb gedaan die niet besluitvaardig zijn.";
-    private string _D1 = "Ik heb echter de personen die de AI mij aanbeval te contacteren gecontacteerd. Ik heb echter de personen gecontacteerd die de AI mij heeft aanbevolen, deze AI is blijkbaar niet goed ingesteld.";
-    private string _D2 = "Ik ben er vanuit gegaan dat de door Quick Sales aangeboden AI te vertrouwen is.";
-    private string _D3 = "Bij nader onderzoeken blijkt echter dat de AI een algoritme gebruikt wat personen aandraagt gebaseerd op hun gedrag en of de kans van het accepteren van een aanbieding groot is.";
-    private string _D4 = "De fout ligt dus niet bij mij, maar bij quick sales, die mij een AI heeft gefaciliteerd die de problemen creëert.";
-    private string _D5 = "Rechter, M. Jansen heeft onjuist gehandeld. Ze heeft contracten aangeboden aan personen die dronken en wilsonbekwaam zijn op moment van besluit.";
-    private string _D6 = "Dit is zo veelvuldig gebeurt dat het Quick Sales in de rechtelijke problemen is gekomen. Dit heeft Quick Sales veel tijd en geld gekost.";
-    private string _D7 = "Wij zijn een intern onderzoek gestart naar hoe dit heeft kunnen gebeuren. Hieruit is naar voren gekomen dat mevrouw Jansen vaak aan de personen heeft verkocht waarbij dit niet had mogen gebeuren.";
-    private string _D8 = "Op grond daarvan hebben wij haar arbeidscontract ontbonden.";
-    private string _D9 = "Het gebruikte algoritme draagt alleen mensen aan als potentiële klanten, maar het is aan de verkoper zelf om de persoon te beoordelen. Dit is bij mevrouw Jansen duidelijk nooit goed gebeurt.";
+    private string _D0 = "Rechter, ik ben recent ontslagen door Quick Sales, maar ik vind dat onterecht.";
+    private string _D1 = "Ik was daar werkzaam als verkoopmedewerker en door middel van onze artificial intelligence selecteren wij potentiële klanten.";
+    private string _D2 = "Ik ben er vanuit gegaan dat de door Quick Sales aangeboden AI te vertrouwen is. Ik contacteer dan de mensen die de AI aanbeveelt.";
+    private string _D3 = "Quick Sales zegt nu dat ik spullen heb aangeboden aan mensen die niet besluitvaardig zijn. Dat kan misschien kloppen, maar dat is dan niet mijn schuld.";
+    private string _D4 = "Ik ga er vanuit dat de AI van Quick Sales betrouwbaar is, maar blijkbaar verwerkt de AI de data niet op de juiste manier.";
+    private string _D5 = "De fout ligt dus niet bij mij, maar bij Quick Sales. Zij hebben mij deze problematische AI gegeven om mee te werken."; // end first party
+    private string _D6 = "Mevrouw Jansen heeft onjuist gehandeld. Ze heeft contracten aangeboden aan klanten die handelingsonbekwaam zijn--of dronken--op het moment van besluit.";
+    private string _D7 = "Dit heeft ze zo frequent gedaan dat het Quick Sales juridische problemen heeft gebracht en dat heeft ons veel geld gekost.";
+    private string _D8 = "Op grond daarvan hebben wij haar ontslagen. De AI is slechts een tool. Het gebruikte algoritme draagt alleen mensen aan als potentiële klant.";
+    private string _D9 = "Het is uiteindelijk aan de verkoper zelf om deze persoon eerlijk te beoordelen. Dit heeft mevrouw Jansen duidelijk nooit gedaan."; //end second party
 
     //Corresponding Names for each dialogue
     
@@ -114,7 +114,7 @@ public class DialogueScript : MonoBehaviour
         _Names[2] = _Name1;
         _Names[3] = _Name1;
         _Names[4] = _Name1;
-        _Names[5] = _Name2;
+        _Names[5] = _Name1;// end first party
         _Names[6] = _Name2;
         _Names[7] = _Name2;
         _Names[8] = _Name2;
@@ -125,7 +125,7 @@ public class DialogueScript : MonoBehaviour
         _Faces[2] = _Face1;
         _Faces[3] = _Face1;
         _Faces[4] = _Face1;
-        _Faces[5] = _Face2;
+        _Faces[5] = _Face1;// end first party
         _Faces[6] = _Face2;
         _Faces[7] = _Face2;
         _Faces[8] = _Face2;
