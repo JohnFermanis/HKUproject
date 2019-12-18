@@ -1,12 +1,48 @@
 fileFormatVersion: 2
 guid: 7af38c970de9cb04099e8677eeb5d2eb
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -8598197797993365594
+    second: neutral_bias_0
+  - first:
+      213: 5445865485335595793
+    second: neutral_bias_1
+  - first:
+      213: -842196054992186968
+    second: neutral_bias_2
+  - first:
+      213: -8850709934806999806
+    second: neutral_bias_3
+  - first:
+      213: 5331990568757538816
+    second: neutral_bias_4
+  - first:
+      213: 8497941893646843962
+    second: neutral_bias_5
+  - first:
+      213: 7194638551121268025
+    second: neutral_bias_6
+  - first:
+      213: -115320000947826364
+    second: neutral_bias_7
+  - first:
+      213: 6305950684814159808
+    second: neutral_bias_8
+  - first:
+      213: 7068301974453854802
+    second: neutral_bias_9
+  - first:
+      213: 6700213022196143801
+    second: neutral_bias_10
+  - first:
+      213: 2699739109331533013
+    second: neutral_bias_11
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -34,13 +70,13 @@ TextureImporter:
     filterMode: -1
     aniso: -1
     mipBias: -100
-    wrapU: -1
-    wrapV: -1
+    wrapU: 1
+    wrapV: 1
     wrapW: -1
-  nPOTScale: 1
+  nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -49,9 +85,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   maxTextureSizeSet: 0
@@ -70,13 +106,277 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: neutral_bias_0
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 3611
+        width: 1156
+        height: 805
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d65a91047d8ac85479c3fa8a01f2370d
+      internalID: -8598197797993365594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutral_bias_1
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 3611
+        width: 1156
+        height: 805
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e804319b6316c4844a630a0199a17d21
+      internalID: 5445865485335595793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutral_bias_2
+      rect:
+        serializedVersion: 2
+        x: 2619
+        y: 3611
+        width: 1152
+        height: 805
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8218120f613aa449a5b2e02535bf6a5
+      internalID: -842196054992186968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutral_bias_3
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 2623
+        width: 1218
+        height: 887
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eb5a5bcdbb49a5458ccf2bc9927e1e0
+      internalID: -8850709934806999806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutral_bias_4
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 2623
+        width: 1219
+        height: 887
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03fac7b8eaf15ed499c2138bae390206
+      internalID: 5331990568757538816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutral_bias_5
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 2623
+        width: 1214
+        height: 887
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcc36c7093e2ba84e998c7f7a4168ad6
+      internalID: 8497941893646843962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutral_bias_6
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1049
+        width: 1156
+        height: 805
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d80e169371985ed46b9c5ff1906f0110
+      internalID: 7194638551121268025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutral_bias_7
+      rect:
+        serializedVersion: 2
+        x: 1401
+        y: 1049
+        width: 1156
+        height: 805
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13ecf8095e6aa1b46822f147aa8bc9fc
+      internalID: -115320000947826364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutral_bias_8
+      rect:
+        serializedVersion: 2
+        x: 2662
+        y: 1049
+        width: 1152
+        height: 805
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 826dc69ca71513e4db3f0dfb58b39f69
+      internalID: 6305950684814159808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutral_bias_9
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 146
+        width: 1156
+        height: 805
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c135e64b0a809ab46b9b2ff77bfb4948
+      internalID: 7068301974453854802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutral_bias_10
+      rect:
+        serializedVersion: 2
+        x: 1412
+        y: 146
+        width: 1152
+        height: 805
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d05e54855f8f87d44bfcb4b58cd37171
+      internalID: 6700213022196143801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutral_bias_11
+      rect:
+        serializedVersion: 2
+        x: 2670
+        y: 146
+        width: 1152
+        height: 805
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0962c97ad2065b4486e0a413b9e5ed1
+      internalID: 2699739109331533013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: a086038a438274d4e8ba4f5e2f940941
     internalID: 0
     vertices: []
     indices: 
