@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -603,11 +603,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Corr-E:\r\n\nRechter, Welkom bij uw eerste rechtszaak.\r\nDeze zaak betreft
-    een privaatrecht zaak, over een ontslag een werknemer M. Jansen, tegen de werkgever,
-    marketing bedrijf Quick Sales.\r\n\r\nM. Jansen heeft op 29 januari 2039 een zaak
-    ingediend om de opzegging van het arbeidscontract te vernietigen.\r\nBeide partijen
-    zullen hun standpunten toelichten. \r\n"
+  m_Text: "BRIDGE AI - CORR-E:\r\n\nRechter, Welkom bij uw eerste rechtszaak.\r Uw
+    volgende zitting betreft privaatrecht. \r\n\nAan de orde is de zaak tussen Marie
+    Jansen en marketing bedrijf Quick Sales. Jansen heeft de zaak gestart om te vragen
+    het aan haar gegeven ontslag te vernietigen. \r\n\nBeide partijen zullen nu hun
+    standpunten toelichten. \n"
 --- !u!222 &273884184
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -980,7 +980,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: klik op de "SPATIEBALK" om verder te lezen
+  m_Text: klik op de knop "VOLGENDE" om verder te lezen
 --- !u!222 &356634451
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3385,8 +3385,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 355.80148, y: -193.9935}
-  m_SizeDelta: {x: 42.6, y: 25.6}
+  m_AnchoredPosition: {x: 342.11, y: -193.9935}
+  m_SizeDelta: {x: 69.74, y: 25.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1486499815
 MonoBehaviour:
@@ -3927,7 +3927,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Next
+  m_Text: Volgende
 --- !u!222 &1755013156
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4873,7 +4873,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ff3ae86c9d5e77418ac341d7ab43f3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _Face1: {fileID: 21300000, guid: 4cbd11d0ed50c094aad5ad92ddf360ec, type: 3}
+  _Face1: {fileID: 21300000, guid: 6ff23a53b1689c841bd7ffbc7de19519, type: 3}
   _Face2: {fileID: 21300000, guid: ee48c40ea59e3e24baef8caf3a43f3ae, type: 3}
   _Name1: M_Jansen
   _Name2: Quick_Sales
