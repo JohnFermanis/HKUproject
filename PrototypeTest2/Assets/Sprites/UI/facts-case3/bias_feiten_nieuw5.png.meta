@@ -1,7 +1,10 @@
 fileFormatVersion: 2
 guid: 6f2969005d9b230449824e819e6617e4
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -460876698321930837
+    second: bias_feiten_nieuw5_0
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -84,11 +87,32 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: bias_feiten_nieuw5_0
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 393
+        width: 5417
+        height: 3711
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c6efa6c8f23f294a868246d244375d4
+      internalID: -460876698321930837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 24142f565f4fa7e48a389fb12c36f104
     internalID: 0
     vertices: []
     indices: 
