@@ -46,9 +46,12 @@ public class DialogueScript3 : MonoBehaviour
 
     private bool _TextFinished;
 
+
+    private bool _ButtonPressed = false;
+
     //================================================================
     //CHANGE THIS IF YOU WANT TO CHANGE THE NUMBER OF DIALOGUES
-    
+
     private static int _NumberOfDialogues = 10;
     //================================================================
 
@@ -176,7 +179,8 @@ public class DialogueScript3 : MonoBehaviour
                 _thisText.text = _Dialogue[i];
                 yield return new WaitForSeconds(0.1f);
             }
-            yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.Space) == true);
+            yield return new WaitUntil(() => _ButtonPressed == true);
+            _ButtonPressed = false;
             if (_TutorialText != null)
                 _TutorialText.SetActive(false);
         }
@@ -186,6 +190,9 @@ public class DialogueScript3 : MonoBehaviour
         //initiate the next cutscene here
     }
 
-
+    public void ButtonWasPressed()
+    {
+        _ButtonPressed = true;
+    }
 
 }
