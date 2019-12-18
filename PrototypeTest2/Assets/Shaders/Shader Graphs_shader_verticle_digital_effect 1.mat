@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shader Graphs_shader_verticle_digital_effect 1
+  m_Shader: {fileID: -6465566751694194690, guid: 7ee7259b59501dd4eb3861fd2fc46e36,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Texture2DAsset_59A74283_Out_0:
+        m_Texture: {fileID: 2800000, guid: 6fd4415b7d4fac74890599c4b5b3be42, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_6B84BD7E_Out_0:
+        m_Texture: {fileID: 2800000, guid: 6fd4415b7d4fac74890599c4b5b3be42, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_94C75E67_Out_0:
+        m_Texture: {fileID: 2800000, guid: 6fd4415b7d4fac74890599c4b5b3be42, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_1664043D: 3.7
+    - Vector1_47FEF82A: -0.01
+    - Vector1_6A67F767: 0.01
+    m_Colors:
+    - Color_40FF5E2C: {r: 0, g: 0.7890492, b: 0.8113208, a: 0}
+    - Color_D09DC8D2: {r: 0, g: 0.9407032, b: 1, a: 0}
