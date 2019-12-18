@@ -1,0 +1,535 @@
+fileFormatVersion: 2
+guid: dd7ce90da90d6ee4f96980e9f7eeab4f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2623864581492458847
+    second: mapjes_case3_gescheiden_0
+  - first:
+      213: -5172751786572926544
+    second: mapjes_case3_gescheiden_1
+  - first:
+      213: -1557982044330804058
+    second: mapjes_case3_gescheiden_2
+  - first:
+      213: 2799758641117278478
+    second: mapjes_case3_gescheiden_3
+  - first:
+      213: 6333655733166205228
+    second: mapjes_case3_gescheiden_4
+  - first:
+      213: 8700360506765555568
+    second: mapjes_case3_gescheiden_5
+  - first:
+      213: 8716172806809270818
+    second: mapjes_case3_gescheiden_6
+  - first:
+      213: 6264161819176695203
+    second: mapjes_case3_gescheiden_7
+  - first:
+      213: -2837438567111834749
+    second: mapjes_case3_gescheiden_8
+  - first:
+      213: -5529812548426776446
+    second: mapjes_case3_gescheiden_9
+  - first:
+      213: 5505543710478151909
+    second: mapjes_case3_gescheiden_10
+  - first:
+      213: -3696016984182988625
+    second: mapjes_case3_gescheiden_11
+  - first:
+      213: -8268391345106061005
+    second: mapjes_case3_gescheiden_12
+  - first:
+      213: -8632433041141255163
+    second: mapjes_case3_gescheiden_13
+  - first:
+      213: 6591159157162776969
+    second: mapjes_case3_gescheiden_14
+  - first:
+      213: -6836986330826963426
+    second: mapjes_case3_gescheiden_15
+  - first:
+      213: 3904185126979027368
+    second: mapjes_case3_gescheiden_16
+  - first:
+      213: -7233870783565286072
+    second: mapjes_case3_gescheiden_17
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: 1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mapjes_case3_gescheiden_0
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 3611
+        width: 1156
+        height: 805
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 755631a17e1568349b6cc8acae5d36cc
+      internalID: -2623864581492458847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapjes_case3_gescheiden_1
+      rect:
+        serializedVersion: 2
+        x: 1401
+        y: 3611
+        width: 1156
+        height: 805
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a821da223d745984ca76bff9ec087496
+      internalID: -5172751786572926544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapjes_case3_gescheiden_2
+      rect:
+        serializedVersion: 2
+        x: 2701
+        y: 3611
+        width: 1156
+        height: 805
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c69c3fbcb701464eac8c707678accf2
+      internalID: -1557982044330804058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapjes_case3_gescheiden_3
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 2623
+        width: 1218
+        height: 887
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dce6a164cfabe874fbfeb4c79f020004
+      internalID: 2799758641117278478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapjes_case3_gescheiden_4
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 2623
+        width: 1219
+        height: 887
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2db7d413bb102c43bf2a4415ef024d0
+      internalID: 6333655733166205228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapjes_case3_gescheiden_5
+      rect:
+        serializedVersion: 2
+        x: 2682
+        y: 2623
+        width: 1218
+        height: 887
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 144ce64ccb2739744a4d7eb6e4d82edb
+      internalID: 8700360506765555568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapjes_case3_gescheiden_6
+      rect:
+        serializedVersion: 2
+        x: 4104
+        y: 2326
+        width: 1152
+        height: 805
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32dee940ae9e8c74888e12243d9b9871
+      internalID: 8716172806809270818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapjes_case3_gescheiden_7
+      rect:
+        serializedVersion: 2
+        x: 5401
+        y: 2326
+        width: 1156
+        height: 805
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 315a92ca499bd3a4bb1f3634a7dbc604
+      internalID: 6264161819176695203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapjes_case3_gescheiden_8
+      rect:
+        serializedVersion: 2
+        x: 6701
+        y: 2326
+        width: 1156
+        height: 805
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bf297065e004dc419cf3161887b22d1
+      internalID: -2837438567111834749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapjes_case3_gescheiden_9
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 1209
+        width: 1152
+        height: 809
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b114beb4039a27c498fc998ea40a720d
+      internalID: -5529812548426776446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapjes_case3_gescheiden_10
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 1209
+        width: 1156
+        height: 809
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34dd1e38d5308a7438b1ec710d8bbf97
+      internalID: 5505543710478151909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapjes_case3_gescheiden_11
+      rect:
+        serializedVersion: 2
+        x: 2690
+        y: 1209
+        width: 1156
+        height: 809
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 112393cd435958d479fea4d8d96aee2f
+      internalID: -3696016984182988625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapjes_case3_gescheiden_12
+      rect:
+        serializedVersion: 2
+        x: 4084
+        y: 1338
+        width: 1215
+        height: 887
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65c0eae5dda455849b14510b06f7187c
+      internalID: -8268391345106061005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapjes_case3_gescheiden_13
+      rect:
+        serializedVersion: 2
+        x: 5381
+        y: 1338
+        width: 1219
+        height: 887
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18c4f9821518bc84e98c3eaa4c1a5937
+      internalID: -8632433041141255163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapjes_case3_gescheiden_14
+      rect:
+        serializedVersion: 2
+        x: 6682
+        y: 1338
+        width: 1218
+        height: 887
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d3ad256cb2dea947b5e09915cbf754d
+      internalID: 6591159157162776969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapjes_case3_gescheiden_15
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 225
+        width: 1215
+        height: 886
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94668e33ddb76f348b762989f92a6768
+      internalID: -6836986330826963426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapjes_case3_gescheiden_16
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 225
+        width: 1219
+        height: 886
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15fd26760c04c3b4c91ef9908bbe5cac
+      internalID: 3904185126979027368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mapjes_case3_gescheiden_17
+      rect:
+        serializedVersion: 2
+        x: 2670
+        y: 225
+        width: 1219
+        height: 886
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66af72fdf7b020746ad3e9864f00355c
+      internalID: -7233870783565286072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 47648dda422e556459d87e870834e6c5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
