@@ -232,6 +232,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _gm: {fileID: 1277668625}
   ChangeToScene: 2
+  _SkipCutscene: 0
   vp: {fileID: 1277668627}
 --- !u!328 &1277668627
 VideoPlayer:
