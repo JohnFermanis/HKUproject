@@ -48,7 +48,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _RedFolderCounter: {fileID: 0}
   _InitialBackgroundMusic: {fileID: 6836911369172499341}
-  _RedFoldersMusic: {fileID: 760530540239575019}
+  _RedFoldersMusic: {fileID: 8300000, guid: 147cd73cd8fbc574181e45f03145c3a7, type: 3}
 --- !u!1 &2201636398673738249
 GameObject:
   m_ObjectHideFlags: 0
@@ -217,15 +217,15 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 79ab9e2f99b850e49bccd99a4d19acc6, type: 3}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 125
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -319,7 +319,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7156447243552241050
 Transform:
   m_ObjectHideFlags: 0
@@ -341,10 +341,10 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7143433854435485829}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 79ab9e2f99b850e49bccd99a4d19acc6, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 147cd73cd8fbc574181e45f03145c3a7, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -352,7 +352,7 @@ AudioSource:
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 129
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500

@@ -10,14 +10,20 @@ public class AudioManagerScript : MonoBehaviour
     [SerializeField]
     private AudioSource _InitialBackgroundMusic;
     [SerializeField]
-    private AudioSource _RedFoldersMusic;
+    private AudioClip _RedFoldersMusic;
+
+    private bool _RedsOn=false;
 
     private void Update()
     {
-        if(_RedFolderCounter.counter >= _RedFolderCounter.TurnAllRedAfter)
-        {
-            _InitialBackgroundMusic.Stop();
-            _RedFoldersMusic.PlayDelayed(1);
+        if(_RedsOn==false){
+            if(_RedFolderCounter.counter >= _RedFolderCounter.TurnAllRedAfter)
+            {
+                _RedsOn=true;
+                _InitialBackgroundMusic.Stop();
+                _InitialBackgroundMusic.clip = _RedFoldersMusic;
+                _InitialBackgroundMusic.Play();
+            }
         }
     }
 
