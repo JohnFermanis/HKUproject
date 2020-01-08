@@ -26,8 +26,7 @@ public class RedFolderScript : MonoBehaviour, IPointerClickHandler
     [SerializeField]
     private AudioSource _OpenRedFolderSound;
 
-    [SerializeField]
-    private AudioSource _VoiceLine;
+    
 
     private bool _TurnOn=false;
 
@@ -47,8 +46,7 @@ public class RedFolderScript : MonoBehaviour, IPointerClickHandler
         {
             _TurnOn = true;
             _CounterScript.Plus1();
-            if (_VoiceLine != null)
-                _VoiceLine.PlayDelayed(0.5f);
+           
             
         }
         
