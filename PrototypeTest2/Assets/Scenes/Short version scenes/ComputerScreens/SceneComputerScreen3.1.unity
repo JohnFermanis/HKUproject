@@ -1289,7 +1289,7 @@ PrefabInstance:
     - target: {fileID: 8761998263719754049, guid: 268a9581585d72745b8704abe53d89b7,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 162.325
+      value: 162.32475
       objectReference: {fileID: 0}
     - target: {fileID: 8761998263719754049, guid: 268a9581585d72745b8704abe53d89b7,
         type: 3}
@@ -9045,12 +9045,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _go: {fileID: 1041577766}
   _IsThisTutorial: 0
---- !u!82 &1593204576 stripped
-AudioSource:
-  m_CorrespondingSourceObject: {fileID: 6836911369172499341, guid: 9b0f4a5a6e990ef4a8fc727c23643058,
-    type: 3}
-  m_PrefabInstance: {fileID: 5185317766576307217}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1595468347
 GameObject:
   m_ObjectHideFlags: 0
@@ -12041,75 +12035,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6836911369172499341, guid: 9b0f4a5a6e990ef4a8fc727c23643058,
-        type: 3}
-      propertyPath: m_PlayOnAwake
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6836911369172499341, guid: 9b0f4a5a6e990ef4a8fc727c23643058,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7143433854435485829, guid: 9b0f4a5a6e990ef4a8fc727c23643058,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 760530540239575019, guid: 9b0f4a5a6e990ef4a8fc727c23643058,
-        type: 3}
-      propertyPath: m_PlayOnAwake
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 760530540239575019, guid: 9b0f4a5a6e990ef4a8fc727c23643058,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 760530540239575019, guid: 9b0f4a5a6e990ef4a8fc727c23643058,
-        type: 3}
-      propertyPath: Priority
-      value: 129
-      objectReference: {fileID: 0}
-    - target: {fileID: 760530540239575019, guid: 9b0f4a5a6e990ef4a8fc727c23643058,
-        type: 3}
-      propertyPath: Loop
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 760530540239575019, guid: 9b0f4a5a6e990ef4a8fc727c23643058,
-        type: 3}
-      propertyPath: BypassEffects
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5946692397471191523, guid: 9b0f4a5a6e990ef4a8fc727c23643058,
         type: 3}
       propertyPath: _RedFolderCounter
       value: 
       objectReference: {fileID: 1661385956}
-    - target: {fileID: 5946692397471191523, guid: 9b0f4a5a6e990ef4a8fc727c23643058,
-        type: 3}
-      propertyPath: _RedFoldersMusic
-      value: 
-      objectReference: {fileID: 8300000, guid: 147cd73cd8fbc574181e45f03145c3a7, type: 3}
-    - target: {fileID: 5946692397471191523, guid: 9b0f4a5a6e990ef4a8fc727c23643058,
-        type: 3}
-      propertyPath: _InitialBackgroundMusic
-      value: 
-      objectReference: {fileID: 1593204576}
-    - target: {fileID: 2400588653255229606, guid: 9b0f4a5a6e990ef4a8fc727c23643058,
-        type: 3}
-      propertyPath: m_audioClip
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 2400588653255229606, guid: 9b0f4a5a6e990ef4a8fc727c23643058,
-        type: 3}
-      propertyPath: m_PlayOnAwake
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2400588653255229606, guid: 9b0f4a5a6e990ef4a8fc727c23643058,
-        type: 3}
-      propertyPath: Priority
-      value: 125
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9b0f4a5a6e990ef4a8fc727c23643058, type: 3}
