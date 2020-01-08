@@ -4,15 +4,21 @@ using UnityEngine;
 
 public class AudioManagerScript : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField]
+    private RedFolderCounterScript _RedFolderCounter;
+
+    [SerializeField]
+    private AudioSource _InitialBackgroundMusic;
+    [SerializeField]
+    private AudioSource _RedFoldersMusic;
+
+    private void Update()
     {
-        
+        if(_RedFolderCounter.counter >= _RedFolderCounter.TurnAllRedAfter)
+        {
+            _InitialBackgroundMusic.Stop();
+            _RedFoldersMusic.PlayDelayed(1);
+        }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

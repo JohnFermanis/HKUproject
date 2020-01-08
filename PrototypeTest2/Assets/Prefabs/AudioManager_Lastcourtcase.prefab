@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8290807128943993990}
+  - component: {fileID: 5946692397471191523}
   m_Layer: 0
   m_Name: AudioManager_Lastcourtcase
   m_TagString: Untagged
@@ -32,6 +33,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5946692397471191523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 514710138728615238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b43e1251971640479ffdac33227b9fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RedFolderController: {fileID: 0}
+  _InitialBackgroundMusic: {fileID: 6836911369172499341}
+  _RedFoldersMusic: {fileID: 760530540239575019}
 --- !u!1 &2201636398673738249
 GameObject:
   m_ObjectHideFlags: 0
