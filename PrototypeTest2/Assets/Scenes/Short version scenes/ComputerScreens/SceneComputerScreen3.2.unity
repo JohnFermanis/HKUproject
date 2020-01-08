@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -436,7 +436,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _RedFolderSprite: {fileID: 3047469160908696035, guid: 8a84ca634d2862c47a6d818228fae745,
     type: 3}
-  _ErrorTextSprite: {fileID: 21300000, guid: 4badb6db818859b47a651da1320042a3, type: 3}
+  _ErrorTextSprite: {fileID: 8817083935138132195, guid: 4badb6db818859b47a651da1320042a3,
+    type: 3}
   _Image: {fileID: 78315253}
   _XScript: {fileID: 734638626}
   _CounterScript: {fileID: 1661385956}
@@ -640,7 +641,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _RedFolderSprite: {fileID: 3047469160908696035, guid: 8a84ca634d2862c47a6d818228fae745,
     type: 3}
-  _ErrorTextSprite: {fileID: 21300000, guid: 4badb6db818859b47a651da1320042a3, type: 3}
+  _ErrorTextSprite: {fileID: 8817083935138132195, guid: 4badb6db818859b47a651da1320042a3,
+    type: 3}
   _Image: {fileID: 210763161}
   _XScript: {fileID: 734638626}
   _CounterScript: {fileID: 1661385956}
@@ -1005,7 +1007,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _RedFolderSprite: {fileID: 3047469160908696035, guid: 8a84ca634d2862c47a6d818228fae745,
     type: 3}
-  _ErrorTextSprite: {fileID: 21300000, guid: 4badb6db818859b47a651da1320042a3, type: 3}
+  _ErrorTextSprite: {fileID: 8817083935138132195, guid: 4badb6db818859b47a651da1320042a3,
+    type: 3}
   _Image: {fileID: 274457086}
   _XScript: {fileID: 734638626}
   _CounterScript: {fileID: 1661385956}
@@ -1274,8 +1277,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1150125394}
   m_HandleRect: {fileID: 1150125393}
   m_Direction: 0
-  m_Value: -0.000002522805
-  m_Size: 0.81854975
+  m_Value: -0.0000033637416
+  m_Size: 0.8185498
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1699,7 +1702,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _RedFolderSprite: {fileID: 3047469160908696035, guid: 8a84ca634d2862c47a6d818228fae745,
     type: 3}
-  _ErrorTextSprite: {fileID: 21300000, guid: 4badb6db818859b47a651da1320042a3, type: 3}
+  _ErrorTextSprite: {fileID: 8817083935138132195, guid: 4badb6db818859b47a651da1320042a3,
+    type: 3}
   _Image: {fileID: 439219349}
   _XScript: {fileID: 734638626}
   _CounterScript: {fileID: 1661385956}
@@ -2931,7 +2935,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _RedFolderSprite: {fileID: 3047469160908696035, guid: 8a84ca634d2862c47a6d818228fae745,
     type: 3}
-  _ErrorTextSprite: {fileID: 21300000, guid: 4badb6db818859b47a651da1320042a3, type: 3}
+  _ErrorTextSprite: {fileID: 8817083935138132195, guid: 4badb6db818859b47a651da1320042a3,
+    type: 3}
   _Image: {fileID: 707384093}
   _XScript: {fileID: 734638626}
   _CounterScript: {fileID: 1661385956}
@@ -3012,8 +3017,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 52.8, y: -28.74}
-  m_SizeDelta: {x: 436.9, y: 249}
+  m_AnchoredPosition: {x: 20.99, y: -28.74}
+  m_SizeDelta: {x: 373.27, y: 249}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &734638624
 MonoBehaviour:
@@ -3762,7 +3767,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 122.9, y: 92.5}
+  m_AnchoredPosition: {x: 156.42, y: 99.8}
   m_SizeDelta: {x: 15.81, y: 13.71}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &806214784
@@ -3909,7 +3914,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _RedFolderSprite: {fileID: 3047469160908696035, guid: 8a84ca634d2862c47a6d818228fae745,
     type: 3}
-  _ErrorTextSprite: {fileID: 21300000, guid: 4badb6db818859b47a651da1320042a3, type: 3}
+  _ErrorTextSprite: {fileID: 8817083935138132195, guid: 4badb6db818859b47a651da1320042a3,
+    type: 3}
   _Image: {fileID: 818292421}
   _XScript: {fileID: 734638626}
   _CounterScript: {fileID: 1661385956}
@@ -4482,7 +4488,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _RedFolderSprite: {fileID: 3047469160908696035, guid: 8a84ca634d2862c47a6d818228fae745,
     type: 3}
-  _ErrorTextSprite: {fileID: 21300000, guid: 4badb6db818859b47a651da1320042a3, type: 3}
+  _ErrorTextSprite: {fileID: 8817083935138132195, guid: 4badb6db818859b47a651da1320042a3,
+    type: 3}
   _Image: {fileID: 921084522}
   _XScript: {fileID: 734638626}
   _CounterScript: {fileID: 1661385956}
@@ -4576,7 +4583,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _RedFolderSprite: {fileID: 3047469160908696035, guid: 8a84ca634d2862c47a6d818228fae745,
     type: 3}
-  _ErrorTextSprite: {fileID: 21300000, guid: 4badb6db818859b47a651da1320042a3, type: 3}
+  _ErrorTextSprite: {fileID: 8817083935138132195, guid: 4badb6db818859b47a651da1320042a3,
+    type: 3}
   _Image: {fileID: 940895030}
   _XScript: {fileID: 734638626}
   _CounterScript: {fileID: 1661385956}
@@ -4796,7 +4804,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _RedFolderSprite: {fileID: 3047469160908696035, guid: 8a84ca634d2862c47a6d818228fae745,
     type: 3}
-  _ErrorTextSprite: {fileID: 21300000, guid: 4badb6db818859b47a651da1320042a3, type: 3}
+  _ErrorTextSprite: {fileID: 8817083935138132195, guid: 4badb6db818859b47a651da1320042a3,
+    type: 3}
   _Image: {fileID: 1091212708}
   _XScript: {fileID: 734638626}
   _CounterScript: {fileID: 1661385956}
@@ -5186,7 +5195,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _RedFolderSprite: {fileID: 3047469160908696035, guid: 8a84ca634d2862c47a6d818228fae745,
     type: 3}
-  _ErrorTextSprite: {fileID: 21300000, guid: 4badb6db818859b47a651da1320042a3, type: 3}
+  _ErrorTextSprite: {fileID: 8817083935138132195, guid: 4badb6db818859b47a651da1320042a3,
+    type: 3}
   _Image: {fileID: 1172789790}
   _XScript: {fileID: 734638626}
   _CounterScript: {fileID: 1661385956}
@@ -5644,7 +5654,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 0.00013459366, y: 162.32448}
+  m_AnchoredPosition: {x: 0.00013459366, y: 162.31165}
   m_SizeDelta: {x: 200, y: 564.3}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &1254936240
@@ -6908,8 +6918,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 154640878}
   m_HandleRect: {fileID: 154640877}
   m_Direction: 2
-  m_Value: 1.0000023
-  m_Size: 0.5753145
+  m_Value: 1.0000556
+  m_Size: 0.5709185
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -8299,7 +8309,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _RedFolderSprite: {fileID: 3047469160908696035, guid: 8a84ca634d2862c47a6d818228fae745,
     type: 3}
-  _ErrorTextSprite: {fileID: 21300000, guid: 4badb6db818859b47a651da1320042a3, type: 3}
+  _ErrorTextSprite: {fileID: 8817083935138132195, guid: 4badb6db818859b47a651da1320042a3,
+    type: 3}
   _Image: {fileID: 1772425128}
   _XScript: {fileID: 734638626}
   _CounterScript: {fileID: 1661385956}
