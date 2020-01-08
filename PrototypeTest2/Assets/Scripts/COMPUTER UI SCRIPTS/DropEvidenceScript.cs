@@ -11,6 +11,8 @@ public class DropEvidenceScript : MonoBehaviour, IPointerEnterHandler, IPointerE
     bool _pointer = false;
     public int BiasToBeAdded;
 
+    [SerializeField]
+    private AudioSource _DropSound;
 
    
 
@@ -32,6 +34,7 @@ public class DropEvidenceScript : MonoBehaviour, IPointerEnterHandler, IPointerE
             _Pass = CorrectEvidence;
             this.GetComponent<Image>().sprite = go.GetComponent<Image>().sprite;
             BiasToBeAdded = Bias;
+            _DropSound.Play();
         }
     }
 }

@@ -23,6 +23,11 @@ public class RedFolderScript : MonoBehaviour, IPointerClickHandler
     [SerializeField]
     private RedFolderCounterScript _CounterScript;
 
+    [SerializeField]
+    private AudioSource _OpenRedFolderSound;
+
+    
+
     private bool _TurnOn=false;
 
     //private int _counter=0;
@@ -35,10 +40,14 @@ public class RedFolderScript : MonoBehaviour, IPointerClickHandler
     
     public void OpenRedFolder()
     {
+        if(_OpenRedFolderSound!=null)
+        _OpenRedFolderSound.Play();
         if (!_TurnOn)
         {
             _TurnOn = true;
             _CounterScript.Plus1();
+           
+            
         }
         
         _Image.sprite = _RedFolderSprite;
