@@ -16,6 +16,8 @@ public class FirstCanvasScript : MonoBehaviour
     [SerializeField]
     private GameObject _PopUpPanel;
 
+    private bool _ButtonPressed=false;
+
     [SerializeField]
     private bool _enablePopUp=false;
     [SerializeField]
@@ -93,7 +95,8 @@ public class FirstCanvasScript : MonoBehaviour
             yield return new WaitForSeconds(0.1f);
         }
         _TutorialText.SetActive(true);
-        yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.Space) == true);
+        //yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.Space) == true);
+        yield return new WaitUntil(() => _ButtonPressed == true);
         _AudioS.Stop();
         //_Fp.mouseLookCustom.XSensitivity = 2.0f;
         //_Fp.mouseLookCustom.YSensitivity = 2.0f;
@@ -116,6 +119,11 @@ public class FirstCanvasScript : MonoBehaviour
 
         }
         StartCoroutine(TypeText());
+    }
+
+    public void ButtonWasPressed()
+    {
+        _ButtonPressed = true;
     }
 
 

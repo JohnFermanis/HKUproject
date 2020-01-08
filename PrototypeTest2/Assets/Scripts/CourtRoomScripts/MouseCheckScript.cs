@@ -65,8 +65,8 @@ public class MouseCheckScript : MonoBehaviour
                 _SelectComputer = true;
                 
             StartCoroutine(LateDialogueStart());
-
-            }
+           
+        }
         //}
             
         
