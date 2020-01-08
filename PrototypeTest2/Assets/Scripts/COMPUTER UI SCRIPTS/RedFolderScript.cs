@@ -38,12 +38,13 @@ public class RedFolderScript : MonoBehaviour, IPointerClickHandler
     
     public void OpenRedFolder()
     {
+        _OpenRedFolderSound.Play();
         if (!_TurnOn)
         {
             _TurnOn = true;
             _CounterScript.Plus1();
 
-            _OpenRedFolderSound.Play();
+            
         }
         
         _Image.sprite = _RedFolderSprite;

@@ -613,7 +613,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 362.021}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -14.100006, y: -66.100006}
+  m_AnchoredPosition: {x: -13.674986, y: -58.899975}
   m_SizeDelta: {x: 42.18, y: 34.61}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8761998261988070272
@@ -751,9 +751,9 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_HighlightedColor: {r: 1, g: 0.58280724, b: 0, a: 1}
+    m_PressedColor: {r: 0.7169812, g: 0.7169812, b: 0.7169812, a: 1}
+    m_SelectedColor: {r: 0.9837489, g: 1, b: 0, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -1177,7 +1177,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 149.8, y: 92.6}
+  m_AnchoredPosition: {x: 173.70001, y: 92.990005}
   m_SizeDelta: {x: 41.98, y: 30.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8761998262062446227
@@ -1308,7 +1308,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _RedFolderSprite: {fileID: 3047469160908696035, guid: 8a84ca634d2862c47a6d818228fae745,
     type: 3}
-  _ErrorTextSprite: {fileID: 21300000, guid: 4badb6db818859b47a651da1320042a3, type: 3}
+  _ErrorTextSprite: {fileID: 8817083935138132195, guid: 4badb6db818859b47a651da1320042a3,
+    type: 3}
   _Image: {fileID: 8761998262062990446}
   _XScript: {fileID: 8761998262069273937}
   _CounterScript: {fileID: 0}
@@ -1323,7 +1324,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: d2caa6d97d5f5954a862894dbd8dd427, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -1449,8 +1450,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 52.8, y: -28.74}
-  m_SizeDelta: {x: 436.9, y: 249}
+  m_AnchoredPosition: {x: 33.4, y: -28.74}
+  m_SizeDelta: {x: 398.1, y: 249}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8761998262069273938
 CanvasRenderer:
@@ -1926,7 +1927,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _RedFolderSprite: {fileID: 3047469160908696035, guid: 8a84ca634d2862c47a6d818228fae745,
     type: 3}
-  _ErrorTextSprite: {fileID: 21300000, guid: 4badb6db818859b47a651da1320042a3, type: 3}
+  _ErrorTextSprite: {fileID: 8817083935138132195, guid: 4badb6db818859b47a651da1320042a3,
+    type: 3}
   _Image: {fileID: 8761998262117184793}
   _XScript: {fileID: 8761998262069273937}
   _CounterScript: {fileID: 0}
@@ -1941,7 +1943,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: d2caa6d97d5f5954a862894dbd8dd427, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -2150,7 +2152,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -68.9, y: 196.6}
+  m_AnchoredPosition: {x: -63.3, y: 200.3}
   m_SizeDelta: {x: 129.12, y: 36.05}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8761998262174962834
@@ -2358,7 +2360,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _RedFolderSprite: {fileID: 3047469160908696035, guid: 8a84ca634d2862c47a6d818228fae745,
     type: 3}
-  _ErrorTextSprite: {fileID: 21300000, guid: 4badb6db818859b47a651da1320042a3, type: 3}
+  _ErrorTextSprite: {fileID: 8817083935138132195, guid: 4badb6db818859b47a651da1320042a3,
+    type: 3}
   _Image: {fileID: 8761998262219911606}
   _XScript: {fileID: 8761998262069273937}
   _CounterScript: {fileID: 0}
@@ -2373,7 +2376,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: d2caa6d97d5f5954a862894dbd8dd427, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -2696,7 +2699,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 234.70001, y: 101.20999}
+  m_AnchoredPosition: {x: 258.6, y: 101.6}
   m_SizeDelta: {x: 114.46, y: 83.17}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8761998262244350329
@@ -3044,7 +3047,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _RedFolderSprite: {fileID: 3047469160908696035, guid: 8a84ca634d2862c47a6d818228fae745,
     type: 3}
-  _ErrorTextSprite: {fileID: 21300000, guid: 4badb6db818859b47a651da1320042a3, type: 3}
+  _ErrorTextSprite: {fileID: 8817083935138132195, guid: 4badb6db818859b47a651da1320042a3,
+    type: 3}
   _Image: {fileID: 8761998262365846597}
   _XScript: {fileID: 8761998262069273937}
   _CounterScript: {fileID: 0}
@@ -3059,7 +3063,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: d2caa6d97d5f5954a862894dbd8dd427, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -3236,7 +3240,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _RedFolderSprite: {fileID: 3047469160908696035, guid: 8a84ca634d2862c47a6d818228fae745,
     type: 3}
-  _ErrorTextSprite: {fileID: 21300000, guid: 4badb6db818859b47a651da1320042a3, type: 3}
+  _ErrorTextSprite: {fileID: 8817083935138132195, guid: 4badb6db818859b47a651da1320042a3,
+    type: 3}
   _Image: {fileID: 8761998262423644550}
   _XScript: {fileID: 8761998262069273937}
   _CounterScript: {fileID: 0}
@@ -3251,7 +3256,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: d2caa6d97d5f5954a862894dbd8dd427, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -3501,7 +3506,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -116.39998, y: 101.20999}
+  m_AnchoredPosition: {x: -92.49997, y: 101.6}
   m_SizeDelta: {x: 114.46, y: 83.17}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8761998262459957140
@@ -3962,7 +3967,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _RedFolderSprite: {fileID: 3047469160908696035, guid: 8a84ca634d2862c47a6d818228fae745,
     type: 3}
-  _ErrorTextSprite: {fileID: 21300000, guid: 4badb6db818859b47a651da1320042a3, type: 3}
+  _ErrorTextSprite: {fileID: 8817083935138132195, guid: 4badb6db818859b47a651da1320042a3,
+    type: 3}
   _Image: {fileID: 8761998262560156394}
   _XScript: {fileID: 8761998262069273937}
   _CounterScript: {fileID: 0}
@@ -3977,7 +3983,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: d2caa6d97d5f5954a862894dbd8dd427, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -4423,7 +4429,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _RedFolderSprite: {fileID: 3047469160908696035, guid: 8a84ca634d2862c47a6d818228fae745,
     type: 3}
-  _ErrorTextSprite: {fileID: 21300000, guid: 4badb6db818859b47a651da1320042a3, type: 3}
+  _ErrorTextSprite: {fileID: 8817083935138132195, guid: 4badb6db818859b47a651da1320042a3,
+    type: 3}
   _Image: {fileID: 8761998262764369549}
   _XScript: {fileID: 8761998262069273937}
   _CounterScript: {fileID: 0}
@@ -4438,7 +4445,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: d2caa6d97d5f5954a862894dbd8dd427, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -4558,7 +4565,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 198.92099}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -154.8, y: 175.7}
+  m_AnchoredPosition: {x: -146.1, y: 181.3}
   m_SizeDelta: {x: 44.7, y: 39.65}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8761998262780324675
@@ -4631,7 +4638,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -20.699982, y: 92.59998}
+  m_AnchoredPosition: {x: 3.2000256, y: 92.98999}
   m_SizeDelta: {x: 41.98, y: 30.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8761998262781198000
@@ -4777,7 +4784,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &8761998262864690972
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5006,7 +5013,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _RedFolderSprite: {fileID: 3047469160908696035, guid: 8a84ca634d2862c47a6d818228fae745,
     type: 3}
-  _ErrorTextSprite: {fileID: 21300000, guid: 4badb6db818859b47a651da1320042a3, type: 3}
+  _ErrorTextSprite: {fileID: 8817083935138132195, guid: 4badb6db818859b47a651da1320042a3,
+    type: 3}
   _Image: {fileID: 8761998262868567014}
   _XScript: {fileID: 8761998262069273937}
   _CounterScript: {fileID: 0}
@@ -5021,7 +5029,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: d2caa6d97d5f5954a862894dbd8dd427, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -5141,8 +5149,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 270.409}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -116.630005, y: 158.2}
-  m_SizeDelta: {x: 42.18, y: 34.61}
+  m_AnchoredPosition: {x: -118.8, y: 163.74}
+  m_SizeDelta: {x: 41.56, y: 37.08}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8761998262894644709
 CanvasRenderer:
@@ -5827,7 +5835,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 66.9, y: 9.6}
+  m_AnchoredPosition: {x: 90, y: 31.7}
   m_SizeDelta: {x: 368.65, y: 22.37}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8761998263105269728
@@ -5905,7 +5913,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 69.4, y: -25.5}
+  m_AnchoredPosition: {x: 92.5, y: -3.3999968}
   m_SizeDelta: {x: 319.7, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8761998263119344157
@@ -6034,7 +6042,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8761998263134750244}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8761998262491057453}
@@ -6042,7 +6050,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -79.6, y: -66.3}
+  m_AnchoredPosition: {x: -73.669975, y: -58.899975}
   m_SizeDelta: {x: 86.9, y: 31.32}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8761998263134750249
@@ -6205,7 +6213,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -79.52999, y: -66.30001}
+  m_AnchoredPosition: {x: -73.6, y: -58.9}
   m_SizeDelta: {x: 88.45, y: 31.32}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8761998263157850311
@@ -6412,7 +6420,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _RedFolderSprite: {fileID: 3047469160908696035, guid: 8a84ca634d2862c47a6d818228fae745,
     type: 3}
-  _ErrorTextSprite: {fileID: 21300000, guid: 4badb6db818859b47a651da1320042a3, type: 3}
+  _ErrorTextSprite: {fileID: 8817083935138132195, guid: 4badb6db818859b47a651da1320042a3,
+    type: 3}
   _Image: {fileID: 8761998263178369243}
   _XScript: {fileID: 8761998262069273937}
   _CounterScript: {fileID: 0}
@@ -6427,7 +6436,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: d2caa6d97d5f5954a862894dbd8dd427, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -6916,7 +6925,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 66.00001, y: 101.20999}
+  m_AnchoredPosition: {x: 89.90002, y: 101.6}
   m_SizeDelta: {x: 114.46, y: 83.17}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8761998263316664041
@@ -7529,7 +7538,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 237, y: 202}
+  m_AnchoredPosition: {x: 242.5, y: 204.6}
   m_SizeDelta: {x: 79.66, y: 29.21}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8761998263506414729
@@ -7659,7 +7668,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _RedFolderSprite: {fileID: 3047469160908696035, guid: 8a84ca634d2862c47a6d818228fae745,
     type: 3}
-  _ErrorTextSprite: {fileID: 21300000, guid: 4badb6db818859b47a651da1320042a3, type: 3}
+  _ErrorTextSprite: {fileID: 8817083935138132195, guid: 4badb6db818859b47a651da1320042a3,
+    type: 3}
   _Image: {fileID: 8761998263509601645}
   _XScript: {fileID: 8761998262069273937}
   _CounterScript: {fileID: 0}
@@ -7674,7 +7684,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: d2caa6d97d5f5954a862894dbd8dd427, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -8001,7 +8011,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _RedFolderSprite: {fileID: 3047469160908696035, guid: 8a84ca634d2862c47a6d818228fae745,
     type: 3}
-  _ErrorTextSprite: {fileID: 21300000, guid: 4badb6db818859b47a651da1320042a3, type: 3}
+  _ErrorTextSprite: {fileID: 8817083935138132195, guid: 4badb6db818859b47a651da1320042a3,
+    type: 3}
   _Image: {fileID: 8761998263591731927}
   _XScript: {fileID: 8761998262069273937}
   _CounterScript: {fileID: 0}
@@ -8016,7 +8027,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: d2caa6d97d5f5954a862894dbd8dd427, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -8307,8 +8318,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 68.1, y: -66.998}
-  m_SizeDelta: {x: 144.68, y: 33.995}
+  m_AnchoredPosition: {x: 85.86, y: -56.6}
+  m_SizeDelta: {x: 168.01, y: 39.48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8761998263628262652
 CanvasRenderer:
@@ -8336,7 +8347,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -6508123259359690383, guid: 55863cd64a501524590d4270a390005d,
+  m_Sprite: {fileID: -6440280993088501963, guid: 55863cd64a501524590d4270a390005d,
     type: 3}
   m_Type: 0
   m_PreserveAspect: 0
@@ -8368,9 +8379,9 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_HighlightedColor: {r: 1, g: 0.72638494, b: 0, a: 1}
+    m_PressedColor: {r: 1, g: 0.977661, b: 0, a: 1}
+    m_SelectedColor: {r: 1, g: 0.9479667, b: 0, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -8435,7 +8446,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -68.799995, y: 196.60002}
+  m_AnchoredPosition: {x: -63.199997, y: 200.30002}
   m_SizeDelta: {x: 131.43, y: 36.05}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8761998263663450560
@@ -8743,7 +8754,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 0.00013459366, y: 162.32472}
+  m_AnchoredPosition: {x: 0.00013459366, y: 162.32501}
   m_SizeDelta: {x: 200, y: 564.3}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &8761998263758895518
@@ -8780,7 +8791,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 236.92996, y: 202.00002}
+  m_AnchoredPosition: {x: 242.42998, y: 204.60002}
   m_SizeDelta: {x: 78.26, y: 29.21}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8761998263758895491
@@ -9039,7 +9050,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 69.2, y: 160.5}
+  m_AnchoredPosition: {x: 93.100006, y: 160.89}
   m_SizeDelta: {x: 291.98, y: 17.72}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8761998263823296681
@@ -9355,7 +9366,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8761998263892835656}
   m_LocalRotation: {x: -0, y: -0, z: -0.017637305, w: -0.9998445}
-  m_LocalPosition: {x: 0, y: 0, z: -0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 8761998262491057453}
@@ -9363,7 +9374,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 362.021}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 298.3, y: 202.1}
+  m_AnchoredPosition: {x: 298.20004, y: 204.6}
   m_SizeDelta: {x: 42.18, y: 34.61}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8761998263892835661
@@ -9654,8 +9665,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8761998262648747677}
   m_HandleRect: {fileID: 8761998262648747678}
   m_Direction: 2
-  m_Value: 1.0000011
-  m_Size: 0.57531166
+  m_Value: 1
+  m_Size: 0.5753145
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -9791,7 +9802,7 @@ MonoBehaviour:
   _Tutorial1: {fileID: 8761998262864690973}
   _manager: {fileID: 8761998263961096175}
   ChangeSceneTo: 12
-  _WaitTime: 1
+  _WaitTime: 0.05
   _VoiceActingAudio: {fileID: 8761998263961096174}
   ComputerSceneNumber: 3
 --- !u!114 &8761998263961096175
@@ -10121,6 +10132,11 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 14
       objectReference: {fileID: 0}
+    - target: {fileID: 7746100015650775372, guid: 8a565af8f1d58304995db74133cd1e2a,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: d2caa6d97d5f5954a862894dbd8dd427, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a565af8f1d58304995db74133cd1e2a, type: 3}
 --- !u!224 &6068101682769503217 stripped
@@ -10348,6 +10364,11 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 14
       objectReference: {fileID: 0}
+    - target: {fileID: 7746100015650775372, guid: 8a565af8f1d58304995db74133cd1e2a,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: d2caa6d97d5f5954a862894dbd8dd427, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a565af8f1d58304995db74133cd1e2a, type: 3}
 --- !u!224 &6068101684399465361 stripped
@@ -10575,6 +10596,11 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 14
       objectReference: {fileID: 0}
+    - target: {fileID: 7746100015650775372, guid: 8a565af8f1d58304995db74133cd1e2a,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: d2caa6d97d5f5954a862894dbd8dd427, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a565af8f1d58304995db74133cd1e2a, type: 3}
 --- !u!224 &6068101684113077821 stripped

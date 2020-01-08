@@ -63,7 +63,7 @@ public class MouseCheckScript : MonoBehaviour
                 _img.gameObject.SetActive(false);
                 
                 _SelectComputer = true;
-                _textUpdateScript.UpdateText1();
+                
             StartCoroutine(LateDialogueStart());
 
             }
@@ -78,5 +78,6 @@ public class MouseCheckScript : MonoBehaviour
         yield return new WaitForSeconds(1.0f);
         _DialogueCanvas.SetActive(true);
         _SecondCanvas.SetActive(false);
+        _textUpdateScript.UpdateText1();
     }
 }

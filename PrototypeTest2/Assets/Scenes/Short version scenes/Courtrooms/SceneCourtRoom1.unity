@@ -1160,14 +1160,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Courtroom_WithLigths
       objectReference: {fileID: 0}
-    - target: {fileID: 62699920, guid: 92e3ccc43021a654dbf8785b8ff9d56f, type: 3}
-      propertyPath: _mouseSciptObject
-      value: 
-      objectReference: {fileID: 1252106132}
-    - target: {fileID: 62699920, guid: 92e3ccc43021a654dbf8785b8ff9d56f, type: 3}
-      propertyPath: _gm
-      value: 
-      objectReference: {fileID: 77839723}
     - target: {fileID: 2539747242149326220, guid: 92e3ccc43021a654dbf8785b8ff9d56f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1223,6 +1215,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 62699920, guid: 92e3ccc43021a654dbf8785b8ff9d56f, type: 3}
+      propertyPath: _mouseSciptObject
+      value: 
+      objectReference: {fileID: 1252106132}
+    - target: {fileID: 62699920, guid: 92e3ccc43021a654dbf8785b8ff9d56f, type: 3}
+      propertyPath: _gm
+      value: 
+      objectReference: {fileID: 77839723}
     - target: {fileID: 7423729486209173528, guid: 92e3ccc43021a654dbf8785b8ff9d56f,
         type: 3}
       propertyPath: m_Materials.Array.data[1]
@@ -3290,7 +3290,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1473067068}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
@@ -3314,7 +3314,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Beweeg de muis
+  m_Text: 
 --- !u!222 &1473067071
 CanvasRenderer:
   m_ObjectHideFlags: 0
