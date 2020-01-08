@@ -252,7 +252,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e9904cbe1f16f148ad897064b7b8a87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _Pass: 0
+  _Pass: 1
   BiasToBeAdded: 0
 --- !u!1 &48286647
 GameObject:
@@ -1180,7 +1180,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1150125394}
   m_HandleRect: {fileID: 1150125393}
   m_Direction: 0
-  m_Value: -0.0000027330389
+  m_Value: -0.000002522805
   m_Size: 0.81854975
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -4458,7 +4458,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e9904cbe1f16f148ad897064b7b8a87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _Pass: 0
+  _Pass: 1
   BiasToBeAdded: 0
 --- !u!114 &827919881
 MonoBehaviour:
@@ -6027,7 +6027,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 0.00013459366, y: 162.32472}
+  m_AnchoredPosition: {x: 0.00013459366, y: 162.32487}
   m_SizeDelta: {x: 200, y: 564.3}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &1254936240
@@ -7194,7 +7194,7 @@ MonoBehaviour:
   _Tutorial1: {fileID: 441493614}
   _manager: {fileID: 1527683228}
   ChangeSceneTo: 12
-  _WaitTime: 5
+  _WaitTime: 1
   _VoiceActingAudio: {fileID: 1527683229}
   ComputerSceneNumber: 3
 --- !u!114 &1527683228
@@ -7386,7 +7386,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 154640878}
   m_HandleRect: {fileID: 154640877}
   m_Direction: 2
-  m_Value: 1.0000013
+  m_Value: 1.0000005
   m_Size: 0.5753145
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -9235,7 +9235,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e9904cbe1f16f148ad897064b7b8a87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _Pass: 0
+  _Pass: 1
   BiasToBeAdded: 0
 --- !u!114 &1902598553
 MonoBehaviour:
