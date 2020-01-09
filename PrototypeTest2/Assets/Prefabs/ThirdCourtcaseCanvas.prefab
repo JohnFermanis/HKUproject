@@ -71,7 +71,7 @@ AudioSource:
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
-  BypassEffects: 0
+  BypassEffects: 1
   BypassListenerEffects: 0
   BypassReverbZones: 0
   rolloffCustomCurve:
@@ -388,6 +388,8 @@ MonoBehaviour:
   _Image: {fileID: 8761998261875696681}
   _StarOffSprite: {fileID: 21300000, guid: f6f8f9eb67b7a8942814049ec850083e, type: 3}
   _StarOnSprite: {fileID: 21300000, guid: 6587e0c30bbcfe94d9f7778be1449db3, type: 3}
+  _StarAudioSourceOn: {fileID: 0}
+  _StarAudioSourceOff: {fileID: 0}
 --- !u!1 &8761998261901070710
 GameObject:
   m_ObjectHideFlags: 0
@@ -927,7 +929,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 8761998261988338494}
+      - m_Target: {fileID: 0}
         m_MethodName: Play
         m_Mode: 1
         m_Arguments:
@@ -1455,7 +1457,7 @@ MonoBehaviour:
   _Image: {fileID: 8761998262062990446}
   _XScript: {fileID: 8761998262069273937}
   _CounterScript: {fileID: 2337716906067092419}
-  _OpenRedFolderSound: {fileID: 8706308309708273301}
+  _OpenRedFolderSound: {fileID: 0}
 --- !u!1 &8761998262069273965
 GameObject:
   m_ObjectHideFlags: 0
@@ -1736,6 +1738,8 @@ MonoBehaviour:
   _Image: {fileID: 8761998262083256935}
   _StarOffSprite: {fileID: 21300000, guid: f6f8f9eb67b7a8942814049ec850083e, type: 3}
   _StarOnSprite: {fileID: 21300000, guid: 6587e0c30bbcfe94d9f7778be1449db3, type: 3}
+  _StarAudioSourceOn: {fileID: 0}
+  _StarAudioSourceOff: {fileID: 0}
 --- !u!1 &8761998262091550153
 GameObject:
   m_ObjectHideFlags: 0
@@ -1977,7 +1981,7 @@ MonoBehaviour:
   _Image: {fileID: 8761998262117184793}
   _XScript: {fileID: 8761998262069273937}
   _CounterScript: {fileID: 2337716906067092419}
-  _OpenRedFolderSound: {fileID: 8706308309708273301}
+  _OpenRedFolderSound: {fileID: 0}
 --- !u!1 &8761998262126031806
 GameObject:
   m_ObjectHideFlags: 0
@@ -2067,6 +2071,8 @@ MonoBehaviour:
   _Image: {fileID: 8761998262126031779}
   _StarOffSprite: {fileID: 21300000, guid: f6f8f9eb67b7a8942814049ec850083e, type: 3}
   _StarOnSprite: {fileID: 21300000, guid: 6587e0c30bbcfe94d9f7778be1449db3, type: 3}
+  _StarAudioSourceOn: {fileID: 0}
+  _StarAudioSourceOff: {fileID: 0}
 --- !u!1 &8761998262174962861
 GameObject:
   m_ObjectHideFlags: 0
@@ -2313,7 +2319,7 @@ MonoBehaviour:
   _Image: {fileID: 8761998262219911606}
   _XScript: {fileID: 8761998262069273937}
   _CounterScript: {fileID: 2337716906067092419}
-  _OpenRedFolderSound: {fileID: 8706308309708273301}
+  _OpenRedFolderSound: {fileID: 0}
 --- !u!1 &8761998262220178852
 GameObject:
   m_ObjectHideFlags: 0
@@ -2516,6 +2522,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &8761998262244350325
 GameObject:
   m_ObjectHideFlags: 0
@@ -2528,7 +2545,6 @@ GameObject:
   - component: {fileID: 8761998262244350329}
   - component: {fileID: 8761998262244350330}
   - component: {fileID: 8761998262244350331}
-  - component: {fileID: 8637177516300192178}
   m_Layer: 5
   m_Name: Verdict Evidence3
   m_TagString: Untagged
@@ -2606,103 +2622,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _Pass: 1
   BiasToBeAdded: 0
-  _DropSound: {fileID: 8637177516300192178}
---- !u!82 &8637177516300192178
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8761998262244350325}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 0
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
+  _DropSound: {fileID: 0}
 --- !u!1 &8761998262249923660
 GameObject:
   m_ObjectHideFlags: 0
@@ -3001,7 +2921,7 @@ MonoBehaviour:
   _Image: {fileID: 8761998262365846597}
   _XScript: {fileID: 8761998262069273937}
   _CounterScript: {fileID: 2337716906067092419}
-  _OpenRedFolderSound: {fileID: 8706308309708273301}
+  _OpenRedFolderSound: {fileID: 0}
 --- !u!1 &8761998262423644545
 GameObject:
   m_ObjectHideFlags: 0
@@ -3014,7 +2934,6 @@ GameObject:
   - component: {fileID: 8761998262423644549}
   - component: {fileID: 8761998262423644550}
   - component: {fileID: 8761998262423644551}
-  - component: {fileID: 8706308309708273301}
   m_Layer: 5
   m_Name: RedFolder
   m_TagString: Untagged
@@ -3098,103 +3017,7 @@ MonoBehaviour:
   _Image: {fileID: 8761998262423644550}
   _XScript: {fileID: 8761998262069273937}
   _CounterScript: {fileID: 2337716906067092419}
-  _OpenRedFolderSound: {fileID: 8706308309708273301}
---- !u!82 &8706308309708273301
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8761998262423644545}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
+  _OpenRedFolderSound: {fileID: 0}
 --- !u!1 &8761998262452608196
 GameObject:
   m_ObjectHideFlags: 0
@@ -3336,7 +3159,6 @@ GameObject:
   - component: {fileID: 8761998262459957140}
   - component: {fileID: 8761998262459957141}
   - component: {fileID: 8761998262459957147}
-  - component: {fileID: 6600825386257043206}
   m_Layer: 5
   m_Name: Verdict Evidence1
   m_TagString: Untagged
@@ -3414,103 +3236,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _Pass: 1
   BiasToBeAdded: 0
-  _DropSound: {fileID: 6600825386257043206}
---- !u!82 &6600825386257043206
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8761998262459957143}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 0
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
+  _DropSound: {fileID: 0}
 --- !u!1 &8761998262491057454
 GameObject:
   m_ObjectHideFlags: 0
@@ -3791,6 +3517,8 @@ MonoBehaviour:
   _Image: {fileID: 8761998262540067373}
   _StarOffSprite: {fileID: 21300000, guid: f6f8f9eb67b7a8942814049ec850083e, type: 3}
   _StarOnSprite: {fileID: 21300000, guid: 6587e0c30bbcfe94d9f7778be1449db3, type: 3}
+  _StarAudioSourceOn: {fileID: 0}
+  _StarAudioSourceOff: {fileID: 0}
 --- !u!1 &8761998262553057112
 GameObject:
   m_ObjectHideFlags: 0
@@ -3922,7 +3650,7 @@ MonoBehaviour:
   _Image: {fileID: 8761998262560156394}
   _XScript: {fileID: 8761998262069273937}
   _CounterScript: {fileID: 2337716906067092419}
-  _OpenRedFolderSound: {fileID: 8706308309708273301}
+  _OpenRedFolderSound: {fileID: 0}
 --- !u!1 &8761998262608514714
 GameObject:
   m_ObjectHideFlags: 0
@@ -4150,8 +3878,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8761998263499788833}
   m_HandleRect: {fileID: 8761998263499788834}
   m_Direction: 0
-  m_Value: -0.000002522805
-  m_Size: 0.81854975
+  m_Value: -0.000013665206
+  m_Size: 0.8185499
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -4287,7 +4015,7 @@ MonoBehaviour:
   _Image: {fileID: 8761998262764369549}
   _XScript: {fileID: 8761998262069273937}
   _CounterScript: {fileID: 2337716906067092419}
-  _OpenRedFolderSound: {fileID: 8706308309708273301}
+  _OpenRedFolderSound: {fileID: 0}
 --- !u!1 &8761998262780324702
 GameObject:
   m_ObjectHideFlags: 0
@@ -4524,6 +4252,8 @@ MonoBehaviour:
   _Image: {fileID: 8761998262856387900}
   _StarOffSprite: {fileID: 21300000, guid: f6f8f9eb67b7a8942814049ec850083e, type: 3}
   _StarOnSprite: {fileID: 21300000, guid: 6587e0c30bbcfe94d9f7778be1449db3, type: 3}
+  _StarAudioSourceOn: {fileID: 0}
+  _StarAudioSourceOff: {fileID: 0}
 --- !u!1 &8761998262864690973
 GameObject:
   m_ObjectHideFlags: 0
@@ -4774,7 +4504,7 @@ MonoBehaviour:
   _Image: {fileID: 8761998262868567014}
   _XScript: {fileID: 8761998262069273937}
   _CounterScript: {fileID: 2337716906067092419}
-  _OpenRedFolderSound: {fileID: 8706308309708273301}
+  _OpenRedFolderSound: {fileID: 0}
 --- !u!1 &8761998262894644704
 GameObject:
   m_ObjectHideFlags: 0
@@ -4937,6 +4667,8 @@ MonoBehaviour:
   _Image: {fileID: 8761998262944509373}
   _StarOffSprite: {fileID: 21300000, guid: f6f8f9eb67b7a8942814049ec850083e, type: 3}
   _StarOnSprite: {fileID: 21300000, guid: 6587e0c30bbcfe94d9f7778be1449db3, type: 3}
+  _StarAudioSourceOn: {fileID: 0}
+  _StarAudioSourceOff: {fileID: 0}
 --- !u!1 &8761998262955085969
 GameObject:
   m_ObjectHideFlags: 0
@@ -5675,7 +5407,18 @@ MonoBehaviour:
       m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_AlphaFadeSpeed: 0.15
 --- !u!1 &8761998263134750244
 GameObject:
@@ -6085,7 +5828,7 @@ MonoBehaviour:
   _Image: {fileID: 8761998263178369243}
   _XScript: {fileID: 8761998262069273937}
   _CounterScript: {fileID: 2337716906067092419}
-  _OpenRedFolderSound: {fileID: 8706308309708273301}
+  _OpenRedFolderSound: {fileID: 0}
 --- !u!1 &8761998263223784519
 GameObject:
   m_ObjectHideFlags: 0
@@ -6175,6 +5918,8 @@ MonoBehaviour:
   _Image: {fileID: 8761998263223784516}
   _StarOffSprite: {fileID: 21300000, guid: f6f8f9eb67b7a8942814049ec850083e, type: 3}
   _StarOnSprite: {fileID: 21300000, guid: 6587e0c30bbcfe94d9f7778be1449db3, type: 3}
+  _StarAudioSourceOn: {fileID: 0}
+  _StarAudioSourceOff: {fileID: 0}
 --- !u!1 &8761998263224515245
 GameObject:
   m_ObjectHideFlags: 0
@@ -6466,7 +6211,6 @@ GameObject:
   - component: {fileID: 8761998263316664041}
   - component: {fileID: 8761998263316664042}
   - component: {fileID: 8761998263316664043}
-  - component: {fileID: 5889499302836251814}
   m_Layer: 5
   m_Name: Verdict Evidence2
   m_TagString: Untagged
@@ -6544,103 +6288,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _Pass: 1
   BiasToBeAdded: 0
-  _DropSound: {fileID: 5889499302836251814}
---- !u!82 &5889499302836251814
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8761998263316664037}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 0
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
+  _DropSound: {fileID: 0}
 --- !u!1 &8761998263347093110
 GameObject:
   m_ObjectHideFlags: 0
@@ -6848,6 +6496,8 @@ MonoBehaviour:
   _Image: {fileID: 8761998263348156161}
   _StarOffSprite: {fileID: 21300000, guid: f6f8f9eb67b7a8942814049ec850083e, type: 3}
   _StarOnSprite: {fileID: 21300000, guid: 6587e0c30bbcfe94d9f7778be1449db3, type: 3}
+  _StarAudioSourceOn: {fileID: 0}
+  _StarAudioSourceOff: {fileID: 0}
 --- !u!1 &8761998263371639452
 GameObject:
   m_ObjectHideFlags: 0
@@ -7093,6 +6743,8 @@ MonoBehaviour:
   _Image: {fileID: 8761998263406818740}
   _StarOffSprite: {fileID: 21300000, guid: f6f8f9eb67b7a8942814049ec850083e, type: 3}
   _StarOnSprite: {fileID: 21300000, guid: 6587e0c30bbcfe94d9f7778be1449db3, type: 3}
+  _StarAudioSourceOn: {fileID: 0}
+  _StarAudioSourceOff: {fileID: 0}
 --- !u!1 &8761998263499788835
 GameObject:
   m_ObjectHideFlags: 0
@@ -7334,7 +6986,7 @@ MonoBehaviour:
   _Image: {fileID: 8761998263509601645}
   _XScript: {fileID: 8761998262069273937}
   _CounterScript: {fileID: 2337716906067092419}
-  _OpenRedFolderSound: {fileID: 8706308309708273301}
+  _OpenRedFolderSound: {fileID: 0}
 --- !u!1 &8761998263519338869
 GameObject:
   m_ObjectHideFlags: 0
@@ -7580,7 +7232,7 @@ MonoBehaviour:
   _Image: {fileID: 8761998263591731927}
   _XScript: {fileID: 8761998262069273937}
   _CounterScript: {fileID: 2337716906067092419}
-  _OpenRedFolderSound: {fileID: 8706308309708273301}
+  _OpenRedFolderSound: {fileID: 0}
 --- !u!1 &8761998263620777179
 GameObject:
   m_ObjectHideFlags: 0
@@ -7871,6 +7523,17 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 8761998263961096168}
         m_MethodName: FinalDecision
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8222,7 +7885,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 0.00013459366, y: 162.32494}
+  m_AnchoredPosition: {x: 0.0004931169, y: 162.32494}
   m_SizeDelta: {x: 200, y: 564.3}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &8761998263758895518
@@ -8646,6 +8309,8 @@ MonoBehaviour:
   _Image: {fileID: 8761998263824790972}
   _StarOffSprite: {fileID: 21300000, guid: f6f8f9eb67b7a8942814049ec850083e, type: 3}
   _StarOnSprite: {fileID: 21300000, guid: 6587e0c30bbcfe94d9f7778be1449db3, type: 3}
+  _StarAudioSourceOn: {fileID: 0}
+  _StarAudioSourceOff: {fileID: 0}
 --- !u!1 &8761998263867512870
 GameObject:
   m_ObjectHideFlags: 0
@@ -8735,6 +8400,8 @@ MonoBehaviour:
   _Image: {fileID: 8761998263867512875}
   _StarOffSprite: {fileID: 21300000, guid: f6f8f9eb67b7a8942814049ec850083e, type: 3}
   _StarOnSprite: {fileID: 21300000, guid: 6587e0c30bbcfe94d9f7778be1449db3, type: 3}
+  _StarAudioSourceOn: {fileID: 0}
+  _StarAudioSourceOff: {fileID: 0}
 --- !u!1 &8761998263879441534
 GameObject:
   m_ObjectHideFlags: 0
@@ -9134,7 +8801,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 8761998262648747678}
   m_Direction: 2
   m_Value: 1.0000002
-  m_Size: 0.5753145
+  m_Size: 0.57528436
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -9510,20 +9177,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3291819803716738892, guid: 8a565af8f1d58304995db74133cd1e2a,
         type: 3}
-      propertyPath: _IsThisTutorial
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3291819803716738892, guid: 8a565af8f1d58304995db74133cd1e2a,
-        type: 3}
       propertyPath: _EvidenceImage
       value: 
       objectReference: {fileID: -460876698321930837, guid: 6f2969005d9b230449824e819e6617e4,
         type: 3}
     - target: {fileID: 3291819803716738892, guid: 8a565af8f1d58304995db74133cd1e2a,
         type: 3}
-      propertyPath: BiasCounter
-      value: 2
-      objectReference: {fileID: 0}
+      propertyPath: _OpenFolderSprite
+      value: 
+      objectReference: {fileID: 6333655733166205228, guid: dd7ce90da90d6ee4f96980e9f7eeab4f,
+        type: 3}
     - target: {fileID: 3291819803716738892, guid: 8a565af8f1d58304995db74133cd1e2a,
         type: 3}
       propertyPath: _ClosedFolderSprite
@@ -9532,36 +9195,15 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 3291819803716738892, guid: 8a565af8f1d58304995db74133cd1e2a,
         type: 3}
-      propertyPath: _OpenFolderSprite
-      value: 
-      objectReference: {fileID: 6333655733166205228, guid: dd7ce90da90d6ee4f96980e9f7eeab4f,
-        type: 3}
+      propertyPath: BiasCounter
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3291819803716738898, guid: 8a565af8f1d58304995db74133cd1e2a,
         type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -5172751786572926544, guid: dd7ce90da90d6ee4f96980e9f7eeab4f,
         type: 3}
-    - target: {fileID: 3291819803716738898, guid: 8a565af8f1d58304995db74133cd1e2a,
-        type: 3}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3291819803716738898, guid: 8a565af8f1d58304995db74133cd1e2a,
-        type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3291819803716738898, guid: 8a565af8f1d58304995db74133cd1e2a,
-        type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3291819803716738898, guid: 8a565af8f1d58304995db74133cd1e2a,
-        type: 3}
-      propertyPath: m_Color.a
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1826187483982564814, guid: 8a565af8f1d58304995db74133cd1e2a,
         type: 3}
       propertyPath: m_Sprite
@@ -9604,7 +9246,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: d2caa6d97d5f5954a862894dbd8dd427, type: 3}
+      objectReference: {fileID: 8300000, guid: 28ed35ac01ac6074c9801d561ab62670, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a565af8f1d58304995db74133cd1e2a, type: 3}
 --- !u!224 &6068101682769503217 stripped
@@ -9742,20 +9384,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3291819803716738892, guid: 8a565af8f1d58304995db74133cd1e2a,
         type: 3}
-      propertyPath: _IsThisTutorial
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3291819803716738892, guid: 8a565af8f1d58304995db74133cd1e2a,
-        type: 3}
       propertyPath: _EvidenceImage
       value: 
       objectReference: {fileID: -898230873873839773, guid: 0b4e6693461c6284db5785291591623e,
         type: 3}
     - target: {fileID: 3291819803716738892, guid: 8a565af8f1d58304995db74133cd1e2a,
         type: 3}
-      propertyPath: BiasCounter
-      value: 1
-      objectReference: {fileID: 0}
+      propertyPath: _OpenFolderSprite
+      value: 
+      objectReference: {fileID: 8700360506765555568, guid: dd7ce90da90d6ee4f96980e9f7eeab4f,
+        type: 3}
     - target: {fileID: 3291819803716738892, guid: 8a565af8f1d58304995db74133cd1e2a,
         type: 3}
       propertyPath: _ClosedFolderSprite
@@ -9764,36 +9402,15 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 3291819803716738892, guid: 8a565af8f1d58304995db74133cd1e2a,
         type: 3}
-      propertyPath: _OpenFolderSprite
-      value: 
-      objectReference: {fileID: 8700360506765555568, guid: dd7ce90da90d6ee4f96980e9f7eeab4f,
-        type: 3}
+      propertyPath: BiasCounter
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3291819803716738898, guid: 8a565af8f1d58304995db74133cd1e2a,
         type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -1557982044330804058, guid: dd7ce90da90d6ee4f96980e9f7eeab4f,
         type: 3}
-    - target: {fileID: 3291819803716738898, guid: 8a565af8f1d58304995db74133cd1e2a,
-        type: 3}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3291819803716738898, guid: 8a565af8f1d58304995db74133cd1e2a,
-        type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3291819803716738898, guid: 8a565af8f1d58304995db74133cd1e2a,
-        type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3291819803716738898, guid: 8a565af8f1d58304995db74133cd1e2a,
-        type: 3}
-      propertyPath: m_Color.a
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1826187483982564814, guid: 8a565af8f1d58304995db74133cd1e2a,
         type: 3}
       propertyPath: m_Sprite
@@ -9836,7 +9453,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: d2caa6d97d5f5954a862894dbd8dd427, type: 3}
+      objectReference: {fileID: 8300000, guid: 28ed35ac01ac6074c9801d561ab62670, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a565af8f1d58304995db74133cd1e2a, type: 3}
 --- !u!224 &6068101684399465361 stripped
@@ -9980,14 +9597,10 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 3291819803716738892, guid: 8a565af8f1d58304995db74133cd1e2a,
         type: 3}
-      propertyPath: _IsThisTutorial
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3291819803716738892, guid: 8a565af8f1d58304995db74133cd1e2a,
+      propertyPath: _OpenFolderSprite
+      value: 
+      objectReference: {fileID: 2799758641117278478, guid: dd7ce90da90d6ee4f96980e9f7eeab4f,
         type: 3}
-      propertyPath: BiasCounter
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 3291819803716738892, guid: 8a565af8f1d58304995db74133cd1e2a,
         type: 3}
       propertyPath: _ClosedFolderSprite
@@ -9996,36 +9609,15 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 3291819803716738892, guid: 8a565af8f1d58304995db74133cd1e2a,
         type: 3}
-      propertyPath: _OpenFolderSprite
-      value: 
-      objectReference: {fileID: 2799758641117278478, guid: dd7ce90da90d6ee4f96980e9f7eeab4f,
-        type: 3}
+      propertyPath: BiasCounter
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3291819803716738898, guid: 8a565af8f1d58304995db74133cd1e2a,
         type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -2623864581492458847, guid: dd7ce90da90d6ee4f96980e9f7eeab4f,
         type: 3}
-    - target: {fileID: 3291819803716738898, guid: 8a565af8f1d58304995db74133cd1e2a,
-        type: 3}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3291819803716738898, guid: 8a565af8f1d58304995db74133cd1e2a,
-        type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3291819803716738898, guid: 8a565af8f1d58304995db74133cd1e2a,
-        type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3291819803716738898, guid: 8a565af8f1d58304995db74133cd1e2a,
-        type: 3}
-      propertyPath: m_Color.a
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1826187483982564814, guid: 8a565af8f1d58304995db74133cd1e2a,
         type: 3}
       propertyPath: m_Sprite
@@ -10068,7 +9660,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: d2caa6d97d5f5954a862894dbd8dd427, type: 3}
+      objectReference: {fileID: 8300000, guid: 28ed35ac01ac6074c9801d561ab62670, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a565af8f1d58304995db74133cd1e2a, type: 3}
 --- !u!224 &6068101684113077821 stripped
