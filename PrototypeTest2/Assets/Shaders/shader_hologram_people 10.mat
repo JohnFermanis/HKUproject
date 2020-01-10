@@ -47,5 +47,5 @@ Material:
     - Vector1_F281658E: 0.14
     m_Colors:
     - Color_23DB4B76: {r: 1, g: 1, b: 1, a: 1}
-    - Color_554EC5A7: {r: 1.4676834, g: 1.5263813, b: 1.6121703, a: 0}
+    - Color_554EC5A7: {r: 0, g: 60.124847, b: 64, a: 0}
     - Vector2_11876949: {r: 1, g: 37.58, b: 0, a: 0}
