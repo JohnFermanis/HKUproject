@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -3081,184 +3081,63 @@ PrefabInstance:
     - target: {fileID: 8761998263719754049, guid: 268a9581585d72745b8704abe53d89b7,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 162.32411
+      value: 162.32501
       objectReference: {fileID: 0}
     - target: {fileID: 8761998262423644551, guid: 268a9581585d72745b8704abe53d89b7,
         type: 3}
-      propertyPath: _CounterScript
-      value: 
-      objectReference: {fileID: 902485426}
-    - target: {fileID: 8761998262423644551, guid: 268a9581585d72745b8704abe53d89b7,
-        type: 3}
-      propertyPath: _OpenRedFolderSound
-      value: 
-      objectReference: {fileID: 1278287393}
-    - target: {fileID: 8761998262423644551, guid: 268a9581585d72745b8704abe53d89b7,
-        type: 3}
-      propertyPath: _ErrorTextSprite
-      value: 
-      objectReference: {fileID: 380638745654451406, guid: dfe545c26e8d2894b91d0cbdcc1f5ea0,
-        type: 3}
-    - target: {fileID: 8761998263591731920, guid: 268a9581585d72745b8704abe53d89b7,
-        type: 3}
-      propertyPath: _CounterScript
-      value: 
-      objectReference: {fileID: 902485426}
-    - target: {fileID: 8761998263591731920, guid: 268a9581585d72745b8704abe53d89b7,
-        type: 3}
       propertyPath: _OpenRedFolderSound
       value: 
       objectReference: {fileID: 1278287393}
     - target: {fileID: 8761998263591731920, guid: 268a9581585d72745b8704abe53d89b7,
-        type: 3}
-      propertyPath: _ErrorTextSprite
-      value: 
-      objectReference: {fileID: 380638745654451406, guid: dfe545c26e8d2894b91d0cbdcc1f5ea0,
-        type: 3}
-    - target: {fileID: 8761998262560156395, guid: 268a9581585d72745b8704abe53d89b7,
-        type: 3}
-      propertyPath: _CounterScript
-      value: 
-      objectReference: {fileID: 902485426}
-    - target: {fileID: 8761998262560156395, guid: 268a9581585d72745b8704abe53d89b7,
         type: 3}
       propertyPath: _OpenRedFolderSound
       value: 
       objectReference: {fileID: 1278287393}
     - target: {fileID: 8761998262560156395, guid: 268a9581585d72745b8704abe53d89b7,
         type: 3}
-      propertyPath: _ErrorTextSprite
-      value: 
-      objectReference: {fileID: 380638745654451406, guid: dfe545c26e8d2894b91d0cbdcc1f5ea0,
-        type: 3}
-    - target: {fileID: 8761998263178369236, guid: 268a9581585d72745b8704abe53d89b7,
-        type: 3}
-      propertyPath: _CounterScript
-      value: 
-      objectReference: {fileID: 902485426}
-    - target: {fileID: 8761998263178369236, guid: 268a9581585d72745b8704abe53d89b7,
-        type: 3}
       propertyPath: _OpenRedFolderSound
       value: 
       objectReference: {fileID: 1278287393}
     - target: {fileID: 8761998263178369236, guid: 268a9581585d72745b8704abe53d89b7,
-        type: 3}
-      propertyPath: _ErrorTextSprite
-      value: 
-      objectReference: {fileID: 380638745654451406, guid: dfe545c26e8d2894b91d0cbdcc1f5ea0,
-        type: 3}
-    - target: {fileID: 8761998262062990447, guid: 268a9581585d72745b8704abe53d89b7,
-        type: 3}
-      propertyPath: _CounterScript
-      value: 
-      objectReference: {fileID: 902485426}
-    - target: {fileID: 8761998262062990447, guid: 268a9581585d72745b8704abe53d89b7,
         type: 3}
       propertyPath: _OpenRedFolderSound
       value: 
       objectReference: {fileID: 1278287393}
     - target: {fileID: 8761998262062990447, guid: 268a9581585d72745b8704abe53d89b7,
         type: 3}
-      propertyPath: _ErrorTextSprite
-      value: 
-      objectReference: {fileID: 380638745654451406, guid: dfe545c26e8d2894b91d0cbdcc1f5ea0,
-        type: 3}
-    - target: {fileID: 8761998262219911607, guid: 268a9581585d72745b8704abe53d89b7,
-        type: 3}
-      propertyPath: _CounterScript
-      value: 
-      objectReference: {fileID: 902485426}
-    - target: {fileID: 8761998262219911607, guid: 268a9581585d72745b8704abe53d89b7,
-        type: 3}
       propertyPath: _OpenRedFolderSound
       value: 
       objectReference: {fileID: 1278287393}
     - target: {fileID: 8761998262219911607, guid: 268a9581585d72745b8704abe53d89b7,
-        type: 3}
-      propertyPath: _ErrorTextSprite
-      value: 
-      objectReference: {fileID: 380638745654451406, guid: dfe545c26e8d2894b91d0cbdcc1f5ea0,
-        type: 3}
-    - target: {fileID: 8761998263509601646, guid: 268a9581585d72745b8704abe53d89b7,
-        type: 3}
-      propertyPath: _CounterScript
-      value: 
-      objectReference: {fileID: 902485426}
-    - target: {fileID: 8761998263509601646, guid: 268a9581585d72745b8704abe53d89b7,
         type: 3}
       propertyPath: _OpenRedFolderSound
       value: 
       objectReference: {fileID: 1278287393}
     - target: {fileID: 8761998263509601646, guid: 268a9581585d72745b8704abe53d89b7,
         type: 3}
-      propertyPath: _ErrorTextSprite
-      value: 
-      objectReference: {fileID: 380638745654451406, guid: dfe545c26e8d2894b91d0cbdcc1f5ea0,
-        type: 3}
-    - target: {fileID: 8761998262868567015, guid: 268a9581585d72745b8704abe53d89b7,
-        type: 3}
-      propertyPath: _CounterScript
-      value: 
-      objectReference: {fileID: 902485426}
-    - target: {fileID: 8761998262868567015, guid: 268a9581585d72745b8704abe53d89b7,
-        type: 3}
       propertyPath: _OpenRedFolderSound
       value: 
       objectReference: {fileID: 1278287393}
     - target: {fileID: 8761998262868567015, guid: 268a9581585d72745b8704abe53d89b7,
-        type: 3}
-      propertyPath: _ErrorTextSprite
-      value: 
-      objectReference: {fileID: 380638745654451406, guid: dfe545c26e8d2894b91d0cbdcc1f5ea0,
-        type: 3}
-    - target: {fileID: 8761998262117184794, guid: 268a9581585d72745b8704abe53d89b7,
-        type: 3}
-      propertyPath: _CounterScript
-      value: 
-      objectReference: {fileID: 902485426}
-    - target: {fileID: 8761998262117184794, guid: 268a9581585d72745b8704abe53d89b7,
         type: 3}
       propertyPath: _OpenRedFolderSound
       value: 
       objectReference: {fileID: 1278287393}
     - target: {fileID: 8761998262117184794, guid: 268a9581585d72745b8704abe53d89b7,
         type: 3}
-      propertyPath: _ErrorTextSprite
-      value: 
-      objectReference: {fileID: 380638745654451406, guid: dfe545c26e8d2894b91d0cbdcc1f5ea0,
-        type: 3}
-    - target: {fileID: 8761998262764369550, guid: 268a9581585d72745b8704abe53d89b7,
-        type: 3}
-      propertyPath: _CounterScript
-      value: 
-      objectReference: {fileID: 902485426}
-    - target: {fileID: 8761998262764369550, guid: 268a9581585d72745b8704abe53d89b7,
-        type: 3}
       propertyPath: _OpenRedFolderSound
       value: 
       objectReference: {fileID: 1278287393}
     - target: {fileID: 8761998262764369550, guid: 268a9581585d72745b8704abe53d89b7,
-        type: 3}
-      propertyPath: _ErrorTextSprite
-      value: 
-      objectReference: {fileID: 380638745654451406, guid: dfe545c26e8d2894b91d0cbdcc1f5ea0,
-        type: 3}
-    - target: {fileID: 8761998262365846598, guid: 268a9581585d72745b8704abe53d89b7,
-        type: 3}
-      propertyPath: _CounterScript
-      value: 
-      objectReference: {fileID: 902485426}
-    - target: {fileID: 8761998262365846598, guid: 268a9581585d72745b8704abe53d89b7,
         type: 3}
       propertyPath: _OpenRedFolderSound
       value: 
       objectReference: {fileID: 1278287393}
     - target: {fileID: 8761998262365846598, guid: 268a9581585d72745b8704abe53d89b7,
         type: 3}
-      propertyPath: _ErrorTextSprite
+      propertyPath: _OpenRedFolderSound
       value: 
-      objectReference: {fileID: 380638745654451406, guid: dfe545c26e8d2894b91d0cbdcc1f5ea0,
-        type: 3}
+      objectReference: {fileID: 1278287393}
     - target: {fileID: 8761998262668426043, guid: 268a9581585d72745b8704abe53d89b7,
         type: 3}
       propertyPath: m_AnchorMax.x
@@ -3319,97 +3198,16 @@ PrefabInstance:
       propertyPath: _DropSound
       value: 
       objectReference: {fileID: 1122057132}
-    - target: {fileID: 8761998262233123596, guid: 268a9581585d72745b8704abe53d89b7,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 163.9
-      objectReference: {fileID: 0}
     - target: {fileID: 8761998261988338489, guid: 268a9581585d72745b8704abe53d89b7,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1122057135}
-    - target: {fileID: 8761998261988338489, guid: 268a9581585d72745b8704abe53d89b7,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: Play
-      objectReference: {fileID: 0}
-    - target: {fileID: 8761998262233123826, guid: 268a9581585d72745b8704abe53d89b7,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 1235895011161637035, guid: 27bb9c732683675488dcec0c89b8d473,
-        type: 3}
     - target: {fileID: 8761998262233123827, guid: 268a9581585d72745b8704abe53d89b7,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1122057134}
-    - target: {fileID: 8761998262233123827, guid: 268a9581585d72745b8704abe53d89b7,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: Play
-      objectReference: {fileID: 0}
-    - target: {fileID: 8761998262233123827, guid: 268a9581585d72745b8704abe53d89b7,
-        type: 3}
-      propertyPath: m_Colors.m_NormalColor.r
-      value: 0.8980392
-      objectReference: {fileID: 0}
-    - target: {fileID: 8761998262233123827, guid: 268a9581585d72745b8704abe53d89b7,
-        type: 3}
-      propertyPath: m_Colors.m_NormalColor.g
-      value: 0.8980392
-      objectReference: {fileID: 0}
-    - target: {fileID: 8761998262233123827, guid: 268a9581585d72745b8704abe53d89b7,
-        type: 3}
-      propertyPath: m_Colors.m_NormalColor.b
-      value: 0.8980392
-      objectReference: {fileID: 0}
-    - target: {fileID: 8761998262233123827, guid: 268a9581585d72745b8704abe53d89b7,
-        type: 3}
-      propertyPath: m_Colors.m_HighlightedColor.r
-      value: 0.78431374
-      objectReference: {fileID: 0}
-    - target: {fileID: 8761998262233123827, guid: 268a9581585d72745b8704abe53d89b7,
-        type: 3}
-      propertyPath: m_Colors.m_HighlightedColor.g
-      value: 0.78431374
-      objectReference: {fileID: 0}
-    - target: {fileID: 8761998262233123827, guid: 268a9581585d72745b8704abe53d89b7,
-        type: 3}
-      propertyPath: m_Colors.m_HighlightedColor.b
-      value: 0.78431374
-      objectReference: {fileID: 0}
-    - target: {fileID: 8761998262233123827, guid: 268a9581585d72745b8704abe53d89b7,
-        type: 3}
-      propertyPath: m_Colors.m_PressedColor.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8761998262233123827, guid: 268a9581585d72745b8704abe53d89b7,
-        type: 3}
-      propertyPath: m_Colors.m_PressedColor.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8761998262233123827, guid: 268a9581585d72745b8704abe53d89b7,
-        type: 3}
-      propertyPath: m_Colors.m_PressedColor.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8761998262233123827, guid: 268a9581585d72745b8704abe53d89b7,
-        type: 3}
-      propertyPath: m_Colors.m_SelectedColor.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8761998262233123827, guid: 268a9581585d72745b8704abe53d89b7,
-        type: 3}
-      propertyPath: m_Colors.m_SelectedColor.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8761998262233123827, guid: 268a9581585d72745b8704abe53d89b7,
-        type: 3}
-      propertyPath: m_Colors.m_SelectedColor.b
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 8761998263119344159, guid: 268a9581585d72745b8704abe53d89b7,
         type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -3417,30 +3215,20 @@ PrefabInstance:
       objectReference: {fileID: 1122057137}
     - target: {fileID: 8761998263119344159, guid: 268a9581585d72745b8704abe53d89b7,
         type: 3}
-      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Play
+      propertyPath: m_Options.m_Options.Array.data[6].m_Text
+      value: De zaak wordt later vervolgd
       objectReference: {fileID: 0}
     - target: {fileID: 8761998263628262654, guid: 268a9581585d72745b8704abe53d89b7,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1122057135}
-    - target: {fileID: 8761998263628262654, guid: 268a9581585d72745b8704abe53d89b7,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: Play
-      objectReference: {fileID: 0}
-    - target: {fileID: 741190541909577529, guid: 268a9581585d72745b8704abe53d89b7,
-        type: 3}
-      propertyPath: _StarAudioSourceOff
-      value: 
-      objectReference: {fileID: 1071286677}
     - target: {fileID: 741190541909577529, guid: 268a9581585d72745b8704abe53d89b7,
         type: 3}
       propertyPath: _StarAudioSourceOn
       value: 
       objectReference: {fileID: 1834851148}
-    - target: {fileID: 741190541088152213, guid: 268a9581585d72745b8704abe53d89b7,
+    - target: {fileID: 741190541909577529, guid: 268a9581585d72745b8704abe53d89b7,
         type: 3}
       propertyPath: _StarAudioSourceOff
       value: 
@@ -3450,7 +3238,7 @@ PrefabInstance:
       propertyPath: _StarAudioSourceOn
       value: 
       objectReference: {fileID: 1834851148}
-    - target: {fileID: 741190540569680629, guid: 268a9581585d72745b8704abe53d89b7,
+    - target: {fileID: 741190541088152213, guid: 268a9581585d72745b8704abe53d89b7,
         type: 3}
       propertyPath: _StarAudioSourceOff
       value: 
@@ -3460,7 +3248,7 @@ PrefabInstance:
       propertyPath: _StarAudioSourceOn
       value: 
       objectReference: {fileID: 1834851148}
-    - target: {fileID: 8761998261875696682, guid: 268a9581585d72745b8704abe53d89b7,
+    - target: {fileID: 741190540569680629, guid: 268a9581585d72745b8704abe53d89b7,
         type: 3}
       propertyPath: _StarAudioSourceOff
       value: 
@@ -3470,7 +3258,7 @@ PrefabInstance:
       propertyPath: _StarAudioSourceOn
       value: 
       objectReference: {fileID: 1834851148}
-    - target: {fileID: 8761998262083256928, guid: 268a9581585d72745b8704abe53d89b7,
+    - target: {fileID: 8761998261875696682, guid: 268a9581585d72745b8704abe53d89b7,
         type: 3}
       propertyPath: _StarAudioSourceOff
       value: 
@@ -3480,7 +3268,7 @@ PrefabInstance:
       propertyPath: _StarAudioSourceOn
       value: 
       objectReference: {fileID: 1834851148}
-    - target: {fileID: 8761998262126031804, guid: 268a9581585d72745b8704abe53d89b7,
+    - target: {fileID: 8761998262083256928, guid: 268a9581585d72745b8704abe53d89b7,
         type: 3}
       propertyPath: _StarAudioSourceOff
       value: 
@@ -3490,7 +3278,7 @@ PrefabInstance:
       propertyPath: _StarAudioSourceOn
       value: 
       objectReference: {fileID: 1834851148}
-    - target: {fileID: 8761998262540067374, guid: 268a9581585d72745b8704abe53d89b7,
+    - target: {fileID: 8761998262126031804, guid: 268a9581585d72745b8704abe53d89b7,
         type: 3}
       propertyPath: _StarAudioSourceOff
       value: 
@@ -3500,7 +3288,7 @@ PrefabInstance:
       propertyPath: _StarAudioSourceOn
       value: 
       objectReference: {fileID: 1834851148}
-    - target: {fileID: 8761998262856387901, guid: 268a9581585d72745b8704abe53d89b7,
+    - target: {fileID: 8761998262540067374, guid: 268a9581585d72745b8704abe53d89b7,
         type: 3}
       propertyPath: _StarAudioSourceOff
       value: 
@@ -3510,7 +3298,7 @@ PrefabInstance:
       propertyPath: _StarAudioSourceOn
       value: 
       objectReference: {fileID: 1834851148}
-    - target: {fileID: 8761998262944509374, guid: 268a9581585d72745b8704abe53d89b7,
+    - target: {fileID: 8761998262856387901, guid: 268a9581585d72745b8704abe53d89b7,
         type: 3}
       propertyPath: _StarAudioSourceOff
       value: 
@@ -3520,7 +3308,7 @@ PrefabInstance:
       propertyPath: _StarAudioSourceOn
       value: 
       objectReference: {fileID: 1834851148}
-    - target: {fileID: 8761998263223784517, guid: 268a9581585d72745b8704abe53d89b7,
+    - target: {fileID: 8761998262944509374, guid: 268a9581585d72745b8704abe53d89b7,
         type: 3}
       propertyPath: _StarAudioSourceOff
       value: 
@@ -3530,7 +3318,7 @@ PrefabInstance:
       propertyPath: _StarAudioSourceOn
       value: 
       objectReference: {fileID: 1834851148}
-    - target: {fileID: 8761998263348156162, guid: 268a9581585d72745b8704abe53d89b7,
+    - target: {fileID: 8761998263223784517, guid: 268a9581585d72745b8704abe53d89b7,
         type: 3}
       propertyPath: _StarAudioSourceOff
       value: 
@@ -3540,7 +3328,7 @@ PrefabInstance:
       propertyPath: _StarAudioSourceOn
       value: 
       objectReference: {fileID: 1834851148}
-    - target: {fileID: 8761998263406818741, guid: 268a9581585d72745b8704abe53d89b7,
+    - target: {fileID: 8761998263348156162, guid: 268a9581585d72745b8704abe53d89b7,
         type: 3}
       propertyPath: _StarAudioSourceOff
       value: 
@@ -3550,7 +3338,7 @@ PrefabInstance:
       propertyPath: _StarAudioSourceOn
       value: 
       objectReference: {fileID: 1834851148}
-    - target: {fileID: 8761998263824790973, guid: 268a9581585d72745b8704abe53d89b7,
+    - target: {fileID: 8761998263406818741, guid: 268a9581585d72745b8704abe53d89b7,
         type: 3}
       propertyPath: _StarAudioSourceOff
       value: 
@@ -3560,7 +3348,7 @@ PrefabInstance:
       propertyPath: _StarAudioSourceOn
       value: 
       objectReference: {fileID: 1834851148}
-    - target: {fileID: 8761998263867512868, guid: 268a9581585d72745b8704abe53d89b7,
+    - target: {fileID: 8761998263824790973, guid: 268a9581585d72745b8704abe53d89b7,
         type: 3}
       propertyPath: _StarAudioSourceOff
       value: 
@@ -3570,6 +3358,11 @@ PrefabInstance:
       propertyPath: _StarAudioSourceOn
       value: 
       objectReference: {fileID: 1834851148}
+    - target: {fileID: 8761998263867512868, guid: 268a9581585d72745b8704abe53d89b7,
+        type: 3}
+      propertyPath: _StarAudioSourceOff
+      value: 
+      objectReference: {fileID: 1071286677}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 268a9581585d72745b8704abe53d89b7, type: 3}
 --- !u!1 &645833500

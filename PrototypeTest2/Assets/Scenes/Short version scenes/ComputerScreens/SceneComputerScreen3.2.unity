@@ -442,6 +442,11 @@ PrefabInstance:
       propertyPath: _RedFolderCounter
       value: 
       objectReference: {fileID: 8761998262500792180}
+    - target: {fileID: 2201636398673738249, guid: 9b0f4a5a6e990ef4a8fc727c23643058,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9b0f4a5a6e990ef4a8fc727c23643058, type: 3}
 --- !u!82 &2056118163 stripped
@@ -620,7 +625,7 @@ PrefabInstance:
     - target: {fileID: 8761998263719754049, guid: 268a9581585d72745b8704abe53d89b7,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 160.98074
+      value: 162.32481
       objectReference: {fileID: 0}
     - target: {fileID: 8761998262423644551, guid: 268a9581585d72745b8704abe53d89b7,
         type: 3}
@@ -1099,6 +1104,11 @@ PrefabInstance:
       propertyPath: _StarAudioSourceOn
       value: 
       objectReference: {fileID: 2056118164}
+    - target: {fileID: 7048166579528716162, guid: 268a9581585d72745b8704abe53d89b7,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 268a9581585d72745b8704abe53d89b7, type: 3}
 --- !u!114 &8761998262500792180 stripped
