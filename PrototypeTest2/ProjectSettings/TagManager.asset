@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - Canvas
+  - SCROLL
+  - CONTENT
+  - BIN
+  - TUTORIAL
+  - EXPLAIMAGE
   layers:
   - Default
   - TransparentFX
@@ -19,7 +24,7 @@ TagManager:
   - Post Processing
   - Environment_Lights
   - Courtroom_right_wall
-  - 
+  - PostProcessing
   - 
   - 
   - 
