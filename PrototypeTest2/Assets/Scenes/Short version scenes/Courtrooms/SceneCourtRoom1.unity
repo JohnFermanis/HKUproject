@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -1228,6 +1228,21 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: 0e1571e913e0dac4da37a7278ac76006, type: 2}
+    - target: {fileID: 7423729486209173528, guid: 92e3ccc43021a654dbf8785b8ff9d56f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[3]
+      value: 
+      objectReference: {fileID: 2100000, guid: f6dd45149ea915147b2fbf5b2d7ff9f1, type: 2}
+    - target: {fileID: 9143376798762324908, guid: 92e3ccc43021a654dbf8785b8ff9d56f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[3]
+      value: 
+      objectReference: {fileID: 2100000, guid: f6dd45149ea915147b2fbf5b2d7ff9f1, type: 2}
+    - target: {fileID: 7518950496896775226, guid: 92e3ccc43021a654dbf8785b8ff9d56f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[3]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3c2753c51292797478bfd05460a3df7e, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 92e3ccc43021a654dbf8785b8ff9d56f, type: 3}
 --- !u!1 &427127875
