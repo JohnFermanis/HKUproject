@@ -3081,7 +3081,7 @@ PrefabInstance:
     - target: {fileID: 8761998263719754049, guid: 268a9581585d72745b8704abe53d89b7,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 162.32501
+      value: 162.3094
       objectReference: {fileID: 0}
     - target: {fileID: 8761998262423644551, guid: 268a9581585d72745b8704abe53d89b7,
         type: 3}
@@ -3363,6 +3363,90 @@ PrefabInstance:
       propertyPath: _StarAudioSourceOff
       value: 
       objectReference: {fileID: 1071286677}
+    - target: {fileID: 6068101682769503218, guid: 268a9581585d72745b8704abe53d89b7,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 5505543710478151909, guid: dd7ce90da90d6ee4f96980e9f7eeab4f,
+        type: 3}
+    - target: {fileID: 6068101682769503212, guid: 268a9581585d72745b8704abe53d89b7,
+        type: 3}
+      propertyPath: _EvidenceImage
+      value: 
+      objectReference: {fileID: 8225908810502224826, guid: 72b4829bb8434004f85efc048d7cea7a,
+        type: 3}
+    - target: {fileID: 6068101682769503212, guid: 268a9581585d72745b8704abe53d89b7,
+        type: 3}
+      propertyPath: _ClosedFolderSprite
+      value: 
+      objectReference: {fileID: 5505543710478151909, guid: dd7ce90da90d6ee4f96980e9f7eeab4f,
+        type: 3}
+    - target: {fileID: 6068101682769503212, guid: 268a9581585d72745b8704abe53d89b7,
+        type: 3}
+      propertyPath: _OpenFolderSprite
+      value: 
+      objectReference: {fileID: 3904185126979027368, guid: dd7ce90da90d6ee4f96980e9f7eeab4f,
+        type: 3}
+    - target: {fileID: 6068101684113077822, guid: 268a9581585d72745b8704abe53d89b7,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -5529812548426776446, guid: dd7ce90da90d6ee4f96980e9f7eeab4f,
+        type: 3}
+    - target: {fileID: 6068101684113077792, guid: 268a9581585d72745b8704abe53d89b7,
+        type: 3}
+      propertyPath: _EvidenceImage
+      value: 
+      objectReference: {fileID: 4581006102485138705, guid: 1de1a9ec9d7f8fe4791a00ac5c13e770,
+        type: 3}
+    - target: {fileID: 6068101684113077792, guid: 268a9581585d72745b8704abe53d89b7,
+        type: 3}
+      propertyPath: _ClosedFolderSprite
+      value: 
+      objectReference: {fileID: -5529812548426776446, guid: dd7ce90da90d6ee4f96980e9f7eeab4f,
+        type: 3}
+    - target: {fileID: 6068101684113077792, guid: 268a9581585d72745b8704abe53d89b7,
+        type: 3}
+      propertyPath: _OpenFolderSprite
+      value: 
+      objectReference: {fileID: -6836986330826963426, guid: dd7ce90da90d6ee4f96980e9f7eeab4f,
+        type: 3}
+    - target: {fileID: 6068101684399465362, guid: 268a9581585d72745b8704abe53d89b7,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -3696016984182988625, guid: dd7ce90da90d6ee4f96980e9f7eeab4f,
+        type: 3}
+    - target: {fileID: 6068101684399465356, guid: 268a9581585d72745b8704abe53d89b7,
+        type: 3}
+      propertyPath: _EvidenceImage
+      value: 
+      objectReference: {fileID: 3617472415111652840, guid: ee6b60be0a3c9c94b8a50c68665a3a4e,
+        type: 3}
+    - target: {fileID: 6068101684399465356, guid: 268a9581585d72745b8704abe53d89b7,
+        type: 3}
+      propertyPath: _ClosedFolderSprite
+      value: 
+      objectReference: {fileID: -3696016984182988625, guid: dd7ce90da90d6ee4f96980e9f7eeab4f,
+        type: 3}
+    - target: {fileID: 6068101684399465356, guid: 268a9581585d72745b8704abe53d89b7,
+        type: 3}
+      propertyPath: _OpenFolderSprite
+      value: 
+      objectReference: {fileID: -7233870783565286072, guid: dd7ce90da90d6ee4f96980e9f7eeab4f,
+        type: 3}
+    - target: {fileID: 8761998262219911606, guid: 268a9581585d72745b8704abe53d89b7,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -2623864581492458847, guid: dd7ce90da90d6ee4f96980e9f7eeab4f,
+        type: 3}
+    - target: {fileID: 8761998262423644550, guid: 268a9581585d72745b8704abe53d89b7,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1557982044330804058, guid: dd7ce90da90d6ee4f96980e9f7eeab4f,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 268a9581585d72745b8704abe53d89b7, type: 3}
 --- !u!1 &645833500
