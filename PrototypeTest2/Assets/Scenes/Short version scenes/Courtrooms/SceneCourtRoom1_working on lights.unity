@@ -74,10 +74,10 @@ LightmapSettings:
     m_MixedBakeMode: 2
     m_BakeBackend: 1
     m_PVRSampling: 1
-    m_PVRDirectSampleCount: 16
-    m_PVRSampleCount: 16
+    m_PVRDirectSampleCount: 64
+    m_PVRSampleCount: 256
     m_PVRBounces: 2
-    m_PVREnvironmentSampleCount: 16
+    m_PVREnvironmentSampleCount: 512
     m_PVREnvironmentReferencePointCount: 2048
     m_PVRFilteringMode: 1
     m_PVRDenoiserTypeDirect: 1
@@ -391,6 +391,21 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6687089686068441223, guid: 903514942c08132498fb0b68e1f534a8,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8dd0d6e105de1de4dba5993425e3cc42, type: 2}
+    - target: {fileID: 6687089686068441223, guid: 903514942c08132498fb0b68e1f534a8,
+        type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8dd0d6e105de1de4dba5993425e3cc42, type: 2}
+    - target: {fileID: 6687089686068441223, guid: 903514942c08132498fb0b68e1f534a8,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8dd0d6e105de1de4dba5993425e3cc42, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 903514942c08132498fb0b68e1f534a8, type: 3}
 --- !u!1 &220785188
@@ -1631,6 +1646,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_BounceIntensity
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5539298059185738413, guid: 92e3ccc43021a654dbf8785b8ff9d56f,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.8862745
+      objectReference: {fileID: 0}
+    - target: {fileID: 5539298059185738413, guid: 92e3ccc43021a654dbf8785b8ff9d56f,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.8641324
+      objectReference: {fileID: 0}
+    - target: {fileID: 5539298059185738413, guid: 92e3ccc43021a654dbf8785b8ff9d56f,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.43137258
       objectReference: {fileID: 0}
     - target: {fileID: 6830126868710158485, guid: 92e3ccc43021a654dbf8785b8ff9d56f,
         type: 3}
@@ -4508,7 +4538,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 9
   m_Type: 0
-  m_Color: {r: 1, g: 0.5762037, b: 0.495283, a: 1}
+  m_Color: {r: 0.8113208, g: 0.37121755, b: 0.43892577, a: 1}
   m_Intensity: 500
   m_Range: 25
   m_SpotAngle: 116
