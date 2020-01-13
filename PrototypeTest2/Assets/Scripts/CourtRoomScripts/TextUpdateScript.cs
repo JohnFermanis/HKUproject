@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class TextUpdateScript : MonoBehaviour
 {
-    string Text ="Klik op het scherm om verder te gaan";
+    string Text;
 
     [SerializeField]
     private Text _text;
@@ -15,6 +15,7 @@ public class TextUpdateScript : MonoBehaviour
 
     public void ClearText()
     {
+        Text=_text.text;
         _text.text = "";
     }
 
