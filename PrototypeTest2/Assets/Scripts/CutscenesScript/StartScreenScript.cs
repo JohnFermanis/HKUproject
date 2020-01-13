@@ -7,10 +7,13 @@ public class StartScreenScript : MonoBehaviour
     [SerializeField]
     private GameManager _gm;
 
-    private int _Ver=0;
+    private int _Ver=0; //There 2 versions of the game, a short version and long version. The long version is also complete but it is currently disabled
 
     [SerializeField]
     private int ChangeToScene=1;
+
+    [SerializeField]
+    private int _CreditsScene=14;
 
     public void ButtonIsPressed1()
     {
@@ -22,6 +25,12 @@ public class StartScreenScript : MonoBehaviour
     {
         _Ver = 1;
         _gm.ChangeScene(ChangeToScene);
+    }
+
+    public void ButtonIsPressed3()
+    {
+       
+        _gm.ChangeScene(_CreditsScene); //credit Scene
     }
 
     private void OnDisable()
