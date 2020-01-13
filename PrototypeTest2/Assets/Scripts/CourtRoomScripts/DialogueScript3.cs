@@ -29,7 +29,7 @@ public class DialogueScript3 : MonoBehaviour
     private bool _InstantText = false;
 
     [SerializeField]
-    private float _ButtonDelay=1.0f;
+    private float _ButtonDelay=1.1f;
 
     [SerializeField]
     private FirstCanvasScript _FirstCanvas;
@@ -180,9 +180,10 @@ public class DialogueScript3 : MonoBehaviour
             else
             {
                 _thisText.text = _Dialogue[i];
-                yield return new WaitForSeconds(0.1f);
+                
+                yield return new WaitForSeconds(_ButtonDelay);
             }
-            yield return new WaitForSeconds(_ButtonDelay);
+            _ButtonPressed = false;
             yield return new WaitUntil(() => _ButtonPressed == true);
             _ButtonPressed = false;
             if (_TutorialText != null)

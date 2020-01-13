@@ -178,9 +178,10 @@ public class DialogueScript2 : MonoBehaviour
             else
             {
                 _thisText.text = _Dialogue[i];
-                yield return new WaitForSeconds(0.1f);
+              
+                yield return new WaitForSeconds(_ButtonDelay);
             }
-            yield return new WaitForSeconds(_ButtonDelay);
+            _ButtonPressed = false;
             yield return new WaitUntil(() => _ButtonPressed == true);
             _ButtonPressed = false;
             if (_TutorialText != null)

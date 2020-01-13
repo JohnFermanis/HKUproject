@@ -43,7 +43,7 @@ public class DialogueScript : MonoBehaviour
     private bool _InstantText=true;
 
     [SerializeField]
-    private float _ButtonDelay=1.0f;
+    private float _ButtonDelay=1.1f;
 
     private Text _thisText;
 
@@ -185,12 +185,13 @@ public class DialogueScript : MonoBehaviour
             else
             {
                 _thisText.text = _Dialogue[i];
-                yield return new WaitForSeconds(0.1f);
+                yield return new WaitForSeconds(_ButtonDelay);
             }
-            yield return new WaitForSeconds(_ButtonDelay);
+            //yield return new WaitForSeconds(_ButtonDelay);
+            _ButtonPressed = false;
             yield return new WaitUntil(() => _ButtonPressed == true);
             _ButtonPressed = false;
-            if(_TutorialText!=null)
+            if (_TutorialText!=null)
             _TutorialText.SetActive(false);
         }
         _FirstCanvas.ActivateMouseAndSecondCanvas();
