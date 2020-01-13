@@ -1160,6 +1160,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Courtroom_WithLigths
       objectReference: {fileID: 0}
+    - target: {fileID: 62699920, guid: 92e3ccc43021a654dbf8785b8ff9d56f, type: 3}
+      propertyPath: _mouseSciptObject
+      value: 
+      objectReference: {fileID: 1252106132}
+    - target: {fileID: 62699920, guid: 92e3ccc43021a654dbf8785b8ff9d56f, type: 3}
+      propertyPath: _gm
+      value: 
+      objectReference: {fileID: 77839723}
     - target: {fileID: 2539747242149326220, guid: 92e3ccc43021a654dbf8785b8ff9d56f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1215,24 +1223,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9143376798762324908, guid: 92e3ccc43021a654dbf8785b8ff9d56f,
-        type: 3}
-      propertyPath: m_Materials.Array.data[3]
-      value: 
-      objectReference: {fileID: 2100000, guid: f6dd45149ea915147b2fbf5b2d7ff9f1, type: 2}
-    - target: {fileID: 7518950496896775226, guid: 92e3ccc43021a654dbf8785b8ff9d56f,
-        type: 3}
-      propertyPath: m_Materials.Array.data[3]
-      value: 
-      objectReference: {fileID: 2100000, guid: 3c2753c51292797478bfd05460a3df7e, type: 2}
-    - target: {fileID: 62699920, guid: 92e3ccc43021a654dbf8785b8ff9d56f, type: 3}
-      propertyPath: _mouseSciptObject
-      value: 
-      objectReference: {fileID: 1252106132}
-    - target: {fileID: 62699920, guid: 92e3ccc43021a654dbf8785b8ff9d56f, type: 3}
-      propertyPath: _gm
-      value: 
-      objectReference: {fileID: 77839723}
     - target: {fileID: 7423729486209173528, guid: 92e3ccc43021a654dbf8785b8ff9d56f,
         type: 3}
       propertyPath: m_Materials.Array.data[1]
@@ -1243,6 +1233,16 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[3]
       value: 
       objectReference: {fileID: 2100000, guid: f6dd45149ea915147b2fbf5b2d7ff9f1, type: 2}
+    - target: {fileID: 9143376798762324908, guid: 92e3ccc43021a654dbf8785b8ff9d56f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[3]
+      value: 
+      objectReference: {fileID: 2100000, guid: f6dd45149ea915147b2fbf5b2d7ff9f1, type: 2}
+    - target: {fileID: 7518950496896775226, guid: 92e3ccc43021a654dbf8785b8ff9d56f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[3]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3c2753c51292797478bfd05460a3df7e, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 92e3ccc43021a654dbf8785b8ff9d56f, type: 3}
 --- !u!1 &427127875
@@ -1699,7 +1699,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 6a2c30c086486984ab20e110f1f76273, type: 3}
-    m_FontSize: 18
+    m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -1708,7 +1708,7 @@ MonoBehaviour:
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 1
+    m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Name
 --- !u!222 &788021401
