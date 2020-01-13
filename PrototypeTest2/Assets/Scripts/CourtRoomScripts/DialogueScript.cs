@@ -42,7 +42,8 @@ public class DialogueScript : MonoBehaviour
     [SerializeField]
     private bool _InstantText=true;
 
-    
+    [SerializeField]
+    private float _ButtonDelay=1.0f;
 
     private Text _thisText;
 
@@ -186,6 +187,7 @@ public class DialogueScript : MonoBehaviour
                 _thisText.text = _Dialogue[i];
                 yield return new WaitForSeconds(0.1f);
             }
+            yield return new WaitForSeconds(_ButtonDelay);
             yield return new WaitUntil(() => _ButtonPressed == true);
             _ButtonPressed = false;
             if(_TutorialText!=null)
