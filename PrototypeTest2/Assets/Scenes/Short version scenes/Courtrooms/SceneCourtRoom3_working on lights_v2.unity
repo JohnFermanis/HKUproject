@@ -96,7 +96,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
-  m_LightingDataAsset: {fileID: 112000000, guid: df4f7f67d9253bf40993284a4977e337,
+  m_LightingDataAsset: {fileID: 112000000, guid: ca7f96a8d13d2b9428f44e7bb84abf1d,
     type: 2}
   m_UseShadowmask: 0
 --- !u!196 &4
@@ -1632,6 +1632,21 @@ PrefabInstance:
       propertyPath: m_BounceIntensity
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 5539298059185738413, guid: 92e3ccc43021a654dbf8785b8ff9d56f,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.92649734
+      objectReference: {fileID: 0}
+    - target: {fileID: 5539298059185738413, guid: 92e3ccc43021a654dbf8785b8ff9d56f,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.5330188
+      objectReference: {fileID: 0}
+    - target: {fileID: 5539298059185738413, guid: 92e3ccc43021a654dbf8785b8ff9d56f,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6830126868710158485, guid: 92e3ccc43021a654dbf8785b8ff9d56f,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -3079,7 +3094,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: b4452cbd8a8986748947148b15dcd12a, type: 2}
+      objectReference: {fileID: 2100000, guid: 13a4e3f58297f7c4e98e2b98c41bfafe, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: de23fc6415cc9874ab1e8388307a8408, type: 3}
 --- !u!1 &948632336 stripped
@@ -4508,7 +4523,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 9
   m_Type: 0
-  m_Color: {r: 1, g: 0.5762037, b: 0.495283, a: 1}
+  m_Color: {r: 1, g: 0.73534304, b: 0.49411762, a: 1}
   m_Intensity: 500
   m_Range: 25
   m_SpotAngle: 116
@@ -5492,7 +5507,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 3466b2fbf0470ac4fbe0460dcab60fe0, type: 2}
+      objectReference: {fileID: 2100000, guid: e93bdb235117dd74aaea297cb879f004, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3e2f02eebe70ba14ba319950a990492b, type: 3}
 --- !u!1 &1987492668
