@@ -42,9 +42,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Short version scenes/ComputerScreens/SceneComputerScreen3.3.unity
     guid: ffd9bac2f45a3674fbb8b1c245eb5825
   - enabled: 1
-    path: Assets/Scenes/Short version scenes/Cutscenes/SceneThankYou.unity
-    guid: f7be76e74b42add4fb1dfe7fe2be797d
+    path: Assets/Scenes/Short version scenes/Cutscenes/SceneFinalCutscene.unity
+    guid: 75f9b324e847b3b44b04b29c54346e32
   - enabled: 1
     path: Assets/Scenes/Short version scenes/Cutscenes/SceneShortMovie.unity
     guid: 11487a0271d1d664f9b85252fd38a47f
+  - enabled: 0
+    path: Assets/Scenes/Short version scenes/Cutscenes/SceneThankYou.unity
+    guid: f7be76e74b42add4fb1dfe7fe2be797d
+  - enabled: 1
+    path: Assets/Scenes/Short version scenes/Cutscenes/SceneCredits.unity
+    guid: 9ac0d8a5ee983d847a8a64357cbf8251
   m_configObjects: {}

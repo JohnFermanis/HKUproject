@@ -7,6 +7,8 @@ public class MovieScript : MonoBehaviour
     [SerializeField]
     private GameManager _gm;
 
+    //[SerializeField]
+    //private bool _GoToNextScene=true;
     [SerializeField]
     private int ChangeToScene;
 
@@ -20,7 +22,10 @@ public class MovieScript : MonoBehaviour
     
     void Update()
     {
-        if (!vp.isPlaying || _SkipCutscene)
+        if (!vp.isPlaying || _SkipCutscene){
+
+            //if(_GoToNextScene)
             _gm.ChangeScene(ChangeToScene);
+        }
     }
 }

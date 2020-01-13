@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -1889,7 +1889,7 @@ MonoBehaviour:
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 1
+    m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Name
 --- !u!222 &788021401
@@ -3412,7 +3412,7 @@ GameObject:
   - component: {fileID: 1473067072}
   - component: {fileID: 1473067073}
   m_Layer: 5
-  m_Name: TextMoveMouseTutorial (Currently Disabled)
+  m_Name: TextClickToContinue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3468,7 +3468,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: Klik op uw computerscherm om verder te gaan
 --- !u!222 &1473067071
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4566,6 +4566,7 @@ MonoBehaviour:
   _EndScript: {fileID: 432773861}
   _letterPause: 0
   _InstantText: 1
+  _ButtonDelay: 1.1
   _FirstCanvas: {fileID: 273884182}
   _TutorialText: {fileID: 356634448}
   _NameText: {fileID: 788021400}
