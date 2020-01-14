@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -1393,8 +1393,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1150125394}
   m_HandleRect: {fileID: 1150125393}
   m_Direction: 0
-  m_Value: -0.0000029432738
-  m_Size: 0.8185498
+  m_Value: -0.0000042046786
+  m_Size: 0.8185499
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -2480,8 +2480,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -78.79499, y: -65}
-  m_SizeDelta: {x: 98.04, y: 35.85}
+  m_AnchoredPosition: {x: -80.06, y: -66.91}
+  m_SizeDelta: {x: 103.11, y: 32.03}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &596510113
 MonoBehaviour:
@@ -3869,7 +3869,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Door op deze knop te klikken gaat u naar het uitspraken scherm
+  m_Text: Door op deze knop te klikken gaat u naar het uitspraken scherm.
 --- !u!222 &822883138
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4109,8 +4109,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Hier kan je je uitspraak doen. Dit doe je door de feiten die jij relevant
-    vind voor de zaak in de vakjes hier onder te slepen.
+  m_Text: Hier kan u uw uitspraak doen. Dit doet u door de feiten die u relevant vindt
+    voor de zaak in de vakjes hieronder te slepen.
 --- !u!222 &896812001
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5259,7 +5259,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 0.00013459366, y: 162.28008}
+  m_AnchoredPosition: {x: 0.00013459366, y: 162.32498}
   m_SizeDelta: {x: 200, y: 564.3}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &1254936240
@@ -5296,8 +5296,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -62.1, y: 200.6}
-  m_SizeDelta: {x: 131.43, y: 36.05}
+  m_AnchoredPosition: {x: -62.313, y: 200.6}
+  m_SizeDelta: {x: 138.6, y: 36.05}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1254936242
 MonoBehaviour:
@@ -6115,7 +6115,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Klik hier om het scherm weer weg te halen
+  m_Text: Klik hier om het scherm weer weg te halen.
 --- !u!222 &1459826416
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6453,8 +6453,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 154640878}
   m_HandleRect: {fileID: 154640877}
   m_Direction: 2
-  m_Value: 1.0001874
-  m_Size: 0.5733755
+  m_Value: 1.0000002
+  m_Size: 0.5753053
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -7330,8 +7330,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -57.059982, y: 58.382}
-  m_SizeDelta: {x: 159.76, y: 38.165}
+  m_AnchoredPosition: {x: -57.059982, y: 58.96}
+  m_SizeDelta: {x: 159.76, y: 42.84}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1665541745
 MonoBehaviour:
@@ -7870,8 +7870,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 332.73, y: -3.499999}
-  m_SizeDelta: {x: 61.93, y: 31.32}
+  m_AnchoredPosition: {x: 332.3, y: -3.5000005}
+  m_SizeDelta: {x: 56.13, y: 34.61}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1760434099
 MonoBehaviour:
@@ -7977,7 +7977,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Klik hierop wanneer je alles hebt ingevuld en een uitspraak wil doen
+  m_Text: Klik hierop wanneer u alles hebt ingevuld en een uitspraak wilt doen.
 --- !u!222 &1783599450
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9971,7 +9971,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Klik op de witte balk om je opties te tonen.
+  m_Text: Klik op de witte balk om meer opties te bekijken.
 --- !u!222 &2111409452
 CanvasRenderer:
   m_ObjectHideFlags: 0

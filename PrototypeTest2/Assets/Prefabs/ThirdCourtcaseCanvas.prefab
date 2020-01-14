@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   counter: 0
-  TurnAllRedAfter: 2
+  TurnAllRedAfter: 3
   _VoiceClip: {fileID: 1392327969061353341}
 --- !u!82 &1392327969061353341
 AudioSource:
@@ -831,7 +831,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 362.021}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -13.674986, y: -58.899975}
+  m_AnchoredPosition: {x: -12.2, y: -58.899975}
   m_SizeDelta: {x: 42.18, y: 34.61}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8761998261988070272
@@ -2222,8 +2222,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Hier kan je je uitspraak doen. Dit doe je door de feiten die jij relevant
-    vind voor de zaak in de vakjes hier onder te slepen.
+  m_Text: Hier kan u uw uitspraak doen. Dit doet u door de feiten die u relevant vindt
+    voor de zaak in de vakjes hieronder te slepen.
 --- !u!1 &8761998262208737802
 GameObject:
   m_ObjectHideFlags: 0
@@ -2772,7 +2772,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Door op deze knop te klikken gaat u naar het uitspraken scherm
+  m_Text: Door op deze knop te klikken gaat u naar het uitspraken scherm.
 --- !u!1 &8761998262265061461
 GameObject:
   m_ObjectHideFlags: 0
@@ -3951,8 +3951,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8761998263499788833}
   m_HandleRect: {fileID: 8761998263499788834}
   m_Direction: 0
-  m_Value: -0.000013454966
-  m_Size: 0.8185498
+  m_Value: -0.000012824254
+  m_Size: 0.8185497
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -4884,8 +4884,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -58.7, y: 63.2}
-  m_SizeDelta: {x: 160, y: 39.85}
+  m_AnchoredPosition: {x: -58.7, y: 62.91}
+  m_SizeDelta: {x: 160, y: 45.54}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8761998263016829185
 CanvasRenderer:
@@ -5229,8 +5229,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 246.51, y: 35.38}
-  m_SizeDelta: {x: 98.04, y: 35.85}
+  m_AnchoredPosition: {x: 246.51, y: 36.1}
+  m_SizeDelta: {x: 98.04, y: 31.01}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8761998263084740412
 CanvasRenderer:
@@ -5572,7 +5572,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Klik hierop wanneer je alles hebt gevuld en een uitspraak wil doen
+  m_Text: Klik hierop wanneer u alles hebt ingevuld en een uitspraak wilt doen.
 --- !u!1 &8761998263144229176
 GameObject:
   m_ObjectHideFlags: 0
@@ -5693,8 +5693,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -73.6, y: -58.9}
-  m_SizeDelta: {x: 88.45, y: 31.32}
+  m_AnchoredPosition: {x: -73.98, y: -58.9}
+  m_SizeDelta: {x: 91.49, y: 31.32}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8761998263157850311
 CanvasRenderer:
@@ -6928,8 +6928,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 242.5, y: 204.6}
-  m_SizeDelta: {x: 79.66, y: 29.21}
+  m_AnchoredPosition: {x: 242.1, y: 204.2}
+  m_SizeDelta: {x: 82.91, y: 22.72}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8761998263506414729
 CanvasRenderer:
@@ -7653,8 +7653,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -63.199997, y: 200.30002}
-  m_SizeDelta: {x: 131.43, y: 36.05}
+  m_AnchoredPosition: {x: -63.65, y: 200.30002}
+  m_SizeDelta: {x: 135.88, y: 36.05}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8761998263663450560
 CanvasRenderer:
@@ -7961,7 +7961,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 0.0004931169, y: 162.32501}
+  m_AnchoredPosition: {x: 0.0004931169, y: 162.32439}
   m_SizeDelta: {x: 200, y: 564.3}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &8761998263758895518
@@ -8040,7 +8040,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Klik hier om het scherm weer weg te halen
+  m_Text: Klik hier om het scherm weer weg te halen.
 --- !u!1 &8761998263760445921
 GameObject:
   m_ObjectHideFlags: 0
@@ -8876,8 +8876,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8761998262648747677}
   m_HandleRect: {fileID: 8761998262648747678}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 0.5753145
+  m_Value: 1.0000025
+  m_Size: 0.5752275
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
