@@ -381,21 +381,20 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: "Ontworpen en gemaakt door Studio238.\nIn opdracht van ministerie van Justitie
     en Veiligheid, in nauwe samenwerking met de rechtbank van Amsterdam.\r\n\r\n\nStudio238\r:\n\nJulia
-    Berkouwer\r\nDanique Slappendel\r\nWillemien Weijers\r\nAnna Udding\r\nIoannis
-    Fermanis\r\nPeter Trapman\r\n\r\n\nBegeleiders HKU\r:\n\nHenk Fakkeldij\r\nMeindert
-    Ekkelenkamp\r\n\r\n\nBegeleidingsgroep ministerie van Justitie en Veiligheid\r:\n\nJacqueline
-    de Jong\r\nOlof Schuring\r\nAnuschka Cleveringa\r\n\n\r\nBegeleidingsgroep rechtbank
-    van Amsterdam\r:\n\nMartijn van der Veen\r\nKatja van Oirschot\r\nCorrie \u2018Corr-E\u2019
-    van de Burgt\r\nChrista Wiertz-Wezenbeek\r\nHillie Wolters\r\nHeleen Sigler\r\nErik
-    Pennink\r\nMariska Pijpers\r\nErik Tuijp\r\nMirjam van der Kaay\r\n\r\n\nSpecial
-    thanks\r:\n\nDorine Schenk\r\nBastien Olivier Dijkstra\r\nTed van Arnhem\r\n\r\n\nMusic\r:\n\nRelaxing
-    by Benjamin Tissot (Bensound.com)\r\nNew Dawn by Benjamin Tissot (Bensound.com)\r\nDeep
-    Blue by Benjamin Tissot (Bensound.com)\r\n\r\n\nSoundFX\r:\n\nCan be found on
-    freesound.org\r:\nMouse_click by Jaromarsalek is licensed under CC BY\r\nPicture
-    Drop_Heavy Paper_Near_Mono by _stubb is licensed under CC BY\r\nCoins Purchase
-    3 by Rhodesmas is licensed under CC BY\r\nPick up Item1  by SilverIllusionist
-    is licensed under CC BY\r\nPick up Item 2 by SilverIllusionist is licensed under
-    CC BY\r\n"
+    Berkouwer\r\nIoannis Fermanis\r\nDanique Slappendel\r\nPeter Trapman\r\nAnna Udding\r\nWillemien
+    Weijers\r\n\r\n\nBegeleiders HKU\r:\n\nMeindert Ekkelenkamp\nHenk Fakkeldij\r\n\r\n\r\nBegeleidingsgroep
+    ministerie van Justitie en Veiligheid\r:\n\nAnuschka Cleveringa\r\nJacqueline
+    de Jong\r\nOlof Schuring\r\n\n\r\nBegeleidingsgroep rechtbank van Amsterdam\r:\n\nCorrie
+    \u2018Corr-E\u2019 van de Burgt\r\nMirjam van der Kaay\r\nKatja van Oirschot\r\nErik
+    Pennink\r\nMariska Pijpers\r\nHeleen Sigler\r\nErik Tuijp\r\nMartijn van der Veen\r\nChrista
+    Wiertz-Wezenbeek\r\nHillie Wolters\r\n\r\n\nSpecial thanks\r:\n\nTed van Arnhem\nBastien
+    Olivier Dijkstra\r\nDorine Schenk\r\n\r\n\nMusic\r:\n\nRelaxing by Benjamin Tissot
+    (Bensound.com)\r\nNew Dawn by Benjamin Tissot (Bensound.com)\r\nDeep Blue by Benjamin
+    Tissot (Bensound.com)\r\n\r\n\nSoundFX\r:\n\nCan be found on freesound.org\r:\nMouse_click
+    by Jaromarsalek is licensed under CC BY\r\nPicture Drop_Heavy Paper_Near_Mono
+    by _stubb is licensed under CC BY\r\nCoins Purchase 3 by Rhodesmas is licensed
+    under CC BY\r\nPick up Item1  by SilverIllusionist is licensed under CC BY\r\nPick
+    up Item 2 by SilverIllusionist is licensed under CC BY\r\n"
 --- !u!222 &788890685
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -549,8 +548,8 @@ Camera:
   m_GameObject: {fileID: 1345151744}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0

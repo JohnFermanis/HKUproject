@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
   m_LightingDataAsset: {fileID: 112000000, guid: 640fde9746f02144494e1d16523313a1,
     type: 2}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -1282,11 +1282,6 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0.15
       objectReference: {fileID: 0}
-    - target: {fileID: 7822032086825593149, guid: 92e3ccc43021a654dbf8785b8ff9d56f,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6122059451103117029, guid: 92e3ccc43021a654dbf8785b8ff9d56f,
         type: 3}
       propertyPath: m_LocalPosition.y
@@ -1397,11 +1392,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4081282103871624682, guid: 92e3ccc43021a654dbf8785b8ff9d56f,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7777766190004973064, guid: 92e3ccc43021a654dbf8785b8ff9d56f,
         type: 3}
       propertyPath: m_IsActive
@@ -1501,6 +1491,41 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Intensity
       value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 7822032086825593149, guid: 92e3ccc43021a654dbf8785b8ff9d56f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4081282103871624682, guid: 92e3ccc43021a654dbf8785b8ff9d56f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1127671969694527972, guid: 92e3ccc43021a654dbf8785b8ff9d56f,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 4458.411
+      objectReference: {fileID: 0}
+    - target: {fileID: 1127671969694527972, guid: 92e3ccc43021a654dbf8785b8ff9d56f,
+        type: 3}
+      propertyPath: m_Center.x
+      value: -107.3182
+      objectReference: {fileID: 0}
+    - target: {fileID: 1127671969694527972, guid: 92e3ccc43021a654dbf8785b8ff9d56f,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 2229.2056
+      objectReference: {fileID: 0}
+    - target: {fileID: 1127671969694527972, guid: 92e3ccc43021a654dbf8785b8ff9d56f,
+        type: 3}
+      propertyPath: m_Center.z
+      value: -0.00002342431
+      objectReference: {fileID: 0}
+    - target: {fileID: 1127671969694527972, guid: 92e3ccc43021a654dbf8785b8ff9d56f,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 8073.978
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 92e3ccc43021a654dbf8785b8ff9d56f, type: 3}
@@ -3590,7 +3615,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "Klik op uw computerscherm om verder te gaan\n\t   \\/"
+  m_Text: "Klik op uw scherm om verder te gaan\n\t   "
 --- !u!222 &1473067071
 CanvasRenderer:
   m_ObjectHideFlags: 0
