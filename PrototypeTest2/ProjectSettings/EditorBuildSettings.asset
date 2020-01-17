@@ -9,8 +9,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Cutscenes and Start Scenes/SceneStartScreen.unity
     guid: af2bc20c31fea7542b94e64ab5ec5a61
   - enabled: 1
-    path: Assets/Scenes/Short version scenes/Cutscenes/SceneOpeningMovie1.unity
-    guid: b98527af46006fd4cbad68566fcb9c6d
+    path: Assets/Scenes/Peter/IntroSceneSlideshow1.unity
+    guid: 2ea942346bdcbce49a4095ca9a4eaae9
   - enabled: 1
     path: Assets/Scenes/Short version scenes/Courtrooms/SceneCourtRoom1.unity
     guid: b430bd9d31f7feb46b7bf1c8be2b75f4
@@ -42,15 +42,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Short version scenes/ComputerScreens/SceneComputerScreen3.3.unity
     guid: ffd9bac2f45a3674fbb8b1c245eb5825
   - enabled: 1
-    path: Assets/Scenes/Short version scenes/Cutscenes/SceneFinalCutscene.unity
-    guid: 75f9b324e847b3b44b04b29c54346e32
+    path: Assets/Scenes/Peter/EndSceneSlideshow1.unity
+    guid: 146dfd03cbb788641b2098ddf0b5837d
   - enabled: 1
-    path: Assets/Scenes/Short version scenes/Cutscenes/SceneShortMovie.unity
-    guid: 11487a0271d1d664f9b85252fd38a47f
+    path: Assets/Scenes/Peter/TransitionSceneSlideshow1.unity
+    guid: a43e353e1f5d5d6418b6ef5fbb890e21
   - enabled: 0
     path: Assets/Scenes/Short version scenes/Cutscenes/SceneThankYou.unity
     guid: f7be76e74b42add4fb1dfe7fe2be797d
   - enabled: 1
-    path: Assets/Scenes/Short version scenes/Cutscenes/SceneCredits.unity
-    guid: 9ac0d8a5ee983d847a8a64357cbf8251
+    path: Assets/Scenes/Peter/CreditsSceneSlideshow.unity
+    guid: 0db735466a1fcec4786d16866c2229a0
   m_configObjects: {}
