@@ -2301,7 +2301,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: '2035
 
-    AR-brillen gehoren tot onze standaard uitrusting.'
+    AR-brillen behoren tot onze standaard uitrusting.'
 --- !u!222 &802912982
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2458,7 +2458,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: '2032
 
-    Steeds meer sensorten worden toegevoegd aan ons lichaam'
+    Steeds meer sensoren worden toegevoegd aan ons lichaam.'
 --- !u!222 &893586604
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3166,7 +3166,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: accbbf00a6f04fd4d918f2b2333818d2, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.35
   m_Pitch: 1
   Loop: 1
   Mute: 0
